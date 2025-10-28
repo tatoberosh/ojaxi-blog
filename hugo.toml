@@ -8,16 +8,9 @@ theme = "PaperMod"
   description = "Data-driven parenting insights to help you thrive."
   homeInfoParams.title = "Welcome to the Ojakee Blog"
   homeInfoParams.content = "Evidence-based tips, charts, and real stories to support your parenting journey."
-
-  # 🔹 Make it colorful!
-  defaultTheme = "light"        # or "dark", or "auto"
-  displayThemeToggle = true     # lets readers switch
-
-  # 🌈 Custom accent color (Ojakee brand color!)
-  # Use a soft, friendly color — e.g., teal, coral, or sky blue
-  # Try: #4a90e2 (friendly blue), #ff6b6b (warm coral), #4ecdc4 (calm teal)
-  customCSS = ["css/custom.css"] 
-  logo = "/logo.png"
+  defaultTheme = "light"
+  displayThemeToggle = false
+  logo = "/images/logo.png"
 
 [[menu.main]]
   name = "Blog"
