@@ -1,0 +1,35 @@
+baseURL = "https://blog.ojakee.com/"
+title = "Ojakee Parenting Blog"
+languageCode = "en-us"
+theme = "PaperMod"
+
+[params]
+  author = "Ojakee Team"
+  description = "Data-driven parenting insights to help you thrive."
+  homeInfoParams.title = "Welcome to the Ojakee Blog"
+  homeInfoParams.content = "Evidence-based tips, charts, and real stories to support your parenting journey."
+
+  # 🔹 Make it colorful!
+  defaultTheme = "light"        # or "dark", or "auto"
+  displayThemeToggle = true     # lets readers switch
+
+  # 🌈 Custom accent color (Ojakee brand color!)
+  # Use a soft, friendly color — e.g., teal, coral, or sky blue
+  # Try: #4a90e2 (friendly blue), #ff6b6b (warm coral), #4ecdc4 (calm teal)
+  customCSS = ["css/custom.css"] 
+  logo = "/logo.png"
+
+[[menu.main]]
+  name = "Blog"
+  url = "/posts/"
+  weight = 1
+
+[[menu.main]]
+  name = "About"
+  url = "/about/"
+  weight = 2
+
+[[menu.main]]
+  name = "Try Our App"
+  url = "https://ojakee.com"
+  weight = 3

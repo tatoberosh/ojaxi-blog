@@ -1,0 +1,41 @@
+/* static/css/custom.css */
+:root {
+    --primary-color: #2196F3;
+    --primary-hover: #1976D2;
+    --text-color: #212121;
+    --background: #ffffff;
+    --card-bg: #fafafa;
+}
+
+/* Style the "Try Our App" button to match your Flutter app */
+.menu-item a[href="https://ojakee.com"] {
+    background-color: var(--primary-color) !important;
+    color: white !important;
+    padding: 6px 16px !important;
+    border-radius: 4px !important;
+    /* Material Design uses 4px */
+    font-weight: 500 !important;
+    margin-left: 12px !important;
+    text-decoration: none !important;
+    box-shadow: 0 1px 3px rgba(33, 150, 243, 0.3) !important;
+}
+
+.menu-item a[href="https://ojakee.com"]:hover {
+    background-color: var(--primary-hover) !important;
+    box-shadow: 0 2px 5px rgba(33, 150, 243, 0.4) !important;
+}
+
+/* Optional: Style chart bars to match */
+canvas {
+    max-width: 100%;
+    margin: 20px 0;
+}
+
+/* Make post cards feel like Material */
+.post-entry {
+    background: var(--card-bg);
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 16px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}

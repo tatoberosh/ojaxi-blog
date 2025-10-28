@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on Ojakee Parenting Blog</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on Ojakee Parenting Blog</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 28 Oct 2025 11:00:00 -0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Toddler Sleep Patterns: What the Data Says</title>
+      <link>http://localhost:1313/posts/sleep-data-insights/</link>
+      <pubDate>Tue, 28 Oct 2025 11:00:00 -0400</pubDate>
+      <guid>http://localhost:1313/posts/sleep-data-insights/</guid>
+      <description>&lt;p&gt;Parenting is hard — but data can help. Here&amp;rsquo;s what we learned from surveying 500 families:&lt;/p&gt;
+&lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;As you can see, night wakings drop sharply after 9 months. This is why the Ojakee app adjusts sleep plans dynamically — because every month matters.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://ojakee.com&#34;&gt;→ Try the Ojakee app for personalized guidance&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
