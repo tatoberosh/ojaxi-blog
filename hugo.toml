@@ -6,11 +6,13 @@ theme = "PaperMod"
 [params]
   author = "Ojakee Team"
   description = "Data-driven parenting insights to help you thrive."
-  homeInfoParams.title = "Welcome to the Ojakee Blog"
-  homeInfoParams.content = "Evidence-based tips, charts, and real stories to support your parenting journey."
   defaultTheme = "light"
   displayThemeToggle = false
   logo = "/images/logo.png"
+
+[params.homeInfoParams]
+  Title = "Welcome to the Ojakee Blog"
+  Content = "Evidence-based tips, charts, and real stories to support your parenting journey."
 
 [[menu.main]]
   name = "Blog"
@@ -26,3 +28,6 @@ theme = "PaperMod"
   name = "Try Our App"
   url = "https://ojakee.com"
   weight = 3
+
+[markup.goldmark.renderer]
+  unsafe = true
