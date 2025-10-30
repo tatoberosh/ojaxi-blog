@@ -12,7 +12,7 @@ theme = "PaperMod"
 
 [params.homeInfoParams]
   Title = "Welcome to the Ojakee Blog"
-  Content = "Evidence-based tips, charts, and real stories to support your parenting journey."
+  Content = "Evidence-based tips, charts, and real stories to support your parenting journey"
 
 [[menu.main]]
   name = "Blog"
