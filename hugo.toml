@@ -5,7 +5,7 @@ theme = "PaperMod"
 
 [params]
   author = "Ojakee Team"
-  description = "Data-driven parenting insights to help you thrive."
+  description = "Pparenting insights to help your children thrive."
   defaultTheme = "light"
   displayThemeToggle = false
   logo = "/images/logo.png"
