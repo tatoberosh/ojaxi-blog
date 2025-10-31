@@ -124,7 +124,7 @@ document.addEventListener('DOMContentLoaded', function() {
   new Chart(document.getElementById('childcareCostsChart'), {
     type: 'bar',
     data: {
-      labels: ['United States', 'United Kingdom', 'Germany', 'Sweden', 'South Korea'],
+      labels: ['United States', 'United Kingdom', 'Germany', 'South Korea'],
       datasets: [{
         label: 'Childcare Costs as % of Income',
         data: [25.6, 33.8, 12.4, 10.7, 8.7],
