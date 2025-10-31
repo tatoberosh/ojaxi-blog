@@ -7,8 +7,10 @@ theme = "PaperMod"
   author = "Ojakee Team"
   description = "Pparenting insights to help your children thrive more than ever."
   defaultTheme = "light"
-  displayThemeToggle = false
-  logo = "/images/logo.png"
+  displayThemeToggle = true
+  [params.label]
+    icon = "/images/logo.png"
+    iconHeight = 35
 
 [params.homeInfoParams]
   Title = "Welcome to the Ojakee Blog"
@@ -31,3 +33,6 @@ theme = "PaperMod"
 
 [markup.goldmark.renderer]
   unsafe = true
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
