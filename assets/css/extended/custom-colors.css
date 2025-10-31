@@ -1,0 +1,67 @@
+:root {
+    --primary-color: #4A90E2; /* Soft Blue */
+    --text-color: #333333; /* Dark Grey */
+    --background-color: #FAFAFA; /* Off-White */
+
+    --theme: var(--background-color);
+    --content: var(--text-color);
+    --primary: var(--text-color);
+    --secondary: #555555; /* Slightly lighter grey for secondary text */
+    --tertiary: #dddddd; /* Lighter grey for borders and dividers */
+    --border: #dddddd;
+}
+
+:root[data-theme="dark"] {
+    --primary-color: #4A90E2; /* Soft Blue */
+    --text-color: #eeeeee; /* Light Grey */
+    --background-color: #252525; /* Darker Grey */
+
+    --theme: var(--background-color);
+    --content: var(--text-color);
+    --primary: var(--text-color);
+    --secondary: #bbbbbb; /* Lighter grey for secondary text */
+    --tertiary: #444444; /* Darker grey for borders and dividers */
+    --border: #444444;
+}
+
+/* Apply the primary color to links */
+a {
+    color: var(--primary-color);
+}
+
+/* Style for the header */
+.header {
+    background: var(--theme);
+    border-bottom: 1px solid var(--border);
+}
+
+/* Style for the footer */
+.footer {
+    background: var(--theme);
+    border-top: 1px solid var(--border);
+}
+
+#back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: var(--primary-color);
+    color: var(--background-color);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5em;
+    text-decoration: none;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity .3s ease-in-out, visibility .3s ease-in-out;
+    z-index: 1000;
+}
+
+#back-to-top.show {
+    opacity: 1;
+    visibility: visible;
+}

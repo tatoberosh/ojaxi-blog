@@ -5,6 +5,8 @@ draft: false
 description: "The terrifying cost of raising children is largely a myth. Learn how global data reveals the truth about manageable family expenses."
 categories: ["parenting", "finance", "data"]
 tags: ["child costs", "family finance", "data analysis", "parenting"]
+ShowToc: true
+TocOpen: true
 ---
 
 If you've ever read a headline about the cost of raising a child, you've likely been met with a dizzying number. Figures often soar past $300,000, enough to make anyone reconsider starting a family. But what if this number is a myth, built on a flawed premise?

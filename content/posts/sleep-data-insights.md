@@ -2,6 +2,8 @@
 title: "The Real Cost of Raising a Child from Birth to 18"
 date: 2025-03-20T11:00:00-04:00
 draft: false
+ShowToc: true
+TocOpen: true
 ---
 
 Every parent knows that raising a child is expensive, but the actual numbers might surprise you. For data-driven parents, understanding where the money goes is the first step toward smart financial planning.
