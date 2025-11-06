@@ -53,7 +53,7 @@ There is no magic number for when a child should start going to school alone. Th
 
 By teaching your child about safety, practicing the route with them, and using the "Are They Ready?" checklist, you can make an informed decision that fosters their independence while minimizing the risks. The walk to school alone is more than just a journey; it's a step towards a more confident and independent future.
 
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
 <script>
 document.addEventListener('DOMContentLoaded', function() {
   new Chart(document.getElementById('ageComparisonChart'), {

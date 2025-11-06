@@ -78,7 +78,7 @@ While it can be a fascinating exercise to analyze the decision to have children 
 
 Ultimately, the decision of whether to have children, and how many, is a deeply personal one. While the financial implications are real and should be considered, they are only one part of a much larger and more complex picture.
 
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
 <script>
 document.addEventListener('DOMContentLoaded', function() {
   new Chart(document.getElementById('investmentGrowthChart'), {

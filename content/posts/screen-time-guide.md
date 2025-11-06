@@ -124,4 +124,4 @@ Stop fighting over screen time and start building healthy digital habits togethe
 
 [→ Try the Ojakee app today and transform your family's relationship with screens.](https://ojakee.com)
 
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+

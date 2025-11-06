@@ -32,6 +32,7 @@ theme = "PaperMod"
   weight = 3
 
 [markup.goldmark.renderer]
+  # This is to allow raw HTML in markdown files. Required for charts.
   unsafe = true
 
 [outputs]

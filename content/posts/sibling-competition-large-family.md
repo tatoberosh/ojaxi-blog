@@ -152,4 +152,4 @@ Stop being the constant referee and start being the coach. Let Ojakee help you t
 
 The way your children interact today is a preview of the adults they will become and the relationship they will have with each other for the next 20, 40, or 60 years. By taking a proactive, evidence-based approach to managing their conflicts, you are not just making your home more peaceful today; you are giving your children the gift of a lifelong alliance.
 
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+

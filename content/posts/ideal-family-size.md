@@ -171,4 +171,4 @@ The data reveals a complex and fascinating picture. There is no single "ideal" f
 
 The perfect number is not a number at all; it is a feeling. It is the number that feels right for you, your partner, and your circumstances. By understanding the data, you can go into this deeply personal decision with your eyes open, ready to embrace the unique joys and challenges of the family you choose to build.
 
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+

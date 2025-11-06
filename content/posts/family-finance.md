@@ -199,5 +199,3 @@ The numbers, when properly understood, are truly on your side.
 *Data-driven parenting means looking beyond scary headlines to the real story. At Ojakee, we help you make informed decisions based on actual data, not fear.*
 
 [→ Try the Ojakee app for personalized family planning tools](https://ojakee.com)
-
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>

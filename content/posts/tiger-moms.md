@@ -83,7 +83,7 @@ This approach doesn’t lower the bar—it builds a stronger foundation to reach
 
 > **True success isn’t just getting into a top university—it’s knowing you’re enough, even if you don’t.**
 
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
 <script>
 document.addEventListener('DOMContentLoaded', function() {
   // Chart 1: Achievement Outcomes

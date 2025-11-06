@@ -84,7 +84,7 @@ However, this approach comes at a cost. The risk is that the child's motivation 
 
 By throwing out the old, rigid rules of goal-setting and embracing a more flexible, developmentally appropriate approach, we can raise children who are not just high-achievers, but also resilient, happy, and intrinsically motivated. The goal is not to create a generation of goal-setting machines, but a generation of well-rounded human beings who know how to live a good life.
 
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
 <script>
 document.addEventListener('DOMContentLoaded', function() {
   new Chart(document.getElementById('resilienceCurveChart'), {

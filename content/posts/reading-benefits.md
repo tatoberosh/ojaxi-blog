@@ -116,4 +116,4 @@ The simple act of reading a book to your child is one of the most powerful gifts
 
 So tonight, when you pick up that book, know that you are doing more than just telling a story. You are shaping a world, one word at a time.
 
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
