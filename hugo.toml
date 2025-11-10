@@ -3,6 +3,11 @@ title = "Ojakee Parenting Blog"
 languageCode = "en-us"
 theme = "PaperMod"
 
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+  series = "series"
+
 [params]
   author = "Ojakee Team"
   description = "Pparenting insights to help your children thrive more than ever."
