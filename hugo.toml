@@ -2,6 +2,11 @@ baseURL = "https://blog.ojakee.com/"
 title = "Ojakee Parenting Blog"
 languageCode = "en-us"
 theme = "PaperMod"
+enableGitInfo = true
+enableEmoji = true
+enableRSS = true
+enableSitemap = true
+enableSitemapIndex = true
 
 [taxonomies]
   category = "categories"
@@ -10,12 +15,35 @@ theme = "PaperMod"
 
 [params]
   author = "Ojakee Team"
-  description = "Pparenting insights to help your children thrive more than ever."
-  defaultTheme = "light"
-  displayThemeToggle = true
+  description = "Parenting insights to help your children thrive more than ever."
+  ddefaultTheme = "auto"  
+  disableThemeToggle = false
+  ShowThemeToggleInHeader = true 
+  ShowReadingTime = true
+  ShowWordCount = true
+  ShowReadingProgress = true
+  ShowToc = true
+  TocOpen = true  
+  TocSide = "right"  
+  ShowShareButtons = true
+  ShareButtonsPosition = "side"
+  ShowBreadCrumbs = true 
+  ShowPostNavLinks = true 
+  comments = false
   [params.label]
     icon = "/images/logo.png"
     iconHeight = 35
+  [params.fuseOpts]
+    isCaseSensitive = false
+    shouldSort = true
+    minMatchCharLength = 2
+    keys = ["title", "content", "tags", "categories"]
+  [params.assets]
+    favicon = "/images/logo.png"
+    favicon16x16 = "/images/logo.png"
+    favicon32x32 = "/images/logo.png"
+    apple_touch_icon = "/images/logo.png"
+    lightbox = true
 
 [params.homeInfoParams]
   Title = "Welcome to the Ojakee Blog"
@@ -27,14 +55,19 @@ theme = "PaperMod"
   weight = 1
 
 [[menu.main]]
+  name = "Series"
+  url = "/series/"
+  weight = 2
+
+[[menu.main]]
   name = "About"
   url = "/about/"
-  weight = 2
+  weight = 3
 
 [[menu.main]]
   name = "Try Our App"
   url = "https://ojakee.com"
-  weight = 3
+  weight = 4
 
 [markup.goldmark.renderer]
   # This is to allow raw HTML in markdown files. Required for charts.
@@ -43,8 +76,3 @@ theme = "PaperMod"
 [outputs]
   home = ["HTML", "RSS", "JSON"]
 
-[params.assets]
-  favicon = "/images/logo.png"
-  favicon16x16 = "/images/logo.png"
-  favicon32x32 = "/images/logo.png"
-  apple_touch_icon = "/images/logo.png"

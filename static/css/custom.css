@@ -1,206 +1,322 @@
-/* static/css/custom.css */
-
-/* --- Typography & Base Reset --- */
+/* assets/css/extended/custom.css - FINAL 100% WORKING TORONTO 12:35 AM VERSION */
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600;700;800&family=Lato:wght@400;500;600&display=swap');
 
+/* === ROOT VARIABLES === */
 :root {
+    --ojakee-teal: #00D4C8;
+    --ojakee-teal-dark: #00b8a3;
     --primary: #357ABD;
-    /* Trustworthy Blue */
     --accent: #F88C70;
-    /* Friendly Coral */
     --accent-dark: #F46A50;
-    /* Stronger Coral for hover */
     --secondary: #446C8F;
-    /* Calm blue-grey secondary */
-    --highlight: #E6EEF8;
-    /* Very soft blue background tone */
     --soft-purple: #A385E0;
-    /* Gentle creativity tone */
 
-    --text-dark: #3C3C3C;
-    --text-light: #6B6B6B;
-    --bg: #FAFBFC;
-    --surface: #FFFFFF;
-    --radius: 16px;
+    /* RAINBOW SERIES PASTELS */
+    --series-sleep: #E3F2FD;
+    --series-feeding: #FFF0F5;
+    --series-play: #E8F5E8;
+    --series-tantrum: #FFF8E1;
+    --series-screen: #F3E5F5;
+    --series-winter: #E1F5FE;
+
+    /* PaperMod core - REQUIRED */
+    --primary-color: #357ABD;
+    --text-color: #2d3748;
+    --background-color: #FAFBFC;
+    --theme: var(--background-color);
+    --entry: #ffffff;
+    --content: var(--text-color);
+    --secondary: #555555;
+    --tertiary: #dddddd;
+    --border: #dddddd;
+    --card-icon-bg: #f1f5f9;
+
+    /* Layout */
+    --radius: 20px;
+    --radius-lg: 28px;
     --shadow-sm: 0 2px 6px rgba(0, 0, 0, 0.06);
     --shadow-md: 0 6px 18px rgba(0, 0, 0, 0.08);
-    --transition: all 0.25s ease;
+    --shadow-lg: 0 20px 40px rgba(0, 212, 200, 0.18);
+    --transition: all 0.3s ease;
+    --transition-slow: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+/* === DARK MODE === */
+:root[data-theme="dark"],
+body[data-theme="dark"] {
+    --background-color: #0f172a;
+    --theme: #0f172a;
+    --entry: #1e293b;
+    --text-color: #e2e8f0;
+    --content: #e2e8f0;
+    --primary: #e2e8f0;
+    --secondary: #94a3b8;
+    --tertiary: #334155;
+    --border: #334155;
+    --card-icon-bg: #2d3748;
+    --series-sleep: #1e3a5f;
+    --series-feeding: #4a1c3d;
+    --series-play: #1e4028;
+    --series-tantrum: #4a3a1c;
+    --series-screen: #3a1c4a;
+    --series-winter: #1c3a4a;
+}
 
-
-
+/* === BASE === */
 body {
-    background-color: var(--bg);
-    color: var(--text-dark);
+    background: var(--theme);
+    color: var(--text-color);
     font-family: 'Lato', sans-serif;
-    line-height: 1.6;
-    -webkit-font-smoothing: antialiased;
+    line-height: 1.7;
+    padding-bottom: 80px;
 }
 
-/* --- Navbar with gradient accent line --- */
-.navbar {
-    background: var(--surface);
+/* === NAVBAR === */
+.navbar,
+.header {
+    background: var(--entry);
+    border-bottom: 5px solid transparent;
+    border-image: linear-gradient(90deg, var(--primary), var(--accent), var(--ojakee-teal)) 1;
     box-shadow: var(--shadow-sm);
-    padding: 0.75rem 1.25rem;
+    backdrop-filter: blur(10px);
+    padding: 0.9rem 1.4rem;
     position: sticky;
     top: 0;
     z-index: 999;
-    border-bottom: 4px solid transparent;
-    border-image: linear-gradient(90deg, var(--primary), var(--accent), var(--secondary));
-    border-image-slice: 1;
 }
 
-/* --- Site title now has a subtle gradient text --- */
-.site-name {
-    font-family: 'Nunito', sans-serif;
-    font-weight: 800;
-    font-size: 1.6rem;
-    background: linear-gradient(90deg, var(--primary), var(--accent));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    letter-spacing: -0.5px;
-    transition: var(--transition);
-}
-
-.site-name:hover {
-    filter: brightness(1.1);
-}
-
-/* --- Links with rainbow accent hover --- */
-.menu-item a:hover {
-    background: linear-gradient(90deg, rgba(53, 122, 189, 0.08), rgba(0, 191, 166, 0.08));
-    color: var(--secondary);
-}
-
-/* --- CTA Button --- */
-a[href="https://ojakee.com"] {
-    background: linear-gradient(135deg, var(--accent), var(--accent-dark));
-    color: white;
-    font-weight: 700;
-    border-radius: 999px;
-    padding: 10px 22px;
-    box-shadow: 0 4px 14px rgba(248, 140, 112, 0.4);
-}
-
-a[href="https://ojakee.com"]:hover {
-    background: linear-gradient(135deg, var(--accent-dark), var(--secondary));
-    box-shadow: 0 6px 18px rgba(68, 108, 143, 0.25);
-}
-
-/* --- Blog Post Cards with subtle gradient top border --- */
-.post-entry {
-    background: var(--surface);
-    border-radius: var(--radius);
-    padding: 24px;
-    margin-bottom: 32px;
-    border-top: 4px solid var(--primary);
-    transition: var(--transition);
-}
-
-.post-entry:nth-child(3n+1) {
-    border-top-color: var(--accent);
-}
-
-.post-entry:nth-child(3n+2) {
-    border-top-color: var(--secondary);
-}
-
-.post-entry:nth-child(3n+3) {
-    border-top-color: var(--soft-purple);
-}
-
-.post-entry:hover {
-    transform: translateY(-5px);
-    box-shadow: var(--shadow-md);
-}
-
-/* --- Post Titles --- */
-.post-title {
-    color: var(--primary);
-}
-
-.post-title:hover {
-    color: var(--secondary);
-}
-
-/* --- Highlighted text or tags --- */
-.highlight {
-    background: var(--highlight);
-    color: #222;
-    padding: 0.2em 0.4em;
-    border-radius: 6px;
-    font-weight: 600;
-}
-
-.header {
-    background: var(--surface);
-    box-shadow: var(--shadow-sm);
-    padding: 0.75rem 1.25rem;
-    border-bottom: 4px solid transparent;
-    border-image: linear-gradient(90deg, var(--primary), var(--accent), var(--secondary));
-    border-image-slice: 1;
-}
-
-/* --- Footer gradient divider --- */
-.footer {
-    position: relative;
-    text-align: center;
-    padding: 2rem 1rem;
-    color: var(--text-light);
-}
-
-.footer::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 50%;
-    width: 120px;
-    height: 4px;
-    background: linear-gradient(90deg, var(--accent), var(--secondary));
-    transform: translateX(-50%);
-    border-radius: 999px;
-}
-
+/* === LOGO === */
+.site-name,
 .logo {
     font-family: 'Nunito', sans-serif;
     font-weight: 800;
-    font-size: 1.6rem;
-    background: linear-gradient(90deg, var(--primary), var(--accent));
+    font-size: 1.8rem;
+    background: linear-gradient(90deg, var(--primary), var(--accent), var(--ojakee-teal));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    padding: 8px 12px;
+    border-radius: 12px;
+    transition: var(--transition-slow);
 }
 
-/* --- Menu Links --- */
-.nav a {
+.site-name:hover,
+.logo:hover {
+    transform: scale(1.05);
+}
+
+/* === MENU LINKS === */
+.nav a,
+.menu-item a {
     font-family: 'Nunito', sans-serif;
     font-weight: 600;
-    color: var(--text-dark);
-    padding: 0.6rem 1rem;
-    border-radius: 10px;
-    text-decoration: none;
+    padding: 0.8rem 1.2rem !important;
+    border-radius: 12px;
+    min-height: 44px;
+    display: flex;
+    align-items: center;
     transition: var(--transition);
 }
 
-.nav a:hover {
-    background: rgba(68, 108, 143, 0.1);
-    color: var(--secondary);
+.nav a:hover,
+.menu-item a:hover {
+    background: linear-gradient(135deg, rgba(0, 212, 200, 0.15), rgba(248, 140, 112, 0.15));
+    color: var(--ojakee-teal);
 }
 
-.site.site-logo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 1rem auto 0.5rem;
-    z-index: 1000;
+/* TRY OUR APP BUTTON — PERFECTLY FLUSH WITH MENU, TORONTO 12:38 AM FINAL */
+/* TRY OUR APP BUTTON — TEXT BASELINE LOCKED, TORONTO 12:40 AM FINAL */
+a[href="https://ojakee.com"],
+.menu-item a[href="https://ojakee.com"],
+.nav a[href="https://ojakee.com"] {
+    all: unset !important;
+    font-family: 'Nunito', sans-serif !important;
+    font-weight: 700 !important;
+    font-size: 0.95rem !important;
+    line-height: 1 !important;
+
+    /* FORCE SAME VERTICAL ALIGNMENT AS TEXT */
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    height: 40px !important;
+    padding: 0 24px !important;
+    margin: 0 6px !important;
+
+    background: linear-gradient(135deg, var(--ojakee-teal), var(--ojakee-teal-dark)) !important;
+    color: white !important;
+    border-radius: 50px !important;
+    box-shadow: 0 6px 20px rgba(0, 212, 200, 0.35) !important;
+    transition: all 0.3s ease !important;
+    text-decoration: none !important;
+
+    /* THE MAGIC LINE — locks text to baseline */
+    vertical-align: middle !important;
+    position: relative !important;
+    top: 0 !important;
 }
 
-.site-logo img {
-    height: 60px;
-    width: auto;
-    transition: transform 0.25s ease;
+/* Hover stays flush */
+a[href="https://ojakee.com"]:hover {
+    transform: translateY(-2px) !important;
+    box-shadow: 0 12px 28px rgba(0, 212, 200, 0.45) !important;
 }
 
-.site-logo img:hover {
-    transform: scale(1.05);
+/* Force navbar to treat it like plain text links */
+.navbar,
+.header .menu,
+.nav {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 16px !important;
+    flex-wrap: wrap !important;
+}
+
+/* === RAINBOW POST CARDS === */
+.post-entry,
+.post-single {
+    background: var(--entry);
+    border-radius: var(--radius);
+    padding: 32px;
+    margin-bottom: 40px;
+    border-top: 6px solid var(--ojakee-teal);
+    transition: var(--transition);
+    position: relative;
+    overflow: hidden;
+}
+
+/* Series auto-color */
+.post-entry[data-series="sleep"],
+.post-entry .post-title a[href*="/series/sleep"] {
+    border-top-color: #4A90E2;
+    background: linear-gradient(135deg, #f8fbff, var(--series-sleep));
+}
+
+.post-entry[data-series="feeding"] {
+    border-top-color: #FF6B9D;
+    background: linear-gradient(135deg, #fffafc, var(--series-feeding));
+}
+
+.post-entry[data-series="play"] {
+    border-top-color: #7ED321;
+    background: linear-gradient(135deg, #fafffa, var(--series-play));
+}
+
+.post-entry[data-series="tantrum"] {
+    border-top-color: #FFB800;
+    background: linear-gradient(135deg, #fffdf5, var(--series-tantrum));
+}
+
+.post-entry[data-series="screen"] {
+    border-top-color: #9B59B6;
+    background: linear-gradient(135deg, #fbfaff, var(--series-screen));
+}
+
+.post-entry[data-series="winter"] {
+    border-top-color: var(--ojakee-teal);
+    background: linear-gradient(135deg, #f5fffe, var(--series-winter));
+}
+
+.post-entry:hover {
+    transform: translateY(-12px);
+    box-shadow: var(--shadow-lg);
+}
+
+/* === POLLS === */
+.ojakee-poll {
+    background: linear-gradient(135deg, #fff8f8, #f0fffd);
+    border: 5px solid var(--ojakee-teal);
+    border-radius: var(--radius-lg);
+    padding: 32px 24px;
+    margin: 50px 0;
+    text-align: center;
+    box-shadow: var(--shadow-lg);
+    position: relative;
+    overflow: hidden;
+}
+
+.ojakee-poll::before {
+    content: "POLL";
+    position: absolute;
+    top: -12px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: var(--ojakee-teal);
+    color: white;
+    font-weight: 800;
+    font-size: 0.8rem;
+    padding: 4px 18px;
+    border-radius: 999px;
+}
+
+.ojakee-poll h3 {
+    color: var(--ojakee-teal);
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.ojakee-poll iframe {
+    border-radius: 18px;
+    box-shadow: 0 8px 25px rgba(0, 212, 200, 0.2);
+    min-height: 460px;
+    width: 100%;
+}
+
+/* Series poll ribbon match */
+.post-entry[data-series="sleep"]~.ojakee-poll {
+    border-color: #4A90E2;
+    background: linear-gradient(135deg, #f8fbff, #e6f3ff);
+}
+
+.post-entry[data-series="sleep"]~.ojakee-poll::before {
+    background: #4A90E2;
+}
+
+/* === MOBILE SHARE + PROGRESS + BACK-TO-TOP === */
+@media (max-width: 768px) {
+    .share-buttons {
+        position: fixed !important;
+        left: 12px;
+        bottom: 20px;
+        z-index: 998;
+        background: var(--entry);
+        padding-padding: 12px 8px;
+        border-radius: 50px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        backdrop-filter: blur(12px);
+    }
+}
+
+#reading-progress {
+    background: linear-gradient(90deg, var(--ojakee-teal), var(--accent)) !important;
+    height: 6px !important;
+}
+
+#back-to-top {
+    background-color: var(--ojakee-teal);
+    color: white;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    box-shadow: 0 4px 15px rgba(0, 212, 200, 0.4);
+}
+
+#back-to-top:hover {
+    transform: translateY(-4px);
+    background-color: var(--accent);
+}
+
+/* === FINAL TOUCH === */
+::selection {
+    background: var(--ojakee-teal);
+    color: white;
+}
+
+a {
+    color: var(--primary-color);
+}
+
+a:hover {
+    color: var(--ojakee-teal);
 }
