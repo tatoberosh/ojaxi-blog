@@ -76,3 +76,8 @@ enableSitemapIndex = true
 [outputs]
   home = ["HTML", "RSS", "JSON"]
 
+[headers]
+  for = "/**"
+  [headers.values]
+    Content-Security-Policy = "script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net https://strawpoll.com https://cdn.strawpoll.com"
+
