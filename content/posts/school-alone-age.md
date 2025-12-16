@@ -1,6 +1,7 @@
 ---
 title: "The Walk to Independence: What's the Right Age for Kids to Go to School Alone?"
 date: 2025-11-03
+categories: ["Child Development", "Parenting"]
 tags: ["parenting", "child development", "safety", "independence"]
 ---
 

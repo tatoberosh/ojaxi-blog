@@ -2,6 +2,7 @@
 title: "Charting the Rise and Fall of Childhood Hobbies: A Parent's Guide to a Data-Driven Keepsake"
 date: 2025-11-18T14:00:00-05:00
 draft: false
+categories: ["Child Development", "Data", "Parenting"]
 tags: ["Parenting", "Data", "Child Development", "Hobbies", "Personal Growth"]
 ---
 

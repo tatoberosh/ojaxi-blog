@@ -2,6 +2,7 @@
 title: "The 'Little Data' Approach: Visualizing a Baby's First Year"
 date: 2025-11-11T10:00:00-05:00
 draft: false
+categories: ["Data", "Child Development", "Parenting"]
 tags: ["parenting", "data visualization", "baby", "data", "first year"]
 ---
 

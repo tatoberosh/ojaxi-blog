@@ -1,6 +1,7 @@
 ---
 title: "The Child as an Investment: A Financial Analysis"
 date: 2025-11-03
+categories: ["Family Finance", "Parenting"]
 tags: ["finance", "family", "investment"]
 ---
 

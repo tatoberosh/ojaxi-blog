@@ -3,6 +3,7 @@
 title: "The Predictive Parent: Using AI to Forecast Your Child's Needs"
 date: 2025-11-09T10:00:00-05:00
 draft: false
+categories: ["Parenting", "Data", "Technology", "Child Development"]
 tags: ["parenting", "AI", "child development", "technology", "data", "ethics"]
 series: ["AI"]
 ---

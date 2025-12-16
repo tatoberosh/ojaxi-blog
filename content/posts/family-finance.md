@@ -3,7 +3,7 @@ title: "Debunking the 'Kid Cost' Myth: Why Children Are Cheaper Than You Think"
 date: 2025-03-21T08:00:00-04:00
 draft: false
 description: "The terrifying cost of raising children is largely a myth. Learn how global data reveals the truth about manageable family expenses."
-categories: ["parenting", "finance", "data"]
+categories: ["Parenting", "Family Finance", "Data"]
 tags: ["child costs", "family finance", "data analysis", "parenting"]
 ShowToc: true
 TocOpen: true

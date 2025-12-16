@@ -2,6 +2,7 @@
 title: "Raising Kids in a World of AI: What Skills Will Actually Matter in 2040?"
 date: 2025-11-05T10:00:00-05:00
 draft: false
+categories: ["Parenting", "Technology", "Education"]
 tags: ["parenting", "future of work", "AI", "child development", "education"]
 series: ["AI"]
 ---

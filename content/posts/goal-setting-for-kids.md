@@ -1,6 +1,7 @@
 ---
 title: "Goal-Setting for Kids is Broken. Here's How to Fix It."
 date: 2025-11-03
+categories: ["Child Development", "Parenting"]
 tags: ["parenting", "child development", "psychology", "goal-setting"]
 ---
 

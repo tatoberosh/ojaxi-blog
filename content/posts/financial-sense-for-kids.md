@@ -2,6 +2,7 @@
 title: "From Piggy Banks to Pixels: Cultivating Financial Wisdom in the Digital Age"
 date: 2025-11-15T12:00:00-05:00
 draft: false
+categories: ["Family Finance", "Child Development", "Parenting", "Technology"]
 series: ["Parenting Analytics"]
 tags: ["Finance", "Parenting", "Technology", "Education"]
 ---

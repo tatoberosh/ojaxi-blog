@@ -2,6 +2,7 @@
 title: "The AI Tutor: How Intelligent Tutoring Systems Are Revolutionizing Personalized Learning"
 date: 2025-11-16T10:00:00-05:00
 draft: false
+categories: ["Technology", "Education"]
 series: ["AI in Education"]
 tags: ["AI", "Education", "Personalized Learning", "Intelligent Tutoring Systems"]
 ---

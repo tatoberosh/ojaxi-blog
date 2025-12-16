@@ -2,6 +2,7 @@
 title: "Public vs Private: The Great Debate"
 date: 2025-11-06T10:00:00-05:00
 draft: false
+categories: ["Education", "Parenting"]
 ShowToc: true
 TocOpen: true
 tags: ["education", "parenting", "school choice", "public school", "private school"]

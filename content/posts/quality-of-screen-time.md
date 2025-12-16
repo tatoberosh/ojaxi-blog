@@ -2,6 +2,7 @@
 title: "Is All Screen Time Created Equal? A Parent's Guide to Quality Content"
 date: 2025-11-08T11:00:00-05:00
 draft: false
+categories: ["Health", "Parenting", "Technology", "Child Development"]
 ShowToc: true
 TocOpen: true
 tags: ["parenting", "screen time", "child development", "digital wellness", "education"]

@@ -3,7 +3,7 @@ title: "The \"Ideal\" Family Size: What the Data Says About Having One, Two, Thr
 date: 2025-11-02T09:00:00-04:00
 draft: false
 description: "A data-driven exploration of the ideal family size, looking at parental happiness, child outcomes, and economic realities to help you find your perfect number."
-categories: ["parenting", "family planning", "data insights"]
+categories: ["Family Dynamics", "Parenting", "Data"]
 tags: ["family size", "parental happiness", "child development", "family economics"]
 ShowToc: true
 TocOpen: true

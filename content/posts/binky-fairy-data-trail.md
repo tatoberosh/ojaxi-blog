@@ -2,6 +2,7 @@
 title: "The Binky Fairy's Data Trail: Tracking Weaning Progress"
 date: 2025-11-12T14:00:00-05:00
 draft: false
+categories: ["Data", "Child Development", "Parenting"]
 series: ["Data-Driven Parenting"]
 tags: ["parenting", "data", "weaning", "pacifier", "milestones", "Binky Fairy"]
 ---

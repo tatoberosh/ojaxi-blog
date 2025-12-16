@@ -3,7 +3,7 @@ title: "The Independence Index: A Data-Driven Guide to Raising Capable Kids"
 date: 2025-11-26T09:00:00-05:00
 draft: false
 description: "Are you doing too much for your kids? This data-driven guide explores the 'Independence Index,' helping you match age-appropriate responsibilities to developmental stages for a more self-sufficient child and a saner you."
-categories: ["parenting", "data", "child development"]
+categories: ["Parenting", "Data", "Child Development"]
 tags: ["responsibility", "chores", "independence", "data-driven parenting", "Ojakee"]
 ShowToc: true
 TocOpen: true

@@ -2,6 +2,7 @@
 title: "Mapping the Evolution of Sleep Patterns: A Data-Driven Guide for Parents"
 date: 2025-11-19T10:00:00-05:00
 draft: false
+categories: ["Data", "Health", "Child Development", "Parenting"]
 tags: ["Parenting", "Data", "Child Development", "Sleep", "Health"]
 ---
 
