@@ -19,6 +19,13 @@
     --series-screen: #F3E5F5;
     --series-winter: #E1F5FE;
 
+    /* NEW SERIES COLORS */
+    --series-data-driven-parenting-analytics: #E0F2FF;
+    --series-financial-literacy-for-families: #FFE5F0;
+    --series-child-development-psychology: #E0FFE0;
+    --series-digital-wellness-screen-time: #F0E6FF;
+    --series-ai-technology-in-education: #FFF0CC;
+
     /* PaperMod core - REQUIRED */
     --primary-color: #357ABD;
     --text-color: #2d3748;
@@ -60,6 +67,13 @@ body[data-theme="dark"] {
     --series-tantrum: #4a3a1c;
     --series-screen: #3a1c4a;
     --series-winter: #1c3a4a;
+
+    /* NEW SERIES DARK MODE COLORS */
+    --series-data-driven-parenting-analytics: #1b2f4c;
+    --series-financial-literacy-for-families: #4c2b3a;
+    --series-child-development-psychology: #2b4c2b;
+    --series-digital-wellness-screen-time: #402f4c;
+    --series-ai-technology-in-education: #4c3f2b;
 }
 
 /* === BASE === */
@@ -215,6 +229,109 @@ a[href="https://ojakee.com"]:hover {
 .post-entry[data-series="winter"] {
     border-top-color: var(--ojakee-teal);
     background: linear-gradient(135deg, #f5fffe, var(--series-winter));
+}
+
+/* NEW SERIES RULES FOR INDIVIDUAL POSTS (if data-series is available) - MAX SPECIFICITY */
+.post-entry[data-series="data-driven-parenting-analytics"] {
+    border-top-color: #2196F3 !important;
+    background: linear-gradient(135deg, #f0f9ff, var(--series-data-driven-parenting-analytics)) !important;
+}
+
+.post-entry[data-series="financial-literacy-for-families"] {
+    border-top-color: #E91E63 !important;
+    background: linear-gradient(135deg, #fdf0ff, var(--series-financial-literacy-for-families)) !important;
+}
+
+.post-entry[data-series="child-development-psychology"] {
+    border-top-color: #4CAF50 !important;
+    background: linear-gradient(135deg, #f0fff0, var(--series-child-development-psychology)) !important;
+}
+
+.post-entry[data-series="digital-wellness-screen-time"] {
+    border-top-color: #9C27B0 !important;
+    background: linear-gradient(135deg, #f8f0ff, var(--series-digital-wellness-screen-time)) !important;
+}
+
+.post-entry[data-series="ai-technology-in-education"] {
+    border-top-color: #FF9800 !important;
+    background: linear-gradient(135deg, #fff8f0, var(--series-ai-technology-in-education)) !important;
+}
+
+/* Fallback: Add color classes to be more flexible */
+.post-entry.series-data-driven-parenting-analytics,
+.post-entry.type-data-driven-parenting-analytics,
+div[data-series="data-driven-parenting-analytics"] {
+    border-top-color: #2196F3 !important;
+    background: linear-gradient(135deg, #f0f9ff, var(--series-data-driven-parenting-analytics)) !important;
+}
+
+.post-entry.series-financial-literacy-for-families,
+.post-entry.type-financial-literacy-for-families,
+div[data-series="financial-literacy-for-families"] {
+    border-top-color: #E91E63 !important;
+    background: linear-gradient(135deg, #fdf0ff, var(--series-financial-literacy-for-families)) !important;
+}
+
+.post-entry.series-child-development-psychology,
+.post-entry.type-child-development-psychology,
+div[data-series="child-development-psychology"] {
+    border-top-color: #4CAF50 !important;
+    background: linear-gradient(135deg, #f0fff0, var(--series-child-development-psychology)) !important;
+}
+
+.post-entry.series-digital-wellness-screen-time,
+.post-entry.type-digital-wellness-screen-time,
+div[data-series="digital-wellness-screen-time"] {
+    border-top-color: #9C27B0 !important;
+    background: linear-gradient(135deg, #f8f0ff, var(--series-digital-wellness-screen-time)) !important;
+}
+
+.post-entry.series-ai-technology-in-education,
+.post-entry.type-ai-technology-in-education,
+div[data-series="ai-technology-in-education"] {
+    border-top-color: #FF9800 !important;
+    background: linear-gradient(135deg, #fff8f0, var(--series-ai-technology-in-education)) !important;
+}
+
+/* NEW SERIES RULES FOR SERIES LIST PAGES (when viewing all posts in a series) */
+.taxonomy-series-data-driven-parenting-analytics .post-entry,
+.list-series-data-driven-parenting-analytics .post-entry,
+body[data-page-series="data-driven-parenting-analytics"] .post-entry,
+body[class*="data-driven-parenting-analytics"] .post-entry {
+    border-top-color: #2196F3 !important;
+    background: linear-gradient(135deg, #f0f9ff, var(--series-data-driven-parenting-analytics)) !important;
+}
+
+.taxonomy-series-financial-literacy-for-families .post-entry,
+.list-series-financial-literacy-for-families .post-entry,
+body[data-page-series="financial-literacy-for-families"] .post-entry,
+body[class*="financial-literacy-for-families"] .post-entry {
+    border-top-color: #E91E63 !important;
+    background: linear-gradient(135deg, #fdf0ff, var(--series-financial-literacy-for-families)) !important;
+}
+
+.taxonomy-series-child-development-psychology .post-entry,
+.list-series-child-development-psychology .post-entry,
+body[data-page-series="child-development-psychology"] .post-entry,
+body[class*="child-development-psychology"] .post-entry {
+    border-top-color: #4CAF50 !important;
+    background: linear-gradient(135deg, #f0fff0, var(--series-child-development-psychology)) !important;
+}
+
+.taxonomy-series-digital-wellness-screen-time .post-entry,
+.list-series-digital-wellness-screen-time .post-entry,
+body[data-page-series="digital-wellness-screen-time"] .post-entry,
+body[class*="digital-wellness-screen-time"] .post-entry {
+    border-top-color: #9C27B0 !important;
+    background: linear-gradient(135deg, #f8f0ff, var(--series-digital-wellness-screen-time)) !important;
+}
+
+.taxonomy-series-ai-technology-in-education .post-entry,
+.list-series-ai-technology-in-education .post-entry,
+body[data-page-series="ai-technology-in-education"] .post-entry,
+body[class*="ai-technology-in-education"] .post-entry {
+    border-top-color: #FF9800 !important;
+    background: linear-gradient(135deg, #fff8f0, var(--series-ai-technology-in-education)) !important;
 }
 
 .post-entry:hover {
