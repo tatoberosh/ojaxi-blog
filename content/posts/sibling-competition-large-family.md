@@ -3,8 +3,9 @@ title: "The Sibling Effect: How Today's Fights Shape Tomorrow's Adults (and What
 date: 2025-11-01T09:00:00-04:00
 draft: false
 description: "A data-driven guide to understanding the long-term impact of sibling rivalry and the evidence-based strategies that can turn conflict into connection."
-categories: ["parenting", "family dynamics", "child development"]
-tags: ["sibling rivalry", "longitudinal studies", "parenting strategies", "conflict resolution"]
+categories: ["Child Development", "Data-Driven Parenting", "Parenting Strategies"]
+tags: ["sibling rivalry", "longitudinal studies", "parenting strategies", "conflict resolution", "family dynamics", "sibling relationships"]
+series: ["Child Development Psychology"]
 ShowToc: true
 TocOpen: true
 ---

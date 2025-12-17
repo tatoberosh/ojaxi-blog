@@ -1,7 +1,10 @@
---- 
+---
 title: "The Allowance Algorithm: A Modern Parent's Guide to Chores, Money, and Financial Literacy"
 date: 2025-11-22
 draft: false
+categories: ["Family Finance", "Child Development", "Parenting Strategies"]
+tags: ["finance", "parenting", "financial literacy", "chores", "money management"]
+series: ["Financial Literacy for Families"]
 ---
 
 In an increasingly cashless society, the humble piggy bank feels like a relic. How do we teach our children the value of a dollar when they rarely see physical money exchanged? The abstract nature of digital transactions, from tapping a card to in-app purchases, makes it harder than ever for kids to grasp fundamental financial concepts like earning, saving, and spending. The age-old parental dilemma of "how much allowance is fair?" has morphed into a more complex challenge.

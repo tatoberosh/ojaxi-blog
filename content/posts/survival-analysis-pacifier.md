@@ -2,8 +2,9 @@
 title: "The Case of the Missing Pacifier: A Survival Analysis for Parents"
 date: 2025-11-12T11:00:00-05:00
 draft: false
-series: ["Data-Driven Parenting"]
-tags: ["parenting", "data", "statistics", "survival analysis", "pacifier"]
+categories: ["Data-Driven Parenting", "Parenting Strategies", "Child Development"]
+tags: ["parenting", "data", "statistics", "survival analysis", "pacifier", "problem-solving"]
+series: ["Data-Driven Parenting Analytics"]
 ---
 
 Every parent knows the quiet panic that sets in when a favorite pacifier goes missing. It’s a scenario that plays out in cars, cribs, and grocery stores around the world. While it may seem like a trivial problem, the repeated cost and stress of replacing lost pacifiers can add up. What if you could approach this common parenting challenge with the same analytical rigor used in scientific research?

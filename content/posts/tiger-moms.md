@@ -2,7 +2,9 @@
 title: "The Truth About Tiger Moms: What They Do Right, What They Do Wrong, and What We Can Learn"
 date: 2025-11-04T10:00:00-05:00
 draft: false
-tags: ["parenting", "education", "psychology", "child development"]
+categories: ["Child Development", "Parenting Strategies", "Education & Learning"]
+tags: ["parenting", "education", "psychology", "child development", "high achievement", "mental health"]
+series: ["Child Development Psychology"]
 ---
 
 The term "Tiger Mom" roared into our vocabulary in 2011 with Amy Chua's memoir, *Battle Hymn of the Tiger Mother*. It describes a strict, demanding parenting style focused on achieving high levels of academic and extracurricular excellence. This approach is often associated with, but not limited to, parents of East Asian heritage, and it has sparked a global debate about the best way to raise successful children.

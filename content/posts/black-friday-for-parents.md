@@ -3,8 +3,9 @@ title: "The Black Friday Gauntlet: A Parent's Survival Guide to Toy Discounts an
 date: 2025-11-28T09:00:00-05:00
 draft: false
 description: "Is Black Friday a golden opportunity for parents or a carefully laid trap? We dive into the data on toy deals, marketing psychology, and how to shop smart for your kids."
-categories: ["Parenting", "Family Finance", "Data"]
-tags: ["black friday", "shopping", "toys", "parenting", "data analysis"]
+categories: ["Data-Driven Parenting", "Family Finance", "Parenting Strategies"]
+tags: ["black friday", "shopping", "toys", "parenting", "data analysis", "consumer behavior"]
+series: ["Data-Driven Parenting Analytics"]
 ShowToc: true
 TocOpen: true
 ---

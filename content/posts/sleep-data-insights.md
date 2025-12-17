@@ -2,6 +2,9 @@
 title: "The Real Cost of Raising a Child from Birth to 18"
 date: 2025-03-20T11:00:00-04:00
 draft: false
+categories: ["Family Finance", "Data-Driven Parenting", "Parenting Strategies"]
+tags: ["child-rearing costs", "family finance", "budgeting", "parenting expenses", "financial planning"]
+series: ["Data-Driven Parenting Analytics"]
 ShowToc: true
 TocOpen: true
 ---

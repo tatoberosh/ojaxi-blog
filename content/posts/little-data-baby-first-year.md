@@ -2,8 +2,9 @@
 title: "The 'Little Data' Approach: Visualizing a Baby's First Year"
 date: 2025-11-11T10:00:00-05:00
 draft: false
-categories: ["Data", "Child Development", "Parenting"]
-tags: ["parenting", "data visualization", "baby", "data", "first year"]
+categories: ["Data-Driven Parenting", "Child Development", "Parenting Strategies"]
+tags: ["parenting", "data visualization", "baby", "data", "first year", "infant", "tracking"]
+series: ["Data-Driven Parenting Analytics"]
 ---
 
 The first year of a baby's life is a whirlwind of joy, anxiety, and sleepless nights. For new parents, the sheer volume of information to track can be overwhelming. How many times did the baby feed? How many diaper changes? How much sleep did anyone *really* get? In the age of information overload, parents are bombarded with advice, opinions, and endless streams of data from apps and social media, often leading to more stress than clarity.

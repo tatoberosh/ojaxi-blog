@@ -3,8 +3,9 @@ title: "Screen Time: The Double-Edged Sword Your Child Wields Every Day"
 date: 2025-10-31T10:00:00-04:00
 draft: false
 description: "The shocking truth about your child's screen time, and how to turn a daily battle into a powerful tool for growth."
-categories: ["parenting", "digital wellness", "child development"]
-tags: ["screen time", "digital parenting", "mental health", "child development"]
+categories: ["Technology & Digital Wellness", "Child Development", "Health & Wellbeing"]
+tags: ["screen time", "digital parenting", "mental health", "child development", "wellness"]
+series: ["Digital Wellness & Screen Time"]
 ShowToc: true
 TocOpen: true
 ---

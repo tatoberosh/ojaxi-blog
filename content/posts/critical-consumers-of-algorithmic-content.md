@@ -1,10 +1,11 @@
---- 
+---
 title: "Beyond 'Fake News': Teaching Kids to be Critical Consumers of Algorithmic Content"
 date: 2025-12-01T11:00:00-05:00
 draft: false
 description: "Algorithms decide what our kids see online. This guide provides parents with the tools and frameworks to teach children critical thinking skills for navigating the complex digital world of curated content, filter bubbles, and influencer marketing."
-categories: ["Parenting", "Technology", "Data", "Child Development"]
-tags: ["critical thinking", "algorithms", "media literacy", "screen time", "data-driven parenting", "Ojakee"]
+categories: ["Technology & Digital Wellness", "Child Development", "Education & Learning"]
+tags: ["critical thinking", "algorithms", "media literacy", "screen time", "data-driven parenting", "digital literacy", "education"]
+series: ["Digital Wellness & Screen Time"]
 ShowToc: true
 TocOpen: true
 ---

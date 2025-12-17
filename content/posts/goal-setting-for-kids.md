@@ -1,8 +1,9 @@
 ---
 title: "Goal-Setting for Kids is Broken. Here's How to Fix It."
 date: 2025-11-03
-categories: ["Child Development", "Parenting"]
-tags: ["parenting", "child development", "psychology", "goal-setting"]
+categories: ["Child Development", "Parenting Strategies"]
+tags: ["parenting", "child development", "psychology", "goal-setting", "motivation"]
+series: ["Child Development Psychology"]
 ---
 
 We are a culture obsessed with goals. In a world of hyper-parenting and achievement culture, we push our children to set SMART goals, aim for the stars, and never give up. But what if this approach is not only ineffective for children, but also actively harmful? This article argues that our modern obsession with achievement-oriented goal-setting is broken, and offers a more effective, science-backed approach for raising resilient, happy, and intrinsically motivated kids.

@@ -2,9 +2,9 @@
 title: "From Piggy Banks to Pixels: Cultivating Financial Wisdom in the Digital Age"
 date: 2025-11-15T12:00:00-05:00
 draft: false
-categories: ["Family Finance", "Child Development", "Parenting", "Technology"]
-series: ["Parenting Analytics"]
-tags: ["Finance", "Parenting", "Technology", "Education"]
+categories: ["Family Finance", "Child Development", "Technology & Digital Wellness"]
+tags: ["finance", "parenting", "technology", "education", "financial literacy"]
+series: ["Financial Literacy for Families"]
 ---
 
 In a world of one-click purchases, contactless payments, and virtual currencies, the tangible concept of money is rapidly fading for our children. The classic piggy bank, once a cornerstone of childhood savings, now competes with the instant gratification of the digital marketplace. This shift has created a "financial sense gap," where children understand the concept of getting things but not the underlying principles of earning, saving, and responsible spending. As parents, it's our responsibility to bridge this gap, and thankfully, modern tools like the **Ojakee app** can transform this challenge into an engaging and data-driven learning experience.

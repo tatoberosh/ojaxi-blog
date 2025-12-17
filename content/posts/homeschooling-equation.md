@@ -3,8 +3,9 @@ title: "The Homeschooling Equation: A Data-Driven Look at the Pros and Cons"
 date: 2025-11-25T11:00:00-05:00
 draft: false
 description: "Is homeschooling the right choice for your family? We break down the advantages and disadvantages with a data-driven perspective to help you move beyond emotion and make an informed decision."
-categories: ["Parenting", "Education", "Data"]
-tags: ["homeschooling", "education choices", "parenting decisions", "data-driven parenting", "Ojakee"]
+categories: ["Education & Learning", "Data-Driven Parenting", "Parenting Strategies"]
+tags: ["homeschooling", "education choices", "parenting decisions", "data-driven parenting", "academic outcomes", "family dynamics"]
+series: ["Data-Driven Parenting Analytics"]
 ShowToc: true
 TocOpen: true
 ---

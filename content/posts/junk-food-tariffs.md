@@ -3,8 +3,9 @@ title: "The Treatcoin Tariff: How to Win the War Against Junk Food Without Banni
 date: 2025-11-23T10:00:00-05:00
 draft: false
 description: "Junk food is cheap, addictive, and everywhere. Instead of fighting a losing battle, learn how to use the Ojakee app's 'Treatcoin Tariff' to empower your kids to make healthier choices on their own."
-categories: ["Parenting", "Family Finance", "Health", "Technology"]
-tags: ["junk food", "healthy eating", "family finance", "parenting hacks", "data-driven parenting", "Ojakee"]
+categories: ["Family Finance", "Health & Wellbeing", "Technology & Digital Wellness"]
+tags: ["junk food", "healthy eating", "family finance", "parenting hacks", "data-driven parenting", "nutrition", "behavioral economics"]
+series: ["Financial Literacy for Families"]
 ShowToc: true
 TocOpen: true
 ---

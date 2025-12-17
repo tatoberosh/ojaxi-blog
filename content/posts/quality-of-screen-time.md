@@ -2,10 +2,11 @@
 title: "Is All Screen Time Created Equal? A Parent's Guide to Quality Content"
 date: 2025-11-08T11:00:00-05:00
 draft: false
-categories: ["Health", "Parenting", "Technology", "Child Development"]
+categories: ["Technology & Digital Wellness", "Child Development", "Education & Learning"]
 ShowToc: true
 TocOpen: true
-tags: ["parenting", "screen time", "child development", "digital wellness", "education"]
+tags: ["parenting", "screen time", "child development", "digital wellness", "education", "media literacy"]
+series: ["Digital Wellness & Screen Time"]
 ---
 
 Every parent knows the scenario: you just need a moment. A moment to make dinner, to answer an email, to simply breathe. In that moment, the screen becomes a tempting babysitter. But as the minutes stretch on, a familiar guilt creeps in. Is this endless stream of videos actually good for them? Is there a difference between one cartoon and another?

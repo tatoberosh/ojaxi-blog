@@ -3,8 +3,9 @@ title: "The Parent's Dilemma: What Percentage of Your Income Should Go to Your K
 date: 2025-11-28T11:00:00-05:00
 draft: false
 description: "A data-driven guide to help parents navigate the tricky question of how much to spend on their children, from daily needs to future savings."
-categories: ["Family Finance", "Child Development", "Parenting"]
-tags: ["family budget", "child costs", "education savings", "financial planning"]
+categories: ["Family Finance", "Data-Driven Parenting", "Parenting Strategies"]
+tags: ["family budget", "child costs", "education savings", "financial planning", "parental spending", "child-rearing expenses"]
+series: ["Data-Driven Parenting Analytics"]
 ShowToc: true
 TocOpen: true
 ---

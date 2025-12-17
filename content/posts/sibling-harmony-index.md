@@ -3,8 +3,9 @@ title: "The Sibling Harmony Index: A Data-Driven Guide to Peace at Home"
 date: 2025-11-24T09:00:00-05:00
 draft: false
 description: "Tired of the constant cycle of sibling squabbles and sweetness? Learn how to quantify your children's relationship with a 'Sibling Harmony Index' and use data to foster a stronger, more supportive bond."
-categories: ["parenting", "data", "psychology", "technology"]
-tags: ["sibling rivalry", "family dynamics", "data-driven parenting", "child development", "Ojakee"]
+categories: ["Data-Driven Parenting", "Child Development", "Parenting Strategies"]
+tags: ["sibling rivalry", "family dynamics", "data-driven parenting", "child development", "emotional intelligence", "sibling relationships"]
+series: ["Data-Driven Parenting Analytics"]
 ShowToc: true
 TocOpen: true
 ---

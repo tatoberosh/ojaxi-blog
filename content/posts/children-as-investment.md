@@ -1,8 +1,9 @@
 ---
 title: "The Child as an Investment: A Financial Analysis"
 date: 2025-11-03
-categories: ["Family Finance", "Parenting"]
-tags: ["finance", "family", "investment"]
+categories: ["Family Finance", "Data-Driven Parenting", "Parenting Strategies"]
+tags: ["finance", "family", "investment", "financial planning", "cost of raising children", "family budgeting"]
+series: ["Data-Driven Parenting Analytics"]
 ---
 
 The decision to have a child is often described as one of the most profound emotional experiences in life. But what if we looked at it through a different lens—a financial one? This article explores the controversial but thought-provoking idea of viewing children as a long-term investment and compares them to traditional financial assets like retirement savings.

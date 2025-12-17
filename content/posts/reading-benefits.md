@@ -3,8 +3,9 @@ title: "The Million-Word Gap: How Reading to Your Child Shapes Their World"
 date: 2025-10-30T09:00:00-04:00
 draft: false
 description: "Discover the profound and measurable impact of reading to your child, from a vast vocabulary to enhanced cognitive and emotional growth."
-categories: ["Parenting", "Education", "Child Development"]
-tags: ["reading", "early literacy", "vocabulary gap", "cognitive development"]
+categories: ["Education & Learning", "Child Development", "Parenting Strategies"]
+tags: ["reading", "early literacy", "vocabulary gap", "cognitive development", "parent-child bonding", "literacy"]
+series: ["Data-Driven Parenting Analytics"]
 ShowToc: true
 TocOpen: true
 ---

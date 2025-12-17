@@ -3,8 +3,9 @@ title: "Network Analysis of a Child's Social World"
 date: 2025-12-03T10:00:00-05:00
 draft: false
 description: "Using network analysis to understand and support a child's social development, identifying key influencers, group dynamics, and potential areas of concern or strength."
-categories: ["Parenting", "Child Development", "Data"]
-tags: ["social skills", "friendship", "bullying", "data-driven parenting", "Ojakee"]
+categories: ["Child Development", "Data-Driven Parenting", "Parenting Strategies"]
+tags: ["social skills", "friendship", "bullying", "data-driven parenting", "network analysis", "social development"]
+series: ["Child Development Psychology"]
 ShowToc: true
 TocOpen: true
 ---

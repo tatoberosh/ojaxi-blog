@@ -3,8 +3,9 @@ title: "Beyond the Fireplace: A Data-Driven Guide to an Unforgettable Winter Vac
 date: 2025-11-30T10:00:00-05:00
 draft: false
 description: "Dreaming of a winter wonderland getaway with the family but don't know where to start? This guide breaks down the costs, activities, and planning secrets to create a magical and memorable winter vacation for your children."
-categories: ["parenting", "travel", "data"]
-tags: ["winter vacation", "family travel", "kids activities", "budgeting", "data-driven parenting", "Ojakee"]
+categories: ["Data-Driven Parenting", "Parenting Strategies", "Seasonal & Lifestyle"]
+tags: ["winter vacation", "family travel", "kids activities", "budgeting", "data-driven parenting", "family planning"]
+series: ["Data-Driven Parenting Analytics"]
 ShowToc: true
 TocOpen: true
 ---

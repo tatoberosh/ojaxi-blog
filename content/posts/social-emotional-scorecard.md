@@ -3,8 +3,9 @@ title: "The Social and Emotional Scorecard: A Data-Driven Approach to Nurturing 
 date: 2025-12-01T14:00:00-05:00
 draft: false
 description: "How can we support our children's emotional well-being in a measurable way? This post introduces the 'Social and Emotional Scorecard,' a framework for tracking key indicators of a child's inner world, from resilience to empathy."
-categories: ["parenting", "social-emotional learning", "data"]
-tags: ["emotional intelligence", "resilience", "empathy", "data-driven parenting", "Ojakee"]
+categories: ["Data-Driven Parenting", "Child Development", "Parenting Strategies"]
+tags: ["emotional intelligence", "resilience", "empathy", "data-driven parenting", "social-emotional learning", "emotional well-being"]
+series: ["Data-Driven Parenting Analytics"]
 ShowToc: true
 TocOpen: true
 ---

@@ -2,9 +2,9 @@
 title: "Raising Kids in a World of AI: What Skills Will Actually Matter in 2040?"
 date: 2025-11-05T10:00:00-05:00
 draft: false
-categories: ["Parenting", "Technology", "Education"]
-tags: ["parenting", "future of work", "AI", "child development", "education"]
-series: ["AI"]
+categories: ["Technology & Digital Wellness", "Child Development", "Education & Learning"]
+tags: ["parenting", "future of work", "AI", "child development", "education", "technology"]
+series: ["AI & Technology in Education"]
 ---
 
 Just ten years ago, asking a child to “write an essay about climate change” meant watching them struggle with research, structure, and spelling. Today, they can type a prompt into an AI and get a polished, well-sourced paper in seconds.
