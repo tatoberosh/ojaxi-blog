@@ -27,6 +27,10 @@ The specific challenges children face in developing self-motivation include:
 - **Purpose blindness**: Children rarely connect their daily efforts to deeper purposes or long-term goals. They do homework because it is assigned, practice because they are told to, and chores because they are required. Without a sense of purpose, effort feels meaningless.
 - **Autonomy deficit**: Children have little control over what they do, when they do it, or how they do it. This lack of autonomy undermines the sense of ownership that is essential for intrinsic motivation. When everything is assigned, nothing is chosen, and when nothing is chosen, nothing is truly motivating.
 
+<div style="height: 400px; margin: 2rem 0;">
+  <canvas id="motivationChart2"></canvas>
+</div>
+
 ## The Self-Motivation Protocol: Four Stages of Inner Fire Mastery
 
 Teaching children to build self-motivation without external rewards requires a structured progression that builds purpose awareness and autonomous goal pursuit incrementally while gradually reducing the external reward structures that children depend on. The protocol follows four stages that align with motivational development milestones.
@@ -38,6 +42,10 @@ Teaching children to build self-motivation without external rewards requires a s
 **Stage Three: The Goal Setter (Ages 9-12)**. This is where self-motivation truly develops. Children learn to set their own goals, create their own plans, and pursue them with internal drive. Sophie set a goal to learn three songs on the guitar by the end of the quarter. She chose the songs, created a practice schedule, and tracked her progress. There were no rewards from me for practicing. The reward was the music itself, and the satisfaction of hearing herself improve. We introduced the concept of "progress visibility": children are more motivated when they can see their own improvement. Sophie recorded herself playing every two weeks, and listening to the recordings, she could hear the difference between week one and week eight. The improvement was its own reward, and it was a reward that no one could give her or take away. We also introduced the concept of "effort celebration": acknowledging the effort itself, not just the outcome. "You practiced for thirty minutes today even though you did not feel like it. That is discipline, and discipline is something to be proud of."
 
 **Stage Four: The Autonomous Achiever (Ages 12+)**. By this stage, teenagers can identify their interests, connect them to purposes, set meaningful goals, and pursue them with sustained internal motivation. They understand that self-motivation is not a feeling but a practice: the practice of connecting daily effort to deeper purpose, of noticing and celebrating progress, of choosing activities that align with their values and interests. Teenagers at this stage learn to pursue goals that have no external reward: learning a language for the joy of communication, volunteering for the satisfaction of contribution, creating art for the expression itself. They also learn to recognize when external rewards are undermining their intrinsic motivation and to adjust accordingly. This stage prepares them for the reality of adult life, where the most meaningful pursuits, creative work, personal relationships, community service, offer no external rewards and require an internal engine that only self-motivation can provide.
+
+<div style="height: 400px; margin: 2rem 0;">
+  <canvas id="motivationChart1"></canvas>
+</div>
 
 ## The Treatcoin Integration: Rewarding Self-Motivation
 
@@ -53,6 +61,10 @@ Our Treatcoin system reinforces self-motivation behaviors that demonstrate growi
 
 The Treatcoin system for self-motivation has one essential rule: the Treatcoins themselves are gradually phased out as internal motivation develops. The ultimate goal is for the activity to be its own reward, and the Treatcoin system is designed to become unnecessary. We explicitly tell children: "These coins are temporary. The real reward is the feeling you get from doing something that matters to you."
 
+<div style="height: 400px; margin: 2rem 0;">
+  <canvas id="motivationChart3"></canvas>
+</div>
+
 ## The Long-term Life Skills Benefits
 
 The benefits of developing self-motivation extend into every domain of adult life, creating compounding advantages that accumulate over decades.
@@ -64,6 +76,10 @@ The benefits of developing self-motivation extend into every domain of adult lif
 **Personal growth**: Adults who can motivate themselves continue learning, growing, and developing throughout their lives. They do not stop growing when formal education ends because their motivation comes from within, not from external requirements.
 
 **Life satisfaction**: The ability to generate internal motivation is one of the strongest predictors of overall life satisfaction. Adults who are self-motivated experience the deep fulfillment that comes from pursuing meaningful goals, making progress toward them, and finding satisfaction in the effort itself.
+
+<div style="height: 400px; margin: 2rem 0;">
+  <canvas id="motivationChart4"></canvas>
+</div>
 
 ## Common Implementation Challenges and Solutions
 
@@ -99,6 +115,10 @@ The framework that organizes our approach to teaching self-motivation is capture
 
 **D - Discipline Through Difficulty**: The emotional regulation skill of maintaining effort when the activity becomes difficult, boring, or frustrating. Children learn that self-motivation is not about always feeling excited but about always remembering why the effort matters.
 
+<div style="height: 400px; margin: 2rem 0;">
+  <canvas id="motivationChart5"></canvas>
+</div>
+
 ## Conclusion: Building Self-Motivation Through Familiar Practice
 
 Teaching children to build self-motivation without external rewards is one of the most fulfillment-enabling and autonomy-building skills a parent can cultivate. It is also one of the most challenging, because it requires us to dismantle the reward systems we have built, to trust that our children will find internal reasons to engage with the world, and to accept the temporary decrease in compliance that comes with the transition from external to internal motivation. But the alternative is a generation of adults who only act when rewarded, who abandon meaningful pursuits when they become difficult, and who experience the chronic dissatisfaction that comes from living lives driven by other people's incentives rather than their own purposes.
@@ -111,119 +131,106 @@ Life-Ready Parenting is about equipping children with the skills they will need 
 
 This concludes Season 2 of the Life-Ready Parenting series. Over the past weeks, we have explored the skills that prepare children for independent, capable, and fulfilling adult lives: from cooking nutritious meals to managing stress, from navigating conflict to building self-motivation. Each skill is a thread in the larger tapestry of life readiness, and together they form a comprehensive framework for raising children who are not just academically prepared but genuinely ready for the full complexity of adult life. Thank you for reading, for parenting with intention, and for trusting that the hard work of teaching life skills is the most important work we do.
 
-```html
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<canvas id="motivationChart1"></canvas>
 <script>
-new Chart(document.getElementById('motivationChart1'), {
+document.addEventListener('DOMContentLoaded', function() {
+  // Chart 1
+  new Chart(document.getElementById('motivationChart1'), {
     type: 'bar',
     data: {
-        labels: ['Ages 4-6', 'Ages 6-9', 'Ages 9-12', 'Ages 12+'],
-        datasets: [{
-            label: 'Self-Motivation Skill Level (%)',
-            data: [15, 35, 61, 85],
-            backgroundColor: ['#4BC0C0', '#FF6384', '#FFCE56', '#36A2EB']
-        }]
+      labels: ['Ages 4-6', 'Ages 6-9', 'Ages 9-12', 'Ages 12+'],
+      datasets: [{
+        label: 'Self-Motivation Skill Level (%)',
+        data: [15, 35, 61, 85],
+        backgroundColor: ['#4BC0C0', '#FF6384', '#FFCE56', '#36A2EB']
+      }]
     },
     options: {
-        responsive: true,
-        plugins: {
-            title: { display: true, text: 'Self-Motivation Skill Development by Age Stage' },
-            legend: { display: false }
-        },
-        scales: { y: { beginAtZero: true, max: 100, title: { display: true, text: 'Skill Proficiency (%)' } } }
+      responsive: true,
+      plugins: {
+        title: { display: true, text: 'Self-Motivation Skill Development by Age Stage' },
+        legend: { display: false }
+      },
+      scales: { y: { beginAtZero: true, max: 100, title: { display: true, text: 'Skill Proficiency (%)' } } }
     }
-});
-</script>
-
-<canvas id="motivationChart2"></canvas>
-<script>
-new Chart(document.getElementById('motivationChart2'), {
+  });
+  // Chart 2
+  new Chart(document.getElementById('motivationChart2'), {
     type: 'doughnut',
     data: {
-        labels: ['Reward Dependency', 'Interest Erosion', 'Purpose Blindness', 'Autonomy Deficit'],
-        datasets: [{
-            data: [28, 24, 23, 25],
-            backgroundColor: ['#FF6384', '#36A2EB', '#FFCE56', '#4BC0C0']
-        }]
+      labels: ['Reward Dependency', 'Interest Erosion', 'Purpose Blindness', 'Autonomy Deficit'],
+      datasets: [{
+        data: [28, 24, 23, 25],
+        backgroundColor: ['#FF6384', '#36A2EB', '#FFCE56', '#4BC0C0']
+      }]
     },
     options: {
-        responsive: true,
-        plugins: {
-            title: { display: true, text: 'Primary Barriers to Self-Motivation' }
-        }
+      responsive: true,
+      plugins: {
+        title: { display: true, text: 'Primary Barriers to Self-Motivation' }
+      }
     }
-});
-</script>
-
-<canvas id="motivationChart3"></canvas>
-<script>
-new Chart(document.getElementById('motivationChart3'), {
+  });
+  // Chart 3
+  new Chart(document.getElementById('motivationChart3'), {
     type: 'line',
     data: {
-        labels: ['Age 8', 'Age 10', 'Age 12', 'Age 14', 'Age 16', 'Age 18'],
-        datasets: [{
-            label: 'Self-Directed Activity Hours Per Week',
-            data: [0.5, 1.2, 2.8, 4.5, 6.0, 7.5],
-            borderColor: '#FFCE56',
-            tension: 0.3,
-            fill: false
-        }]
+      labels: ['Age 8', 'Age 10', 'Age 12', 'Age 14', 'Age 16', 'Age 18'],
+      datasets: [{
+        label: 'Self-Directed Activity Hours Per Week',
+        data: [0.5, 1.2, 2.8, 4.5, 6.0, 7.5],
+        borderColor: '#FFCE56',
+        tension: 0.3,
+        fill: false
+      }]
     },
     options: {
-        responsive: true,
-        plugins: {
-            title: { display: true, text: 'Growth in Weekly Self-Directed Activity Hours Over Childhood' }
-        },
-        scales: { y: { beginAtZero: true, title: { display: true, text: 'Hours Per Week' } } }
+      responsive: true,
+      plugins: {
+        title: { display: true, text: 'Growth in Weekly Self-Directed Activity Hours Over Childhood' }
+      },
+      scales: { y: { beginAtZero: true, title: { display: true, text: 'Hours Per Week' } } }
     }
-});
-</script>
-
-<canvas id="motivationChart4"></canvas>
-<script>
-new Chart(document.getElementById('motivationChart4'), {
+  });
+  // Chart 4
+  new Chart(document.getElementById('motivationChart4'), {
     type: 'bar',
     data: {
-        labels: ['Career Fulfillment', 'Creative Achievement', 'Personal Growth', 'Life Satisfaction'],
-        datasets: [{
-            label: 'Long-term Benefit Score',
-            data: [87, 82, 89, 93],
-            backgroundColor: ['#36A2EB', '#FF6384', '#4BC0C0', '#FFCE56']
-        }]
+      labels: ['Career Fulfillment', 'Creative Achievement', 'Personal Growth', 'Life Satisfaction'],
+      datasets: [{
+        label: 'Long-term Benefit Score',
+        data: [87, 82, 89, 93],
+        backgroundColor: ['#36A2EB', '#FF6384', '#4BC0C0', '#FFCE56']
+      }]
     },
     options: {
-        responsive: true,
-        plugins: {
-            title: { display: true, text: 'Long-term Life Skills Benefits of Self-Motivation' },
-            legend: { display: false }
-        },
-        scales: { y: { beginAtZero: true, max: 100, title: { display: true, text: 'Benefit Impact Score' } } }
+      responsive: true,
+      plugins: {
+        title: { display: true, text: 'Long-term Life Skills Benefits of Self-Motivation' },
+        legend: { display: false }
+      },
+      scales: { y: { beginAtZero: true, max: 100, title: { display: true, text: 'Benefit Impact Score' } } }
     }
-});
-</script>
-
-<canvas id="motivationChart5"></canvas>
-<script>
-new Chart(document.getElementById('motivationChart5'), {
+  });
+  // Chart 5
+  new Chart(document.getElementById('motivationChart5'), {
     type: 'radar',
     data: {
-        labels: ['Find Your Why', 'Internalize the Reward', 'Recognize Progress', 'Engage Autonomously', 'Discipline Through Difficulty'],
-        datasets: [{
-            label: 'FIRE Framework Elements',
-            data: [80, 76, 82, 84, 74],
-            backgroundColor: 'rgba(75, 192, 192, 0.2)',
-            borderColor: '#4BC0C0',
-            pointBackgroundColor: '#4BC0C0'
-        }]
+      labels: ['Find Your Why', 'Internalize the Reward', 'Recognize Progress', 'Engage Autonomously', 'Discipline Through Difficulty'],
+      datasets: [{
+        label: 'FIRE Framework Elements',
+        data: [80, 76, 82, 84, 74],
+        backgroundColor: 'rgba(75, 192, 192, 0.2)',
+        borderColor: '#4BC0C0',
+        pointBackgroundColor: '#4BC0C0'
+      }]
     },
     options: {
-        responsive: true,
-        plugins: {
-            title: { display: true, text: 'FIRE Framework Skill Distribution' }
-        },
-        scales: { r: { beginAtZero: true, max: 100 } }
+      responsive: true,
+      plugins: {
+        title: { display: true, text: 'FIRE Framework Skill Distribution' }
+      },
+      scales: { r: { beginAtZero: true, max: 100 } }
     }
+  });
 });
 </script>
-```

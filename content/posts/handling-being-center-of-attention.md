@@ -1,4 +1,4 @@
----
+﻿---
 title: "Handling Being the Center of Attention: Building Social Confidence in Children"
 date: 2026-02-26T10:00:00-05:00
 draft: false
@@ -252,9 +252,7 @@ The key is patience, consistency, and understanding that social confidence is a 
 Remember, the goal isn't to eliminate all attention but to teach children that they can handle being the center of attention with proper technique and awareness. When we take the time to help our children practice social confidence in safe, supportive environments, we build stronger individuals and support their development into self-sufficient adults who can navigate life's attention with grace.
 
 Life-Ready Parenting means your child won't face independent attention handling for the first time at age 25—with workplace presentations, public speaking, or professional visibility that requires competence and confidence. They'll have already practiced the skills they need to handle whatever life brings their way.
-
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<script>
+`n<script>
 document.addEventListener('DOMContentLoaded', function() {
   // Chart 1: Attention Dependence Gap
   new Chart(document.getElementById('attentionDependenceGapChart'), {

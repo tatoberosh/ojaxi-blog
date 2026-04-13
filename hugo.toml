@@ -16,19 +16,19 @@ enableSitemapIndex = true
 [params]
   author = "Ojakee Team"
   description = "Parenting insights to help your children thrive more than ever."
-  ddefaultTheme = "auto"  
+  ddefaultTheme = "auto"
   disableThemeToggle = false
-  ShowThemeToggleInHeader = true 
+  ShowThemeToggleInHeader = true
   ShowReadingTime = true
   ShowWordCount = true
   ShowReadingProgress = true
   ShowToc = true
-  TocOpen = true  
-  TocSide = "right"  
+  TocOpen = true
+  TocSide = "right"
   ShowShareButtons = true
   ShareButtonsPosition = "side"
-  ShowBreadCrumbs = true 
-  ShowPostNavLinks = true 
+  ShowBreadCrumbs = true
+  ShowPostNavLinks = true
   comments = false
   [params.label]
     icon = "/images/logo.png"
@@ -73,6 +73,10 @@ enableSitemapIndex = true
   # This is to allow raw HTML in markdown files. Required for charts.
   unsafe = true
 
+[markup.goldmark.extensions.typographer]
+  # Disable typographer to prevent quote conversion in <script> tags
+  disable = true
+
 [outputs]
   home = ["HTML", "RSS", "JSON"]
 
@@ -80,4 +84,3 @@ enableSitemapIndex = true
   for = "/**"
   [headers.values]
     Content-Security-Policy = "script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net https://strawpoll.com https://cdn.strawpoll.com"
-

@@ -1,4 +1,4 @@
----
+﻿---
 title: "Metacognition for Kids: Teaching Children to Think About Their Own Thinking — With Reflection Templates"
 date: 2025-12-06T10:00:00-05:00
 draft: false
@@ -281,9 +281,7 @@ By integrating metacognitive instruction into daily activities, providing struct
 Remember, metacognition develops gradually and with practice. The goal isn't perfection but progressive development of awareness and control of thinking processes. Start with simple awareness and gradually build toward more complex reflection and regulation as your child's cognitive abilities develop.
 
 The conscious thinkers of tomorrow are developed by the metacognitive guidance provided today. Every conversation about thinking, every moment of reflection, and every strategy discussion contributes to developing children who are not just smart, but wise about how they use their intelligence.
-
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<script>
+`n<script>
 document.addEventListener('DOMContentLoaded', function() {
   // Chart 1: Metacognition Components
   new Chart(document.getElementById('metacognitionComponentsChart'), {

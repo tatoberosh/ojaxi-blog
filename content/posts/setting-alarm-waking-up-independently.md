@@ -1,4 +1,4 @@
----
+﻿---
 title: "Setting an Alarm and Waking Up Independently: Building Time Management in Children"
 date: 2026-01-23T10:00:00-05:00
 draft: false
@@ -252,9 +252,7 @@ The key is patience, consistency, and understanding that time management indepen
 Remember, the goal isn't to eliminate all time management risks but to teach children that they can safely manage their own schedules with proper technique and awareness. When we take the time to help our children practice time management independence in safe, supportive environments, we build stronger individuals and support their development into self-sufficient adults who can navigate life's scheduling challenges with grace.
 
 Life-Ready Parenting means your child won't face independent time management for the first time at age 25—with work schedules, appointment management, or time-sensitive responsibilities that require competence and independence. They'll have already practiced the skills they need to handle whatever life brings their way.
-
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<script>
+`n<script>
 document.addEventListener('DOMContentLoaded', function() {
   // Chart 1: Time Management Dependence Gap
   new Chart(document.getElementById('timeManagementDependenceGapChart'), {

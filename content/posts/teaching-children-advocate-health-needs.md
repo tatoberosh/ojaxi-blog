@@ -154,9 +154,7 @@ Remember, the goal isn't to create miniature medical professionals who understan
 **Life-Ready Parenting means your child won't face independent health advocacy for the first time at age 25—with urgent care visits, specialist referrals, or chronic condition management that require competence and courage. They'll have already practiced the skills they need to advocate for whatever health needs arise.**
 
 **Welcome to Week 2 of Life-Ready Parenting Season 2!** This week, we're diving into advanced independence skills that prepare children for real-world self-sufficiency. Today we started with health advocacy—tomorrow we'll explore teaching children time management without external reminders. Stay tuned!
-
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<script>
+`n<script>
 document.addEventListener('DOMContentLoaded', function() {
   // Chart 1: Health Advocacy Gap
   new Chart(document.getElementById('healthAdvocacyGapChart'), {

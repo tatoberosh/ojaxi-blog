@@ -1,4 +1,4 @@
----
+﻿---
 title: "Neuroplasticity Playbook: Activities That Physically Reshape the Child's Brain (And How to Track Progress)"
 date: 2025-12-14T10:00:00-05:00
 draft: false
@@ -152,9 +152,7 @@ Your child's brain isn't a fixed entity waiting to be filled with information—
 The activities in this playbook aren't just hobbies or extra-curriculars—they're brain-building exercises that create lasting physical changes in neural architecture. Track the progress, celebrate the improvements, and remember that every day presents new opportunities to build a stronger, more resilient brain.
 
 The brain is the most remarkable learning machine ever created. Our job as parents is to help it reach its full potential.
-
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<script>
+`n<script>
 document.addEventListener('DOMContentLoaded', function() {
   // Chart 1: Brain Development
   new Chart(document.getElementById('brainDevelopmentChart'), {

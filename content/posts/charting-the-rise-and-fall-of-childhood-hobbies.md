@@ -1,4 +1,4 @@
----
+﻿---
 title: "Charting the Rise and Fall of Childhood Hobbies: A Parent's Guide to a Data-Driven Keepsake"
 date: 2025-11-18T14:00:00-05:00
 draft: false
@@ -73,9 +73,7 @@ Here's a live poll. Let us know your primary motivation!
 ### Conclusion: The Story of a Childhood
 
 Ultimately, this longitudinal data story becomes more than just a chart; it becomes a cherished keepsake. It’s a visual representation of the many different things that have captured your child's imagination and shaped who they are. It’s a story of their growth, their curiosity, and their unique journey of self-discovery. Years from now, looking back on the "dinosaur phase" or the "LEGO era" won't just be a fond memory—it will be a data point in the beautiful, unfolding story of your child's life.
-
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<script>
+`n<script>
 document.addEventListener('DOMContentLoaded', function() {
   // Chart 1: Rise and Fall of a Single Hobby
   new Chart(document.getElementById('hobbyInterestChart'), {

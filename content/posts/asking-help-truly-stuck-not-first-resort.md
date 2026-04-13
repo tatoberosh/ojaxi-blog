@@ -1,4 +1,4 @@
----
+﻿---
 title: "Asking for Help When Truly Stuck (Not as First Resort): Building Problem-Solving Independence in Children"
 date: 2026-02-01T10:00:00-05:00
 draft: false
@@ -252,9 +252,7 @@ The key is patience, consistency, and understanding that strategic help-seeking 
 Remember, the goal isn't to eliminate all help-seeking but to teach children that they can productively work through challenges with proper technique and awareness. When we take the time to help our children practice strategic problem-solving in safe, supportive environments, we build stronger individuals and support their development into self-sufficient adults who can navigate life's challenges with grace.
 
 Life-Ready Parenting means your child won't face independent problem-solving for the first time at age 25—with workplace challenges, complex decisions, or professional obstacles that require competence and strategic thinking. They'll have already practiced the skills they need to handle whatever life brings their way.
-
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<script>
+`n<script>
 document.addEventListener('DOMContentLoaded', function() {
   // Chart 1: Help-Seeking Dependence Gap
   new Chart(document.getElementById('helpSeekingDependenceGapChart'), {

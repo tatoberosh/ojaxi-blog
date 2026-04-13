@@ -1,4 +1,4 @@
----
+﻿---
 title: "The Bedtime Hack That Cuts the Nightly Struggle in Half"
 date: 2025-12-28T10:00:00-05:00
 draft: false
@@ -227,9 +227,7 @@ The key is patience, consistency, and understanding that sleep timing is a gradu
 Most importantly, the framework creates a foundation for lifelong healthy sleep habits that extend far beyond childhood bedtime compliance. When we take the time to understand and work with our children's natural sleep rhythms, we build stronger relationships and support their development into individuals who understand and respect their own sleep needs.
 
 Remember, the goal isn't perfection in your child's sleep schedule but rather consistent progress toward better sleep habits that support their growth and development. The most successful approaches are those that evolve with your child's changing needs and ultimately become integrated parts of your family's routine.
-
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<script>
+`n<script>
 document.addEventListener('DOMContentLoaded', function() {
   // Chart 1: Sleep-Wake Connection
   new Chart(document.getElementById('sleepWakeConnectionChart'), {

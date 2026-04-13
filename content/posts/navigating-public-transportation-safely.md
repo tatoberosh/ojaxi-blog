@@ -156,9 +156,7 @@ Remember, the goal isn't to create miniature transit experts who can navigate an
 **Life-Ready Parenting means your child won't face independent urban navigation for the first time at age 25—with job interviews, apartment hunting, and college commutes that require competence and calm decision-making. They'll have already practiced the skills they need to handle whatever transportation opportunities life brings their way.**
 
 **Tomorrow in our Life-Ready Parenting Season 2 series, we'll explore how teaching children to understand personal boundaries and say no confidently builds the foundation for healthy relationships throughout their lives. See you on March 18th.**
-
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<script>
+`n<script>
 document.addEventListener('DOMContentLoaded', function() {
   // Chart 1: Urban Navigation Dependence Gap
   new Chart(document.getElementById('urbanNavigationDependenceGapChart'), {

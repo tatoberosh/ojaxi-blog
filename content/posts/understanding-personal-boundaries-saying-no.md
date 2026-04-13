@@ -156,9 +156,7 @@ Remember, the goal isn't to create children who say no to everything but to teac
 **Life-Ready Parenting means your child won't face independent boundary-setting for the first time at age 25—with romantic partners, demanding bosses, and manipulative friends that require competence and self-respect. They'll have already practiced the skills they need to handle whatever relationship challenges life brings their way.**
 
 **Tomorrow in our Life-Ready Parenting Season 2 series, we'll explore how teaching children to manage screen time and digital wellness independently builds the self-regulation skills they need in an increasingly connected world. See you on March 19th.**
-
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<script>
+`n<script>
 document.addEventListener('DOMContentLoaded', function() {
   // Chart 1: Boundary Dependence Gap
   new Chart(document.getElementById('boundaryDependenceGapChart'), {

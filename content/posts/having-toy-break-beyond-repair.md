@@ -1,4 +1,4 @@
----
+﻿---
 title: "When Toys Break Beyond Repair: Teaching Children to Handle Irreversible Loss"
 date: 2026-01-02T10:00:00-05:00
 draft: false
@@ -236,9 +236,7 @@ The key is patience, consistency, and understanding that grief processing is a s
 Remember, the goal isn't to eliminate the sadness of losing things we love but to teach children that grief is temporary and manageable. When we take the time to help our children practice processing loss in safe, supportive environments, we build stronger relationships and support their development into emotionally regulated individuals who can navigate life's inevitable ups and downs with grace.
 
 Life-Ready Parenting means your child won't face the reality of irreversible loss for the first time at age 25—with a job, relationships, and no safety net. They'll have already practiced the emotional skills they need to handle whatever life brings their way.
-
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<script>
+`n<script>
 document.addEventListener('DOMContentLoaded', function() {
   // Chart 1: Attachment Breaking Gap
   new Chart(document.getElementById('attachmentBreakingGapChart'), {

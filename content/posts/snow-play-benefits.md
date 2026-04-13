@@ -1,4 +1,4 @@
----
+﻿---
 title: "More Than Just a Snow Day: The Surprising Benefits of Playing in the Snow"
 date: 2025-11-09T10:00:00-05:00
 draft: false
@@ -72,9 +72,7 @@ To maximize the benefits and minimize the stress, a little preparation goes a lo
 So next time the snow falls, resist the urge to declare it a "couch day." Instead, see it as an invitation—an invitation to build, to create, to explore, and to grow.
 
 By bundling them up and sending them out, you are giving your children more than just a fun afternoon. You are giving them a stronger body, a sharper mind, a more cooperative spirit, and a more resilient character. The joyful memories they make in the snow will last a lifetime, but the deep, developmental benefits will last even longer.
-
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<script>
+`n<script>
 document.addEventListener('DOMContentLoaded', function() {
   new Chart(document.getElementById('snowPlayBenefitsChart'), {
     type: 'bar',

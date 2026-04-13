@@ -156,9 +156,7 @@ Remember, the goal isn't to create children who can fix everything but to teach 
 **Life-Ready Parenting means your child won't face independent home maintenance for the first time at age 25—with their first apartment, home purchase, or living situation that requires competence and practical problem-solving. They'll have already practiced the skills they need to handle whatever household challenges life brings their way.**
 
 **Tomorrow in our Life-Ready Parenting Season 2 series, we'll explore how teaching children to understand consent and respect in relationships builds the foundation for healthy, mutually respectful connections throughout their lives. See you on March 25th.**
-
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<script>
+`n<script>
 document.addEventListener('DOMContentLoaded', function() {
   // Chart 1: Home Maintenance Dependence Gap
   new Chart(document.getElementById('homeMaintenanceDependenceGapChart'), {

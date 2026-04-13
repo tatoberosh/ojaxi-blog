@@ -1,4 +1,4 @@
----
+﻿---
 title: "Handling Being Teased Without Adult Rescue: Building Social Resilience in Children"
 date: 2026-02-02T10:00:00-05:00
 draft: false
@@ -252,9 +252,7 @@ The key is patience, consistency, and understanding that social resilience is a 
 Remember, the goal isn't to eliminate all social challenges but to teach children that they can safely navigate teasing with proper technique and awareness. When we take the time to help our children practice social resilience in safe, supportive environments, we build stronger individuals and support their development into emotionally intelligent adults who can navigate life's social challenges with grace.
 
 Life-Ready Parenting means your child won't face independent social challenges for the first time at age 25—with workplace dynamics, romantic relationships, or social situations that require competence and confidence. They'll have already practiced the skills they need to handle whatever life brings their way.
-
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<script>
+`n<script>
 document.addEventListener('DOMContentLoaded', function() {
   // Chart 1: Social Dependence Gap
   new Chart(document.getElementById('socialDependenceGapChart'), {

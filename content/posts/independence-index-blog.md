@@ -1,4 +1,4 @@
----
+﻿---
 title: "The Independence Index: A Data-Driven Guide to Raising Capable Kids"
 date: 2025-11-26T09:00:00-05:00
 draft: false
@@ -29,9 +29,7 @@ Instead of a simple list, we can visualize how responsibilities should grow and 
 <div style="height: 400px; margin: 2rem 0;">
   <canvas id="responsibilityChart"></canvas>
 </div>
-
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<script>
+`n<script>
 document.addEventListener('DOMContentLoaded', function() {
   new Chart(document.getElementById('responsibilityChart'), {
     type: 'bar',

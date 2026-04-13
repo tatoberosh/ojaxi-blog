@@ -1,4 +1,4 @@
----
+﻿---
 title: "Handling Being Corrected in Public: Building Grace Under Pressure in Children"
 date: 2026-02-22T10:00:00-05:00
 draft: false
@@ -252,9 +252,7 @@ The key is patience, consistency, and understanding that emotional resilience is
 Remember, the goal isn't to eliminate all correction but to teach children that they can handle it with proper technique and awareness. When we take the time to help our children practice emotional resilience in safe, supportive environments, we build stronger individuals and support their development into self-sufficient adults who can navigate life's corrections with grace.
 
 Life-Ready Parenting means your child won't face independent correction handling for the first time at age 25—with workplace feedback, professional criticism, or career corrections that require competence and composure. They'll have already practiced the skills they need to handle whatever life brings their way.
-
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<script>
+`n<script>
 document.addEventListener('DOMContentLoaded', function() {
   // Chart 1: Correction Dependence Gap
   new Chart(document.getElementById('correctionDependenceGapChart'), {

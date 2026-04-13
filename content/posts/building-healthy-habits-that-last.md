@@ -154,9 +154,7 @@ Remember, the goal isn't to create perfect robots who never miss a day but to te
 **Life-Ready Parenting means your child won't face independent self-care routine building for the first time at age 25—with apartment maintenance, personal hygiene consistency, or health management that require competence and discipline. They'll have already practiced the skills they need to build whatever healthy habits serve their wellbeing.**
 
 **Welcome to Week 2 of Life-Ready Parenting Season 2!** This week, we're diving into advanced independence skills that prepare children for real-world self-sufficiency. Today we started with healthy habits—tomorrow we'll explore teaching children how to navigate public spaces safely and confidently. Stay tuned!
-
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<script>
+`n<script>
 document.addEventListener('DOMContentLoaded', function() {
   // Chart 1: Healthy Habit Dependence Gap
   new Chart(document.getElementById('habitDependenceGapChart'), {

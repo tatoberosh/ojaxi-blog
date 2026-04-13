@@ -1,4 +1,4 @@
----
+﻿---
 title: "The “Tech-Free Zone” Blueprint: Designing Physical Spaces and Times for Analog Interaction"
 date: 2025-12-04T10:00:00-05:00
 draft: false
@@ -249,9 +249,7 @@ The Tech-Free Zone Blueprint isn't about rejecting technology—it's about creat
 The investment in tech-free zones pays dividends in stronger family relationships, improved emotional regulation, enhanced creativity, and better social skills. By systematically creating and maintaining these spaces, parents provide their children with essential life experiences that cannot be replicated through digital interaction.
 
 Remember, the goal isn't perfection but progress. Start with one small tech-free zone, be consistent, and gradually expand as your family adapts to and appreciates these valuable analog moments. The connections forged in these spaces will prove more durable and meaningful than any digital interaction.
-
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<script>
+`n<script>
 document.addEventListener('DOMContentLoaded', function() {
   // Chart 1: Analog Science
   new Chart(document.getElementById('analogScienceChart'), {

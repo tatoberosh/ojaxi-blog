@@ -1,4 +1,4 @@
----
+﻿---
 title: "Is All Screen Time Created Equal? A Parent's Guide to Quality Content"
 date: 2025-11-08T11:00:00-05:00
 draft: false
@@ -49,9 +49,7 @@ Not all screen time is created equal. Let's look at a hypothetical comparison of
 <div style="height:600px; width:100%;">
   <canvas id="contentComparisonChart"></canvas>
 </div>
-
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<script>
+`n<script>
 document.addEventListener('DOMContentLoaded', function() {
 
   // Cognitive Engagement Chart

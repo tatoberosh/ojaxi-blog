@@ -1,4 +1,4 @@
----
+﻿---
 title: "The Confidence Calibration Tool: Adjusting Praise, Challenge, and Feedback to Avoid Over/Under-Confidence"
 date: 2025-12-05T10:00:00-05:00
 draft: false
@@ -276,9 +276,7 @@ Remember, confidence is not built through constant positive reinforcement but th
 The most successful approach is one that evolves with the child, starting with more external support for younger children and gradually shifting toward internal self-regulation as they develop the skills and confidence to calibrate their own expectations and responses to feedback.
 
 With patience, consistency, and the right calibration, you can help your child develop the kind of confidence that supports growth, resilience, and success throughout their lives.
-
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<script>
+`n<script>
 document.addEventListener('DOMContentLoaded', function() {
   // Chart 1: Confidence Spectrum
   new Chart(document.getElementById('confidenceSpectrumChart'), {

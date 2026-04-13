@@ -1,4 +1,4 @@
----
+﻿---
 title: "The AI Tutor: How Intelligent Tutoring Systems Are Revolutionizing Personalized Learning"
 date: 2025-11-16T10:00:00-05:00
 draft: false
@@ -64,9 +64,7 @@ The future of ITS may also include more advanced features like:
 Intelligent Tutoring Systems represent a paradigm shift in education, moving us away from a standardized model and toward a future where every student's learning journey is unique. By providing personalized guidance, adaptive challenges, and immediate feedback, these AI-powered tutors have the potential to unlock human potential on an unprecedented scale. While challenges remain, the path forward is clear: the fusion of artificial intelligence and education is creating a new era of learning that is more engaging, more effective, and more equitable for all. The AI tutor is here, and it's ready to help your child learn.
 
 <div class="strawpoll-embed" id="strawpoll_Dwyo3AAzLyA" style="height: 644px; max-width: 640px; width: 100%; margin: 0 auto; display: flex; flex-direction: column;"><iframe title="StrawPoll Embed" id="strawpoll_iframe_Dwyo3AAzLyA" src="https://strawpoll.com/embed/Dwyo3AAzLyA" style="position: static; visibility: visible; display: block; width: 100%; flex-grow: 1;" frameborder="0" allowfullscreen allowtransparency>Loading...</iframe><script async src="https://cdn.strawpoll.com/dist/widgets.js" charset="utf-8"></script></div>
-
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<script>
+`n<script>
 document.addEventListener('DOMContentLoaded', function() {
   // Chart 1: ITS Components
   new Chart(document.getElementById('itsComponentsChart'), {

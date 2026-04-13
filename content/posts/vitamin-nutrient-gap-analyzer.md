@@ -1,4 +1,4 @@
----
+﻿---
 title: "The Vitamin & Nutrient Gap Analyzer: Matching Diet to Developmental Needs — with Supplement Recommendations"
 date: 2025-12-21T10:00:00-05:00
 draft: false
@@ -284,9 +284,7 @@ The Vitamin & Nutrient Gap Analyzer transforms nutrition from a source of parent
 Remember, the goal is not perfection in your child's diet but rather consistent progress toward meeting their nutritional needs through a combination of nutrient-dense foods and strategic supplementation. The most successful nutritional strategies are those that evolve with your child, adapt to your family's circumstances, and ultimately become integrated parts of your daily routine.
 
 The gap analyzer provides a framework for making these decisions systematically rather than reactively, ensuring that your child's nutritional foundation supports not just their current development but also their long-term health and potential.
-
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<script>
+`n<script>
 document.addEventListener('DOMContentLoaded', function() {
   // Chart 1: Nutritional Timeline
   new Chart(document.getElementById('nutritionalTimelineChart'), {

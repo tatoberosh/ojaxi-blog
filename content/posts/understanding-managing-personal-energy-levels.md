@@ -156,9 +156,7 @@ Remember, the goal isn't to create children who never feel tired but to teach ch
 **Life-Ready Parenting means your child won't face independent energy management for the first time at age 25—with demanding careers, family responsibilities, and health challenges that require competence and self-awareness. They'll have already practiced the skills they need to handle whatever energy demands life brings their way.**
 
 **Tomorrow in our Life-Ready Parenting Season 2 series, we'll explore how teaching children to develop critical thinking about news and media builds the analytical skills they need to navigate an information-saturated world. See you on March 23rd.**
-
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<script>
+`n<script>
 document.addEventListener('DOMContentLoaded', function() {
   // Chart 1: Energy Dependence Gap
   new Chart(document.getElementById('energyDependenceGapChart'), {

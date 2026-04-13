@@ -1,4 +1,4 @@
----
+﻿---
 title: "The Learning Curve Equation: Plotting Skill Acquisition Over Time — When to Push, When to Pause"
 date: 2025-12-16T10:00:00-05:00
 draft: false
@@ -100,9 +100,7 @@ By tracking these three simple metrics, you'll start to see the patterns of your
 The Learning Curve Equation is not a prescription for perfection, but a framework for trust—trust in your child's innate learning ability, trust in the natural rhythms of skill acquisition, and trust in your own intuition as a parent. When you understand that plateaus are not failures, that slow periods are necessary, and that breakthroughs often happen just after we're ready to give up, you can relax into your role as a supportive coach rather than a demanding director.
 
 By combining this knowledge with simple data collection, you can guide your child through their learning journey with precision and empathy, helping them develop not just skills, but also the confidence to tackle increasingly complex challenges. The learning curve is not an obstacle to overcome—it's the path to mastery. And like any good path, it's best navigated with a map, patience, and the wisdom to know when to push forward and when to pause and enjoy the view.
-
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<script>
+`n<script>
 document.addEventListener('DOMContentLoaded', function() {
   // Chart 1: Learning Curve
   new Chart(document.getElementById('learningCurveChart'), {

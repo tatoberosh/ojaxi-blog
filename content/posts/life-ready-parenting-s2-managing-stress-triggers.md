@@ -27,6 +27,10 @@ The specific challenges children face in developing stress trigger awareness and
 - **Coping strategy deficit**: Most children have never been taught specific, effective coping strategies. They may know that "taking deep breaths" is supposed to help, but they have never practiced it systematically or learned which strategies work for which types of stress.
 - **Adult rescue dependency**: When children experience stress, adults typically intervene to remove the stressor or soothe the child. This rescue pattern creates a dependency where children expect external management of their internal states rather than developing their own regulation capabilities.
 
+<div style="height: 400px; margin: 2rem 0;">
+  <canvas id="stressChart2"></canvas>
+</div>
+
 ## The Stress Trigger Protocol: Four Stages of Self-Regulation Mastery
 
 Teaching children to understand and manage their personal stress triggers requires a structured progression that builds self-awareness and coping skills incrementally while providing the support children need to practice regulation in increasingly challenging situations. The protocol follows four stages that align with emotional and neurological development.
@@ -38,6 +42,10 @@ Teaching children to understand and manage their personal stress triggers requir
 **Stage Three: The Strategy Builder (Ages 9-12)**. This is where stress management truly develops. Children learn to match specific coping strategies to specific triggers and practice deploying them proactively. For Ethan's test anxiety, we developed a pre-test routine: three minutes of box breathing, a positive self-talk phrase, "I have prepared and I can do this," and a quick review of key concepts. For his social stress, we developed a post-conflict routine: ten minutes of quiet time, a walk around the block, and then a conversation about what happened and how to handle it. For his performance stress, we developed a pre-game routine: dynamic stretching, a focus on one specific skill to work on during the game, and a reminder that the game is practice for the next game. Ethan learned that coping strategies are not one-size-fits-all. Different triggers require different responses, and the most effective strategy is the one practiced regularly, not the one deployed in crisis.
 
 **Stage Four: The Self-Regulator (Ages 12+)**. By this stage, teenagers can identify their stress triggers in real time, deploy appropriate coping strategies proactively, and adjust their strategies based on effectiveness. They understand that stress management is not about eliminating stress but about managing their response to it. Teenagers at this stage learn to recognize the difference between productive stress, which motivates and focuses, and destructive stress, which overwhelms and paralyzes. They learn to seek out productive stress voluntarily, such as challenging themselves academically or athletically, and to manage destructive stress proactively, such as adjusting their schedule when stress stacking becomes dangerous. They also learn to support their peers through stress, offering coping strategies and emotional support without taking on their peers' stress as their own. This stage prepares them for the reality of adult life, where stress is constant and the ability to manage it is one of the most important determinants of health and happiness.
+
+<div style="height: 400px; margin: 2rem 0;">
+  <canvas id="stressChart1"></canvas>
+</div>
 
 ## The Treatcoin Integration: Rewarding Stress Management
 
@@ -53,6 +61,10 @@ Our Treatcoin system reinforces stress management behaviors that demonstrate gro
 
 The Treatcoin system for stress management has one essential rule: coins are never awarded for simply feeling calm. The system rewards the active process of stress identification, strategy selection, and regulation, not the passive state of low stress.
 
+<div style="height: 400px; margin: 2rem 0;">
+  <canvas id="stressChart3"></canvas>
+</div>
+
 ## The Long-term Life Skills Benefits
 
 The benefits of developing stress trigger awareness and management skills extend into every domain of adult life, creating compounding advantages that accumulate over decades.
@@ -64,6 +76,10 @@ The benefits of developing stress trigger awareness and management skills extend
 **Decision quality**: Stress impairs cognitive function, leading to poor decisions made under pressure. Adults with strong stress management skills maintain clearer thinking during stressful periods, making better decisions in high-stakes situations at work, in relationships, and in financial matters.
 
 **Relationship quality**: Unmanaged stress spills over into relationships, causing irritability, withdrawal, and conflict. Adults who can manage their stress maintain healthier relationships because they do not use their partners, children, or friends as emotional dumping grounds for unprocessed stress.
+
+<div style="height: 400px; margin: 2rem 0;">
+  <canvas id="stressChart4"></canvas>
+</div>
 
 ## Common Implementation Challenges and Solutions
 
@@ -99,6 +115,10 @@ The framework that organizes our approach to teaching stress trigger awareness a
 
 **P - Prevent Stress Stacking**: The proactive skill of recognizing when multiple stressors are accumulating and taking steps to reduce the cumulative load. Children learn that stress is additive, and that managing the total load is more effective than managing individual stressors in isolation.
 
+<div style="height: 400px; margin: 2rem 0;">
+  <canvas id="stressChart5"></canvas>
+</div>
+
 ## Conclusion: Building Stress Management Through Familiar Practice
 
 Teaching children to understand and manage their personal stress triggers is one of the most health-protective and emotionally empowering skills a parent can cultivate. It is also one of the most challenging, because it requires us to resist the instinct to remove every stressor from our children's lives and instead teach them to navigate the stress that is an inevitable part of being human. But the alternative is a generation of adults who do not know what triggers their stress, who lack effective coping strategies, and who experience the cumulative health damage of unmanaged chronic stress.
@@ -111,119 +131,106 @@ Life-Ready Parenting is about equipping children with the skills they will need 
 
 Next week, we continue Season 2 with an exploration of teaching children to plan and execute multi-step projects, examining how the ability to organize complex tasks builds executive function and independent achievement.
 
-```html
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<canvas id="stressChart1"></canvas>
 <script>
-new Chart(document.getElementById('stressChart1'), {
+document.addEventListener('DOMContentLoaded', function() {
+  // Chart 1
+  new Chart(document.getElementById('stressChart1'), {
     type: 'bar',
     data: {
-        labels: ['Ages 4-6', 'Ages 6-9', 'Ages 9-12', 'Ages 12+'],
-        datasets: [{
-            label: 'Stress Management Skill Level (%)',
-            data: [11, 31, 57, 81],
-            backgroundColor: ['#4BC0C0', '#FF6384', '#FFCE56', '#36A2EB']
-        }]
+      labels: ['Ages 4-6', 'Ages 6-9', 'Ages 9-12', 'Ages 12+'],
+      datasets: [{
+        label: 'Stress Management Skill Level (%)',
+        data: [11, 31, 57, 81],
+        backgroundColor: ['#4BC0C0', '#FF6384', '#FFCE56', '#36A2EB']
+      }]
     },
     options: {
-        responsive: true,
-        plugins: {
-            title: { display: true, text: 'Stress Management Skill Development by Age Stage' },
-            legend: { display: false }
-        },
-        scales: { y: { beginAtZero: true, max: 100, title: { display: true, text: 'Skill Proficiency (%)' } } }
+      responsive: true,
+      plugins: {
+        title: { display: true, text: 'Stress Management Skill Development by Age Stage' },
+        legend: { display: false }
+      },
+      scales: { y: { beginAtZero: true, max: 100, title: { display: true, text: 'Skill Proficiency (%)' } } }
     }
-});
-</script>
-
-<canvas id="stressChart2"></canvas>
-<script>
-new Chart(document.getElementById('stressChart2'), {
+  });
+  // Chart 2
+  new Chart(document.getElementById('stressChart2'), {
     type: 'doughnut',
     data: {
-        labels: ['Trigger Invisibility', 'Body Signal Ignorance', 'Coping Strategy Deficit', 'Adult Rescue Dependency'],
-        datasets: [{
-            data: [26, 25, 24, 25],
-            backgroundColor: ['#FF6384', '#36A2EB', '#FFCE56', '#4BC0C0']
-        }]
+      labels: ['Trigger Invisibility', 'Body Signal Ignorance', 'Coping Strategy Deficit', 'Adult Rescue Dependency'],
+      datasets: [{
+        data: [26, 25, 24, 25],
+        backgroundColor: ['#FF6384', '#36A2EB', '#FFCE56', '#4BC0C0']
+      }]
     },
     options: {
-        responsive: true,
-        plugins: {
-            title: { display: true, text: 'Primary Barriers to Stress Trigger Management' }
-        }
+      responsive: true,
+      plugins: {
+        title: { display: true, text: 'Primary Barriers to Stress Trigger Management' }
+      }
     }
-});
-</script>
-
-<canvas id="stressChart3"></canvas>
-<script>
-new Chart(document.getElementById('stressChart3'), {
+  });
+  // Chart 3
+  new Chart(document.getElementById('stressChart3'), {
     type: 'line',
     data: {
-        labels: ['Age 8', 'Age 10', 'Age 12', 'Age 14', 'Age 16', 'Age 18'],
-        datasets: [{
-            label: 'Proactive Coping Strategy Uses Per Week',
-            data: [0.3, 0.9, 2.1, 3.6, 5.0, 6.3],
-            borderColor: '#FFCE56',
-            tension: 0.3,
-            fill: false
-        }]
+      labels: ['Age 8', 'Age 10', 'Age 12', 'Age 14', 'Age 16', 'Age 18'],
+      datasets: [{
+        label: 'Proactive Coping Strategy Uses Per Week',
+        data: [0.3, 0.9, 2.1, 3.6, 5.0, 6.3],
+        borderColor: '#FFCE56',
+        tension: 0.3,
+        fill: false
+      }]
     },
     options: {
-        responsive: true,
-        plugins: {
-            title: { display: true, text: 'Growth in Weekly Proactive Coping Strategy Uses Over Childhood' }
-        },
-        scales: { y: { beginAtZero: true, title: { display: true, text: 'Strategy Uses Per Week' } } }
+      responsive: true,
+      plugins: {
+        title: { display: true, text: 'Growth in Weekly Proactive Coping Strategy Uses Over Childhood' }
+      },
+      scales: { y: { beginAtZero: true, title: { display: true, text: 'Strategy Uses Per Week' } } }
     }
-});
-</script>
-
-<canvas id="stressChart4"></canvas>
-<script>
-new Chart(document.getElementById('stressChart4'), {
+  });
+  // Chart 4
+  new Chart(document.getElementById('stressChart4'), {
     type: 'bar',
     data: {
-        labels: ['Mental Health', 'Physical Health', 'Decision Quality', 'Relationship Quality'],
-        datasets: [{
-            label: 'Long-term Benefit Score',
-            data: [90, 85, 82, 87],
-            backgroundColor: ['#36A2EB', '#FF6384', '#4BC0C0', '#FFCE56']
-        }]
+      labels: ['Mental Health', 'Physical Health', 'Decision Quality', 'Relationship Quality'],
+      datasets: [{
+        label: 'Long-term Benefit Score',
+        data: [90, 85, 82, 87],
+        backgroundColor: ['#36A2EB', '#FF6384', '#4BC0C0', '#FFCE56']
+      }]
     },
     options: {
-        responsive: true,
-        plugins: {
-            title: { display: true, text: 'Long-term Life Skills Benefits of Stress Management' },
-            legend: { display: false }
-        },
-        scales: { y: { beginAtZero: true, max: 100, title: { display: true, text: 'Benefit Impact Score' } } }
+      responsive: true,
+      plugins: {
+        title: { display: true, text: 'Long-term Life Skills Benefits of Stress Management' },
+        legend: { display: false }
+      },
+      scales: { y: { beginAtZero: true, max: 100, title: { display: true, text: 'Benefit Impact Score' } } }
     }
-});
-</script>
-
-<canvas id="stressChart5"></canvas>
-<script>
-new Chart(document.getElementById('stressChart5'), {
+  });
+  // Chart 5
+  new Chart(document.getElementById('stressChart5'), {
     type: 'radar',
     data: {
-        labels: ['Catalog Triggers', 'Attend to Body Signals', 'Launch Coping Strategies', 'Monitor and Adjust', 'Prevent Stress Stacking'],
-        datasets: [{
-            label: 'CALM Framework Elements',
-            data: [78, 74, 80, 76, 72],
-            backgroundColor: 'rgba(75, 192, 192, 0.2)',
-            borderColor: '#4BC0C0',
-            pointBackgroundColor: '#4BC0C0'
-        }]
+      labels: ['Catalog Triggers', 'Attend to Body Signals', 'Launch Coping Strategies', 'Monitor and Adjust', 'Prevent Stress Stacking'],
+      datasets: [{
+        label: 'CALM Framework Elements',
+        data: [78, 74, 80, 76, 72],
+        backgroundColor: 'rgba(75, 192, 192, 0.2)',
+        borderColor: '#4BC0C0',
+        pointBackgroundColor: '#4BC0C0'
+      }]
     },
     options: {
-        responsive: true,
-        plugins: {
-            title: { display: true, text: 'CALM Framework Skill Distribution' }
-        },
-        scales: { r: { beginAtZero: true, max: 100 } }
+      responsive: true,
+      plugins: {
+        title: { display: true, text: 'CALM Framework Skill Distribution' }
+      },
+      scales: { r: { beginAtZero: true, max: 100 } }
     }
+  });
 });
 </script>
-```

@@ -1,4 +1,4 @@
----
+﻿---
 title: "Reading Medicine Labels and Measuring Doses: Building Medical Independence in Children"
 date: 2026-01-25T10:00:00-05:00
 draft: false
@@ -252,9 +252,7 @@ The key is patience, consistency, and understanding that medical literacy is a s
 Remember, the goal isn't to eliminate all medical risks but to teach children that they can safely handle basic medical information with proper technique and awareness. When we take the time to help our children practice medical literacy in safe, supportive environments, we build stronger individuals and support their development into self-sufficient adults who can navigate life's healthcare challenges with grace.
 
 Life-Ready Parenting means your child won't face medical information for the first time at age 25—with independent healthcare management, medication responsibilities, or medical challenges that require competence and independence. They'll have already practiced the skills they need to handle whatever life brings their way.
-
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<script>
+`n<script>
 document.addEventListener('DOMContentLoaded', function() {
   // Chart 1: Medical Literacy Gap
   new Chart(document.getElementById('medicalLiteracyGapChart'), {

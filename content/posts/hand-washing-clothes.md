@@ -1,4 +1,4 @@
----
+﻿---
 title: "Hand-Washing Clothes: Building Laundry Independence in Children"
 date: 2026-01-26T10:00:00-05:00
 draft: false
@@ -252,9 +252,7 @@ The key is patience, consistency, and understanding that laundry independence is
 Remember, the goal isn't to eliminate all laundry risks but to teach children that they can safely wash their own clothes with proper technique and awareness. When we take the time to help our children practice laundry independence in safe, supportive environments, we build stronger individuals and support their development into self-sufficient adults who can navigate life's household challenges with grace.
 
 Life-Ready Parenting means your child won't face laundry for the first time at age 25—with independent living, apartment management, or clothing care challenges that require competence and independence. They'll have already practiced the skills they need to handle whatever life brings their way.
-
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<script>
+`n<script>
 document.addEventListener('DOMContentLoaded', function() {
   // Chart 1: Laundry Dependence Gap
   new Chart(document.getElementById('laundryDependenceGapChart'), {

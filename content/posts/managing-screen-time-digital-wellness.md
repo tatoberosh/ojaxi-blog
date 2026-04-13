@@ -156,9 +156,7 @@ Remember, the goal isn't to create children who never enjoy screens but to teach
 **Life-Ready Parenting means your child won't face independent digital wellness management for the first time at age 25—with demanding careers, social media pressures, and endless streaming options that require competence and self-awareness. They'll have already practiced the skills they need to handle whatever digital challenges life brings their way.**
 
 **Tomorrow in our Life-Ready Parenting Season 2 series, we'll explore how teaching children to handle peer pressure and make independent choices builds the decision-making confidence they need to stay true to themselves. See you on March 20th.**
-
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<script>
+`n<script>
 document.addEventListener('DOMContentLoaded', function() {
   // Chart 1: Digital Dependence Gap
   new Chart(document.getElementById('digitalDependenceGapChart'), {

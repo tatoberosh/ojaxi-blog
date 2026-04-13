@@ -32,6 +32,10 @@ The gap between children's capacity to help in medical emergencies and their act
 
 - **Fear and panic override untrained responses**: When children witness a medical emergency without prior training, their natural response is fear and panic, which can paralyze action or lead to harmful interventions. Research from the University of California, San Diego's Trauma Psychology Lab found that untrained children who witnessed a medical emergency experienced acute stress responses that impaired their ability to think clearly or take appropriate action in 84 percent of cases. Training does not eliminate fear, but it provides a structured response that children can follow even when they are afraid.
 
+<div style="height: 400px; margin: 2rem 0;">
+  <canvas id="healthDependenceGapCausesChart"></canvas>
+</div>
+
 ## The First Aid Protocol: Four Stages of Emergency Response Mastery
 
 Teaching children first aid and health emergency response is a progressive curriculum that builds practical skills and emotional resilience over time. The First Aid Protocol outlines four distinct stages, each introducing age-appropriate concepts and hands-on skills.
@@ -52,6 +56,10 @@ Pre-teens develop the capacity to assess emergency situations and respond to mor
 
 Teenagers should be capable of managing complex emergency situations and leading the response until professional help arrives. At this stage, teenagers should complete a certified first aid and CPR course through the American Red Cross or the American Heart Association, gaining formal certification. Teach advanced skills such as using an automated external defibrillator, managing multiple casualties, controlling severe bleeding with direct pressure and tourniquets, and providing psychological first aid to calm panicked bystanders. Encourage teenagers to take on leadership roles in emergency preparedness, such as serving as the designated first aid responder for school events, sports teams, or community activities. Teenagers should be able to manage a medical emergency from initial assessment through handoff to professional responders, document the incident for medical follow-up, and provide emotional support to all parties involved.
 
+<div style="height: 400px; margin: 2rem 0;">
+  <canvas id="firstAidCompetencyChart"></canvas>
+</div>
+
 ## The Treatcoin Integration: Rewarding First Aid Competence
 
 The Treatcoin system reinforces first aid learning by rewarding children for demonstrating emergency response skills and proactive health safety behaviors. Here is how first aid competence maps onto the four reward tiers:
@@ -64,6 +72,10 @@ The Treatcoin system reinforces first aid learning by rewarding children for dem
 
 **Five Coins: Real Emergency Response** - The highest first aid reward goes to children who successfully apply their training in a real emergency situation, taking appropriate action that helps an injured or ill person. This reward celebrates the ultimate application of first aid skills. Ethan earned five Treatcoins for his response to Noah's injury, and Maya earned five coins for her response at the trampoline park. These coins were not just rewards; they were recognition that their training had made a real difference in someone's wellbeing.
 
+<div style="height: 400px; margin: 2rem 0;">
+  <canvas id="emergencyResponseOverTimeChart"></canvas>
+</div>
+
 ## The Long-term Life Skills Benefits
 
 The benefits of teaching children first aid and health emergency response extend far beyond childhood injury management. These skills form the foundation for lifelong health awareness, emergency preparedness, and the confidence to act when others freeze.
@@ -75,6 +87,10 @@ The benefits of teaching children first aid and health emergency response extend
 **Health awareness and prevention**: Learning first aid inherently involves learning about the human body, common injuries, and health risks. Children who study first aid become more aware of their own health, more attentive to safety practices, and more proactive about prevention. Research from the University of Washington's Health Education Center found that first aid-trained children were 29 percent less likely to sustain preventable injuries and 35 percent more likely to engage in healthy behaviors, such as wearing seatbelts, using helmets, and washing hands regularly.
 
 **Community leadership and service**: First aid-trained children often become the designated health and safety leaders in their communities, serving as first responders at school events, sports activities, and community gatherings. This leadership role builds confidence, responsibility, and a sense of purpose. The University of Pittsburgh study found that first aid-trained teenagers were 52 percent more likely to volunteer for community service roles and 44 percent more likely to pursue careers in healthcare, emergency services, or public safety.
+
+<div style="height: 400px; margin: 2rem 0;">
+  <canvas id="firstAidTreatcoinDistributionChart"></canvas>
+</div>
 
 ## Common Implementation Challenges and Solutions
 
@@ -124,6 +140,10 @@ The HELP Framework provides a comprehensive structure for teaching children to r
 
 **P - Preserve and Pass On**: After the immediate emergency is managed, children should preserve the scene and the patient's condition for professional responders and pass on all relevant information. This means not moving the patient unless absolutely necessary, keeping the patient warm and calm, and providing a clear report to arriving responders: what happened, what was observed, what interventions were performed, and any changes in the patient's condition. This handoff is a critical part of the emergency response chain and ensures continuity of care.
 
+<div style="height: 400px; margin: 2rem 0;">
+  <canvas id="helpFrameworkSkillDevelopmentChart"></canvas>
+</div>
+
 ## Conclusion: Building Emergency Readiness Through Familiar Practice
 
 Teaching children first aid and health emergency response is not about creating miniature paramedics. It is about creating confident, capable individuals who can act when action is needed, who can help when help is required, and who can remain calm when others panic. Every practice scenario, every skill demonstration, every first aid kit assembled is an opportunity to build these skills in low-stakes environments so that when the stakes are life and death, children have the training and the confidence to respond.
@@ -134,147 +154,154 @@ Life-Ready Parenting is not about protecting children from every possible injury
 
 This article concludes the Life-Ready Parenting Season 2 daily series covering March 31 through April 4, 2026. Thank you for following along as we explored Personal Safety and Risk Assessment, Budgeting and Expense Tracking, Patience and Delayed Gratification, Digital Footprint Management, and First Aid and Health Emergency Response. Follow along for future installments as we continue building practical frameworks for raising capable, confident, life-ready children.
 
-```chartjs
-{
-  "type": "bar",
-  "data": {
-    "labels": ["Ages 4-6", "Ages 6-9", "Ages 9-12", "Ages 12+"],
-    "datasets": [{
-      "label": "First Aid Competency Level (%)",
-      "data": [20, 40, 65, 87],
-      "backgroundColor": ["#FF6384", "#36A2EB", "#FFCE56", "#4BC0C0"]
-    }]
-  },
-  "options": {
-    "responsive": true,
-    "plugins": {
-      "title": {
-        "display": true,
-        "text": "First Aid Competency by Age Stage"
-      }
+`n<script>
+document.addEventListener('DOMContentLoaded', function() {
+  // Chart 1: First Aid Competency by Age Stage
+  new Chart(document.getElementById('firstAidCompetencyChart'), {
+    type: 'bar',
+    data: {
+      labels: ['Ages 4-6', 'Ages 6-9', 'Ages 9-12', 'Ages 12+'],
+      datasets: [{
+        label: 'First Aid Competency Level (%)',
+        data: [20, 40, 65, 87],
+        backgroundColor: ['#e74c3c', '#3498db', '#2ecc71', '#f39c12']
+      }]
     },
-    "scales": {
-      "y": {
-        "beginAtZero": true,
-        "max": 100
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: {
+        title: {
+          display: true,
+          text: 'First Aid Competency by Age Stage'
+        }
+      },
+      scales: {
+        y: {
+          beginAtZero: true,
+          max: 100
+        }
       }
     }
-  }
-}
-```
+  });
 
-```chartjs
-{
-  "type": "doughnut",
-  "data": {
-    "labels": ["Not in Standard Curriculum", "Parent Age Assumptions", "Knowledge Without Practice", "Fear Overrides Training"],
-    "datasets": [{
-      "data": [32, 26, 24, 18],
-      "backgroundColor": ["#FF6384", "#36A2EB", "#FFCE56", "#4BC0C0"]
-    }]
-  },
-  "options": {
-    "responsive": true,
-    "plugins": {
-      "title": {
-        "display": true,
-        "text": "Primary Causes of the Health Dependence Gap"
+  // Chart 2: Primary Causes of the Health Dependence Gap
+  new Chart(document.getElementById('healthDependenceGapCausesChart'), {
+    type: 'doughnut',
+    data: {
+      labels: ['Not in Standard Curriculum', 'Parent Age Assumptions', 'Knowledge Without Practice', 'Fear Overrides Training'],
+      datasets: [{
+        data: [32, 26, 24, 18],
+        backgroundColor: ['#e74c3c', '#3498db', '#2ecc71', '#f39c12']
+      }]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: {
+        title: {
+          display: true,
+          text: 'Primary Causes of the Health Dependence Gap'
+        },
+        legend: { position: 'bottom' }
       }
     }
-  }
-}
-```
+  });
 
-```chartjs
-{
-  "type": "line",
-  "data": {
-    "labels": ["Age 6", "Age 8", "Age 10", "Age 12", "Age 14", "Age 16"],
-    "datasets": [{
-      "label": "With First Aid Training",
-      "data": [14, 32, 52, 70, 84, 93],
-      "borderColor": "#4BC0C0",
-      "fill": false
-    }, {
-      "label": "Without First Aid Training",
-      "data": [8, 12, 16, 20, 24, 28],
-      "borderColor": "#FF6384",
-      "fill": false
-    }]
-  },
-  "options": {
-    "responsive": true,
-    "plugins": {
-      "title": {
-        "display": true,
-        "text": "Emergency Response Competence Over Time"
-      }
+  // Chart 3: Emergency Response Competence Over Time
+  new Chart(document.getElementById('emergencyResponseOverTimeChart'), {
+    type: 'line',
+    data: {
+      labels: ['Age 6', 'Age 8', 'Age 10', 'Age 12', 'Age 14', 'Age 16'],
+      datasets: [{
+        label: 'With First Aid Training',
+        data: [14, 32, 52, 70, 84, 93],
+        borderColor: '#3498db',
+        backgroundColor: 'rgba(52, 152, 219, 0.1)',
+        fill: true
+      }, {
+        label: 'Without First Aid Training',
+        data: [8, 12, 16, 20, 24, 28],
+        borderColor: '#e74c3c',
+        backgroundColor: 'rgba(231, 76, 60, 0.1)',
+        fill: true
+      }]
     },
-    "scales": {
-      "y": {
-        "beginAtZero": true,
-        "max": 100
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: {
+        title: {
+          display: true,
+          text: 'Emergency Response Competence Over Time'
+        }
+      },
+      scales: {
+        y: {
+          beginAtZero: true,
+          max: 100
+        }
       }
     }
-  }
-}
-```
+  });
 
-```chartjs
-{
-  "type": "bar",
-  "data": {
-    "labels": ["1 Coin: Skill Demo", "2 Coins: Scenario Performance", "3 Coins: Kit Preparation", "5 Coins: Real Response"],
-    "datasets": [{
-      "label": "Average Coins Earned Per Month",
-      "data": [10, 6, 2, 0.5],
-      "backgroundColor": ["#36A2EB", "#4BC0C0", "#FFCE56", "#FF6384"]
-    }]
-  },
-  "options": {
-    "responsive": true,
-    "plugins": {
-      "title": {
-        "display": true,
-        "text": "Treatcoin First Aid Reward Distribution"
-      }
+  // Chart 4: Treatcoin First Aid Reward Distribution
+  new Chart(document.getElementById('firstAidTreatcoinDistributionChart'), {
+    type: 'bar',
+    data: {
+      labels: ['1 Coin: Skill Demo', '2 Coins: Scenario Performance', '3 Coins: Kit Preparation', '5 Coins: Real Response'],
+      datasets: [{
+        label: 'Average Coins Earned Per Month',
+        data: [10, 6, 2, 0.5],
+        backgroundColor: ['#3498db', '#2ecc71', '#f39c12', '#e74c3c']
+      }]
     },
-    "indexAxis": "y"
-  }
-}
-```
-
-```chartjs
-{
-  "type": "radar",
-  "data": {
-    "labels": ["Halt and Assess", "Ensure Safety", "Locate Help and Provide Care", "Preserve and Pass On", "Calm Under Pressure"],
-    "datasets": [{
-      "label": "After 6 Months",
-      "data": [55, 50, 45, 40, 48],
-      "borderColor": "#36A2EB",
-      "backgroundColor": "rgba(54, 162, 235, 0.2)"
-    }, {
-      "label": "After 12 Months",
-      "data": [82, 80, 78, 72, 85],
-      "borderColor": "#4BC0C0",
-      "backgroundColor": "rgba(75, 192, 192, 0.2)"
-    }]
-  },
-  "options": {
-    "responsive": true,
-    "plugins": {
-      "title": {
-        "display": true,
-        "text": "HELP Framework Skill Development Over Time"
-      }
-    },
-    "scales": {
-      "r": {
-        "beginAtZero": true,
-        "max": 100
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      indexAxis: 'y',
+      plugins: {
+        title: {
+          display: true,
+          text: 'Treatcoin First Aid Reward Distribution'
+        }
       }
     }
-  }
-}
-```
+  });
+
+  // Chart 5: HELP Framework Skill Development Over Time
+  new Chart(document.getElementById('helpFrameworkSkillDevelopmentChart'), {
+    type: 'radar',
+    data: {
+      labels: ['Halt and Assess', 'Ensure Safety', 'Locate Help and Provide Care', 'Preserve and Pass On', 'Calm Under Pressure'],
+      datasets: [{
+        label: 'After 6 Months',
+        data: [55, 50, 45, 40, 48],
+        borderColor: '#3498db',
+        backgroundColor: 'rgba(52, 152, 219, 0.2)'
+      }, {
+        label: 'After 12 Months',
+        data: [82, 80, 78, 72, 85],
+        borderColor: '#2ecc71',
+        backgroundColor: 'rgba(46, 204, 113, 0.2)'
+      }]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: {
+        title: {
+          display: true,
+          text: 'HELP Framework Skill Development Over Time'
+        }
+      },
+      scales: {
+        r: {
+          beginAtZero: true,
+          max: 100
+        }
+      }
+    }
+  });
+});
+</script>

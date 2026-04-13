@@ -1,4 +1,4 @@
----
+﻿---
 
 title: "The Predictive Parent: Using AI to Forecast Your Child's Needs"
 date: 2025-11-09T10:00:00-05:00
@@ -142,9 +142,7 @@ We stand at a threshold. With care, humility, and rigorous ethics, predictive to
 ---
 
 <div class="strawpoll-embed" id="strawpoll_kjn1DX2XGyQ" style="height: 516px; max-width: 640px; width: 100%; margin: 0 auto; display: flex; flex-direction: column;"><iframe title="StrawPoll Embed" id="strawpoll_iframe_kjn1DX2XGyQ" src="https://strawpoll.com/embed/kjn1DX2XGyQ" style="position: static; visibility: visible; display: block; width: 100%; flex-grow: 1;" frameborder="0" allowfullscreen allowtransparency>Loading...</iframe><script async src="https://cdn.strawpoll.com/dist/widgets.js" charset="utf-8"></script></div>
-
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<script>
+`n<script>
 document.addEventListener('DOMContentLoaded', function() {
   // Chart 1: Academic Milestones
   new Chart(document.getElementById('academicMilestonesChart'), {

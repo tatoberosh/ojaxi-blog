@@ -27,6 +27,10 @@ The specific challenges children face in developing cultural awareness include:
 - **Ethnocentrism**: Children naturally view their own culture as the default or normal way of living, interpreting other cultures as deviations from that norm rather than equally valid alternatives. Without deliberate guidance, this ethnocentrism hardens into cultural superiority.
 - **Global disconnection**: Children struggle to understand how events and decisions in distant parts of the world affect their own lives, creating a sense of global disconnection that limits their motivation to learn about other cultures and perspectives.
 
+<div style="height: 400px; margin: 2rem 0;">
+  <canvas id="culturalChart2"></canvas>
+</div>
+
 ## The Cultural Awareness Protocol: Four Stages of Global Perspective Mastery
 
 Teaching children to develop cultural awareness and global perspective requires a structured progression that builds empathy and understanding incrementally while providing the exposure children need to see the world through multiple cultural lenses. The protocol follows four stages that align with social and cognitive development.
@@ -40,6 +44,10 @@ Teaching children to develop cultural awareness and global perspective requires 
 **Stage Three: The Culture Connector (Ages 9-12)**. This is where cultural awareness truly develops. Children learn to connect with people from different cultures directly, through pen-pal programs, community events, and diverse friendships. Ethan began corresponding with a boy his age in Morocco through a school pen-pal program. They exchanged letters about their daily lives, their favorite foods, their hobbies, and their dreams. Ethan learned that his Moroccan friend loved soccer just like he did, played video games just like he did, and worried about math tests just like he did. The similarities were as illuminating as the differences. We also introduced the concept of "cultural humility": the understanding that your own cultural perspective is one of many equally valid ways of seeing the world, and that you can learn from every culture. Ethan began to notice cultural assumptions in media and question them: "Why does this movie always show the hero as an American? What would the story look like from someone else's perspective?"
 
 **Stage Four: The Global Citizen (Ages 12+)**. By this stage, teenagers can analyze global events from multiple cultural perspectives, communicate effectively across cultural differences, and appreciate the interconnectedness of the global community. They understand that cultural awareness is not just about food and festivals but about values, worldviews, and the deep structures that shape how people think and act. Teenagers at this stage learn to navigate cultural conflicts respectfully, to recognize their own cultural biases, and to advocate for inclusive practices in their schools and communities. They also learn to engage with global issues, climate change, economic inequality, human rights, understanding how these issues affect people differently across cultures and how global cooperation is required to address them. This stage prepares them for the reality of adult life in an interconnected world, where cultural awareness is not a nice-to-have but a necessity.
+
+<div style="height: 400px; margin: 2rem 0;">
+  <canvas id="culturalChart1"></canvas>
+</div>
 
 ## The Treatcoin Integration: Rewarding Cultural Awareness
 
@@ -55,6 +63,10 @@ Our Treatcoin system reinforces cultural awareness behaviors that demonstrate gr
 
 The Treatcoin system for cultural awareness has one essential rule: coins are never awarded for passive consumption. Watching a movie about another culture earns nothing. Watching the movie, discussing it, and asking questions about what was learned earns one coin. The system rewards active engagement, not passive exposure.
 
+<div style="height: 400px; margin: 2rem 0;">
+  <canvas id="culturalChart3"></canvas>
+</div>
+
 ## The Long-term Life Skills Benefits
 
 The benefits of developing cultural awareness and global perspective extend into every domain of adult life, creating compounding advantages that accumulate over decades.
@@ -66,6 +78,10 @@ The benefits of developing cultural awareness and global perspective extend into
 **Social enrichment**: Adults with cultural awareness build richer, more diverse social networks that expose them to new ideas, experiences, and perspectives. Their friendships span cultural boundaries, and their social lives are enriched by the variety of traditions, foods, stories, and worldviews they encounter.
 
 **Civic engagement**: Cultural awareness is a prerequisite for effective civic engagement in diverse democracies. Adults who understand multiple cultural perspectives are more likely to support inclusive policies, vote with awareness of how decisions affect diverse communities, and participate in community-building across cultural divides.
+
+<div style="height: 400px; margin: 2rem 0;">
+  <canvas id="culturalChart4"></canvas>
+</div>
 
 ## Common Implementation Challenges and Solutions
 
@@ -101,6 +117,10 @@ The framework that organizes our approach to teaching cultural awareness and glo
 
 **E - Engage with Global Issues**: The civic skill of understanding how global events and challenges affect people across cultures and how global cooperation is required to address them. Children learn that cultural awareness is not just about appreciation but about action.
 
+<div style="height: 400px; margin: 2rem 0;">
+  <canvas id="culturalChart5"></canvas>
+</div>
+
 ## Conclusion: Building Cultural Awareness Through Familiar Practice
 
 Teaching children to develop cultural awareness and global perspective is one of the most socially valuable and cognitively enriching skills a parent can cultivate. It is also one of the most challenging, because it requires us to confront our own cultural blind spots, to expose our children to ideas and practices that may challenge our own worldview, and to trust that the discomfort of cultural difference is precisely the condition that builds empathy and understanding. But the alternative is a generation of adults who view the world through a single cultural lens, who interpret difference as deficiency, and who are unprepared for the interconnected, multicultural world they will inhabit.
@@ -113,119 +133,106 @@ Life-Ready Parenting is about equipping children with the skills they will need 
 
 Next week, we continue Season 2 with an exploration of helping children understand their personal learning style and adaptation strategies, examining how the ability to identify how they learn best builds academic efficiency and lifelong learning capacity.
 
-```html
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<canvas id="culturalChart1"></canvas>
 <script>
-new Chart(document.getElementById('culturalChart1'), {
+document.addEventListener('DOMContentLoaded', function() {
+  // Chart 1
+  new Chart(document.getElementById('culturalChart1'), {
     type: 'bar',
     data: {
-        labels: ['Ages 4-6', 'Ages 6-9', 'Ages 9-12', 'Ages 12+'],
-        datasets: [{
-            label: 'Cultural Awareness Skill Level (%)',
-            data: [17, 37, 61, 84],
-            backgroundColor: ['#36A2EB', '#FF6384', '#FFCE56', '#4BC0C0']
-        }]
+      labels: ['Ages 4-6', 'Ages 6-9', 'Ages 9-12', 'Ages 12+'],
+      datasets: [{
+        label: 'Cultural Awareness Skill Level (%)',
+        data: [17, 37, 61, 84],
+        backgroundColor: ['#36A2EB', '#FF6384', '#FFCE56', '#4BC0C0']
+      }]
     },
     options: {
-        responsive: true,
-        plugins: {
-            title: { display: true, text: 'Cultural Awareness Skill Development by Age Stage' },
-            legend: { display: false }
-        },
-        scales: { y: { beginAtZero: true, max: 100, title: { display: true, text: 'Skill Proficiency (%)' } } }
+      responsive: true,
+      plugins: {
+        title: { display: true, text: 'Cultural Awareness Skill Development by Age Stage' },
+        legend: { display: false }
+      },
+      scales: { y: { beginAtZero: true, max: 100, title: { display: true, text: 'Skill Proficiency (%)' } } }
     }
-});
-</script>
-
-<canvas id="culturalChart2"></canvas>
-<script>
-new Chart(document.getElementById('culturalChart2'), {
+  });
+  // Chart 2
+  new Chart(document.getElementById('culturalChart2'), {
     type: 'doughnut',
     data: {
-        labels: ['Cultural Isolation', 'Stereotype Absorption', 'Ethnocentrism', 'Global Disconnection'],
-        datasets: [{
-            data: [26, 25, 24, 25],
-            backgroundColor: ['#FF6384', '#36A2EB', '#FFCE56', '#4BC0C0']
-        }]
+      labels: ['Cultural Isolation', 'Stereotype Absorption', 'Ethnocentrism', 'Global Disconnection'],
+      datasets: [{
+        data: [26, 25, 24, 25],
+        backgroundColor: ['#FF6384', '#36A2EB', '#FFCE56', '#4BC0C0']
+      }]
     },
     options: {
-        responsive: true,
-        plugins: {
-            title: { display: true, text: 'Primary Barriers to Cultural Awareness' }
-        }
+      responsive: true,
+      plugins: {
+        title: { display: true, text: 'Primary Barriers to Cultural Awareness' }
+      }
     }
-});
-</script>
-
-<canvas id="culturalChart3"></canvas>
-<script>
-new Chart(document.getElementById('culturalChart3'), {
+  });
+  // Chart 3
+  new Chart(document.getElementById('culturalChart3'), {
     type: 'line',
     data: {
-        labels: ['Age 7', 'Age 9', 'Age 11', 'Age 13', 'Age 15', 'Age 17'],
-        datasets: [{
-            label: 'Cross-Cultural Learning Activities Per Month',
-            data: [0.5, 1.2, 2.5, 3.8, 5.0, 6.2],
-            borderColor: '#FFCE56',
-            tension: 0.3,
-            fill: false
-        }]
+      labels: ['Age 7', 'Age 9', 'Age 11', 'Age 13', 'Age 15', 'Age 17'],
+      datasets: [{
+        label: 'Cross-Cultural Learning Activities Per Month',
+        data: [0.5, 1.2, 2.5, 3.8, 5.0, 6.2],
+        borderColor: '#FFCE56',
+        tension: 0.3,
+        fill: false
+      }]
     },
     options: {
-        responsive: true,
-        plugins: {
-            title: { display: true, text: 'Growth in Monthly Cross-Cultural Learning Activities Over Childhood' }
-        },
-        scales: { y: { beginAtZero: true, title: { display: true, text: 'Activities Per Month' } } }
+      responsive: true,
+      plugins: {
+        title: { display: true, text: 'Growth in Monthly Cross-Cultural Learning Activities Over Childhood' }
+      },
+      scales: { y: { beginAtZero: true, title: { display: true, text: 'Activities Per Month' } } }
     }
-});
-</script>
-
-<canvas id="culturalChart4"></canvas>
-<script>
-new Chart(document.getElementById('culturalChart4'), {
+  });
+  // Chart 4
+  new Chart(document.getElementById('culturalChart4'), {
     type: 'bar',
     data: {
-        labels: ['Diverse Team Effectiveness', 'Global Career Opportunities', 'Social Enrichment', 'Civic Engagement'],
-        datasets: [{
-            label: 'Long-term Benefit Score',
-            data: [86, 82, 88, 80],
-            backgroundColor: ['#36A2EB', '#FF6384', '#4BC0C0', '#FFCE56']
-        }]
+      labels: ['Diverse Team Effectiveness', 'Global Career Opportunities', 'Social Enrichment', 'Civic Engagement'],
+      datasets: [{
+        label: 'Long-term Benefit Score',
+        data: [86, 82, 88, 80],
+        backgroundColor: ['#36A2EB', '#FF6384', '#4BC0C0', '#FFCE56']
+      }]
     },
     options: {
-        responsive: true,
-        plugins: {
-            title: { display: true, text: 'Long-term Life Skills Benefits of Cultural Awareness' },
-            legend: { display: false }
-        },
-        scales: { y: { beginAtZero: true, max: 100, title: { display: true, text: 'Benefit Impact Score' } } }
+      responsive: true,
+      plugins: {
+        title: { display: true, text: 'Long-term Life Skills Benefits of Cultural Awareness' },
+        legend: { display: false }
+      },
+      scales: { y: { beginAtZero: true, max: 100, title: { display: true, text: 'Benefit Impact Score' } } }
     }
-});
-</script>
-
-<canvas id="culturalChart5"></canvas>
-<script>
-new Chart(document.getElementById('culturalChart5'), {
+  });
+  // Chart 5
+  new Chart(document.getElementById('culturalChart5'), {
     type: 'radar',
     data: {
-        labels: ['Generate Curiosity', 'Learn the Reasons', 'Open Your Perspective', 'Build Cross-Cultural Relationships', 'Engage with Global Issues'],
-        datasets: [{
-            label: 'GLOBE Framework Elements',
-            data: [80, 76, 82, 78, 74],
-            backgroundColor: 'rgba(54, 162, 235, 0.2)',
-            borderColor: '#36A2EB',
-            pointBackgroundColor: '#36A2EB'
-        }]
+      labels: ['Generate Curiosity', 'Learn the Reasons', 'Open Your Perspective', 'Build Cross-Cultural Relationships', 'Engage with Global Issues'],
+      datasets: [{
+        label: 'GLOBE Framework Elements',
+        data: [80, 76, 82, 78, 74],
+        backgroundColor: 'rgba(54, 162, 235, 0.2)',
+        borderColor: '#36A2EB',
+        pointBackgroundColor: '#36A2EB'
+      }]
     },
     options: {
-        responsive: true,
-        plugins: {
-            title: { display: true, text: 'GLOBE Framework Skill Distribution' }
-        },
-        scales: { r: { beginAtZero: true, max: 100 } }
+      responsive: true,
+      plugins: {
+        title: { display: true, text: 'GLOBE Framework Skill Distribution' }
+      },
+      scales: { r: { beginAtZero: true, max: 100 } }
     }
+  });
 });
 </script>
-```

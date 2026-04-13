@@ -156,9 +156,7 @@ Remember, the goal isn't to create children who are afraid of physical contact o
 **Life-Ready Parenting means your child won't face independent consent navigation for the first time at age 25—with romantic relationships, workplace dynamics, and social situations that require competence and mutual respect. They'll have already practiced the skills they need to handle whatever relationship opportunities life brings their way.**
 
 **This concludes our nine-day Life-Ready Parenting Season 2 series. We've covered essential skills from urban navigation to consent, each building the foundation for children who can face adult life with confidence, competence, and character. Thank you for joining us on this journey. Stay tuned for Season 3, where we'll explore even more practical skills for raising capable, resilient humans.**
-
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<script>
+`n<script>
 document.addEventListener('DOMContentLoaded', function() {
   // Chart 1: Consent Dependence Gap
   new Chart(document.getElementById('consentDependenceGapChart'), {

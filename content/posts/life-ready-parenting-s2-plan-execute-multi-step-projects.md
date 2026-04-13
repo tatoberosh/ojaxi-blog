@@ -27,6 +27,10 @@ The specific challenges children face in developing project planning skills incl
 - **Resource unawareness**: Children rarely consider what materials, tools, time, and help they will need before starting a project. They begin enthusiastically and then discover midway that they are missing a critical component, leading to abandonment or adult rescue.
 - **Timeline naivety**: Children have little sense of how long complex projects take, leading to unrealistic expectations and last-minute panic. They assume a project that requires three weekends can be completed in one afternoon, and when it cannot, they conclude that they are bad at projects rather than that their timeline was unrealistic.
 
+<div style="height: 400px; margin: 2rem 0;">
+  <canvas id="projectChart2"></canvas>
+</div>
+
 ## The Project Planning Protocol: Four Stages of Blueprint Mastery
 
 Teaching children to plan and execute multi-step projects requires a structured progression that builds executive function skills incrementally while providing the scaffolding children need to succeed at increasingly complex tasks. The protocol follows four stages that align with cognitive development milestones.
@@ -38,6 +42,10 @@ Teaching children to plan and execute multi-step projects requires a structured 
 **Stage Three: The Project Manager (Ages 9-12)**. This is where multi-step project execution truly develops. Children learn to manage projects that span multiple days or weeks, adjust their plans when things go wrong, and track progress against their timeline. The treehouse project was Sophie's Stage Three project. She created a detailed plan with twenty-three steps, a materials list that required three trips to the hardware store, and a timeline of twelve weekends. She tracked her progress on a wall chart, moving index cards from "to do" to "doing" to "done." When we discovered that the wood we had purchased was not long enough for the floor, she adjusted the plan, recalculated the materials, and revised the timeline. She experienced the frustration of steps that took three times longer than estimated and the satisfaction of steps that went better than expected. She learned that plans are not rigid scripts but living documents that evolve as the project unfolds.
 
 **Stage Four: The Independent Executor (Ages 12+)**. By this stage, teenagers can conceive, plan, and execute complex projects entirely independently, from initial concept through final delivery. They understand that project planning is not a one-time activity but an ongoing process of estimation, execution, monitoring, and adjustment. Teenagers at this stage learn to manage projects with multiple dependencies, coordinate with other people, manage budgets, and handle the emotional challenges of projects that go off track. They also learn to conduct post-project reviews: what went well, what did not, what they would do differently next time. This stage prepares them for the reality of adult professional life, where the ability to plan and execute complex projects is one of the most valued and most rewarded skills.
+
+<div style="height: 400px; margin: 2rem 0;">
+  <canvas id="projectChart1"></canvas>
+</div>
 
 ## The Treatcoin Integration: Rewarding Project Planning
 
@@ -53,6 +61,10 @@ Our Treatcoin system reinforces project planning behaviors that demonstrate grow
 
 The Treatcoin system for project planning has one essential rule: coins are awarded for the planning process, not the project outcome. A beautifully planned project that produces a mediocre result earns more coins than a beautiful result achieved without planning. The system rewards the development of executive function, not the production of impressive artifacts.
 
+<div style="height: 400px; margin: 2rem 0;">
+  <canvas id="projectChart3"></canvas>
+</div>
+
 ## The Long-term Life Skills Benefits
 
 The benefits of developing project planning and execution skills extend into every domain of adult life, creating compounding advantages that accumulate over decades.
@@ -64,6 +76,10 @@ The benefits of developing project planning and execution skills extend into eve
 **Personal goal achievement**: Adults who can plan and execute projects apply the same skills to personal goals: home improvement, event planning, financial management, and health programs. They do not abandon goals because they are overwhelmed. They break them into steps and execute systematically.
 
 **Leadership capacity**: The ability to plan and execute complex projects is one of the defining characteristics of effective leaders. Adults who developed this skill as children can organize teams, manage resources, and deliver results in professional and community settings.
+
+<div style="height: 400px; margin: 2rem 0;">
+  <canvas id="projectChart4"></canvas>
+</div>
 
 ## Common Implementation Challenges and Solutions
 
@@ -107,6 +123,10 @@ The framework that organizes our approach to teaching project planning and execu
 
 **T - Track Progress Visibly**: the monitoring skill of maintaining a visible record of what has been done and what remains. Children learn that visible progress is motivating and that invisible progress is indistinguishable from no progress.
 
+<div style="height: 400px; margin: 2rem 0;">
+  <canvas id="projectChart5"></canvas>
+</div>
+
 ## Conclusion: Building Project Planning Through Familiar Practice
 
 Teaching children to plan and execute multi-step projects is one of the most professionally valuable and cognitively empowering skills a parent can cultivate. It is also one of the most challenging, because it requires us to watch our children make planning mistakes, underestimate timelines, and produce results that are imperfect, and to resist the urge to take over and do it right ourselves. But the alternative is a generation of adults who face large tasks with paralysis, who cannot break complex goals into manageable steps, and who have never experienced the deep satisfaction of planning something difficult and seeing it through to completion.
@@ -119,119 +139,106 @@ Life-Ready Parenting is about equipping children with the skills they will need 
 
 Next week, we continue Season 2 with an exploration of developing children's cultural awareness and global perspective, examining how the ability to understand and appreciate diverse cultures builds empathy and global citizenship.
 
-```html
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<canvas id="projectChart1"></canvas>
 <script>
-new Chart(document.getElementById('projectChart1'), {
+document.addEventListener('DOMContentLoaded', function() {
+  // Chart 1
+  new Chart(document.getElementById('projectChart1'), {
     type: 'bar',
     data: {
-        labels: ['Ages 4-6', 'Ages 6-9', 'Ages 9-12', 'Ages 12+'],
-        datasets: [{
-            label: 'Project Planning Skill Level (%)',
-            data: [10, 30, 56, 80],
-            backgroundColor: ['#FFCE56', '#4BC0C0', '#FF6384', '#36A2EB']
-        }]
+      labels: ['Ages 4-6', 'Ages 6-9', 'Ages 9-12', 'Ages 12+'],
+      datasets: [{
+        label: 'Project Planning Skill Level (%)',
+        data: [10, 30, 56, 80],
+        backgroundColor: ['#FFCE56', '#4BC0C0', '#FF6384', '#36A2EB']
+      }]
     },
     options: {
-        responsive: true,
-        plugins: {
-            title: { display: true, text: 'Project Planning Skill Development by Age Stage' },
-            legend: { display: false }
-        },
-        scales: { y: { beginAtZero: true, max: 100, title: { display: true, text: 'Skill Proficiency (%)' } } }
+      responsive: true,
+      plugins: {
+        title: { display: true, text: 'Project Planning Skill Development by Age Stage' },
+        legend: { display: false }
+      },
+      scales: { y: { beginAtZero: true, max: 100, title: { display: true, text: 'Skill Proficiency (%)' } } }
     }
-});
-</script>
-
-<canvas id="projectChart2"></canvas>
-<script>
-new Chart(document.getElementById('projectChart2'), {
+  });
+  // Chart 2
+  new Chart(document.getElementById('projectChart2'), {
     type: 'doughnut',
     data: {
-        labels: ['Task Paralysis', 'Sequence Blindness', 'Resource Unawareness', 'Timeline Naivety'],
-        datasets: [{
-            data: [28, 24, 23, 25],
-            backgroundColor: ['#FF6384', '#36A2EB', '#FFCE56', '#4BC0C0']
-        }]
+      labels: ['Task Paralysis', 'Sequence Blindness', 'Resource Unawareness', 'Timeline Naivety'],
+      datasets: [{
+        data: [28, 24, 23, 25],
+        backgroundColor: ['#FF6384', '#36A2EB', '#FFCE56', '#4BC0C0']
+      }]
     },
     options: {
-        responsive: true,
-        plugins: {
-            title: { display: true, text: 'Primary Barriers to Project Planning' }
-        }
+      responsive: true,
+      plugins: {
+        title: { display: true, text: 'Primary Barriers to Project Planning' }
+      }
     }
-});
-</script>
-
-<canvas id="projectChart3"></canvas>
-<script>
-new Chart(document.getElementById('projectChart3'), {
+  });
+  // Chart 3
+  new Chart(document.getElementById('projectChart3'), {
     type: 'line',
     data: {
-        labels: ['Age 8', 'Age 10', 'Age 12', 'Age 14', 'Age 16', 'Age 18'],
-        datasets: [{
-            label: 'Multi-Step Projects Completed Per Year',
-            data: [1, 2.5, 4.8, 7.2, 9.5, 12.0],
-            borderColor: '#FFCE56',
-            tension: 0.3,
-            fill: false
-        }]
+      labels: ['Age 8', 'Age 10', 'Age 12', 'Age 14', 'Age 16', 'Age 18'],
+      datasets: [{
+        label: 'Multi-Step Projects Completed Per Year',
+        data: [1, 2.5, 4.8, 7.2, 9.5, 12.0],
+        borderColor: '#FFCE56',
+        tension: 0.3,
+        fill: false
+      }]
     },
     options: {
-        responsive: true,
-        plugins: {
-            title: { display: true, text: 'Growth in Annual Multi-Step Projects Completed Over Childhood' }
-        },
-        scales: { y: { beginAtZero: true, title: { display: true, text: 'Projects Per Year' } } }
+      responsive: true,
+      plugins: {
+        title: { display: true, text: 'Growth in Annual Multi-Step Projects Completed Over Childhood' }
+      },
+      scales: { y: { beginAtZero: true, title: { display: true, text: 'Projects Per Year' } } }
     }
-});
-</script>
-
-<canvas id="projectChart4"></canvas>
-<script>
-new Chart(document.getElementById('projectChart4'), {
+  });
+  // Chart 4
+  new Chart(document.getElementById('projectChart4'), {
     type: 'bar',
     data: {
-        labels: ['Professional Effectiveness', 'Academic Achievement', 'Personal Goals', 'Leadership Capacity'],
-        datasets: [{
-            label: 'Long-term Benefit Score',
-            data: [88, 84, 80, 86],
-            backgroundColor: ['#36A2EB', '#FF6384', '#4BC0C0', '#FFCE56']
-        }]
+      labels: ['Professional Effectiveness', 'Academic Achievement', 'Personal Goals', 'Leadership Capacity'],
+      datasets: [{
+        label: 'Long-term Benefit Score',
+        data: [88, 84, 80, 86],
+        backgroundColor: ['#36A2EB', '#FF6384', '#4BC0C0', '#FFCE56']
+      }]
     },
     options: {
-        responsive: true,
-        plugins: {
-            title: { display: true, text: 'Long-term Life Skills Benefits of Project Planning' },
-            legend: { display: false }
-        },
-        scales: { y: { beginAtZero: true, max: 100, title: { display: true, text: 'Benefit Impact Score' } } }
+      responsive: true,
+      plugins: {
+        title: { display: true, text: 'Long-term Life Skills Benefits of Project Planning' },
+        legend: { display: false }
+      },
+      scales: { y: { beginAtZero: true, max: 100, title: { display: true, text: 'Benefit Impact Score' } } }
     }
-});
-</script>
-
-<canvas id="projectChart5"></canvas>
-<script>
-new Chart(document.getElementById('projectChart5'), {
+  });
+  // Chart 5
+  new Chart(document.getElementById('projectChart5'), {
     type: 'radar',
     data: {
-        labels: ['Break It Down', 'List the Sequence', 'Understand Resources', 'Estimate Realistically', 'Plan Before Acting', 'Review and Adjust', 'Implement Systematically', 'Note the Lessons', 'Track Progress Visibly'],
-        datasets: [{
-            label: 'BLUEPRINT Framework Elements',
-            data: [82, 78, 74, 70, 85, 76, 80, 72, 75],
-            backgroundColor: 'rgba(255, 206, 86, 0.2)',
-            borderColor: '#FFCE56',
-            pointBackgroundColor: '#FFCE56'
-        }]
+      labels: ['Break It Down', 'List the Sequence', 'Understand Resources', 'Estimate Realistically', 'Plan Before Acting', 'Review and Adjust', 'Implement Systematically', 'Note the Lessons', 'Track Progress Visibly'],
+      datasets: [{
+        label: 'BLUEPRINT Framework Elements',
+        data: [82, 78, 74, 70, 85, 76, 80, 72, 75],
+        backgroundColor: 'rgba(255, 206, 86, 0.2)',
+        borderColor: '#FFCE56',
+        pointBackgroundColor: '#FFCE56'
+      }]
     },
     options: {
-        responsive: true,
-        plugins: {
-            title: { display: true, text: 'BLUEPRINT Framework Skill Distribution' }
-        },
-        scales: { r: { beginAtZero: true, max: 100 } }
+      responsive: true,
+      plugins: {
+        title: { display: true, text: 'BLUEPRINT Framework Skill Distribution' }
+      },
+      scales: { r: { beginAtZero: true, max: 100 } }
     }
+  });
 });
 </script>
-```

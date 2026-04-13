@@ -1,4 +1,4 @@
----
+﻿---
 title: "Developing Empathy and Understanding Others' Perspectives: Building Social Intelligence in Children"
 date: 2026-03-14T10:00:00-05:00
 draft: false
@@ -151,9 +151,7 @@ Remember, the goal isn't to eliminate all social challenges but to teach childre
 **Life-Ready Parenting means your child won't face independent social intelligence for the first time at age 25—with team dynamics, romantic relationships, or professional networking that require competence and empathy. They'll have already practiced the skills they need to handle whatever social situations life brings their way.**
 
 **Life-Ready Parenting Season 2 continues tomorrow!** We're wrapping up this week with a special post on building a growth mindset and embracing challenges. Don't miss it!
-
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<script>
+`n<script>
 document.addEventListener('DOMContentLoaded', function() {
   // Chart 1: Empathy Dependence Gap
   new Chart(document.getElementById('empathyDependenceGapChart'), {

@@ -1,7 +1,12 @@
 {
   "permissions": {
     "allow": [
-      "Bash(powershell *)"
+      "Bash(powershell *)",
+      "Bash(dir *)",
+      "Bash(select-object *)",
+      "Bash(type *)",
+      "Bash(timeout *)"
     ]
-  }
+  },
+  "$version": 3
 }

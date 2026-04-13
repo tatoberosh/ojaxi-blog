@@ -1,4 +1,4 @@
----
+﻿---
 title: "Planning a Simple Meal from Ingredients on Hand: Building Resourcefulness in Children"
 date: 2026-02-06T10:00:00-05:00
 draft: false
@@ -117,9 +117,7 @@ The key is patience, consistency, and understanding that resourcefulness is a sk
 Remember, the goal isn't to eliminate all resource assistance but to teach children that they can work with available resources with proper technique and awareness. When we take the time to help our children practice resourcefulness in safe, supportive environments, we build stronger individuals and support their development into self-sufficient adults who can navigate life's resource challenges with grace.
 
 **Life-Ready Parenting means your child won't face independent resource management for the first time at age 25—with budget constraints, limited pantry options, or life management challenges that require competence and confidence. They'll have already practiced the skills they need to handle whatever life brings their way.**
-
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<script>
+`n<script>
 document.addEventListener('DOMContentLoaded', function() {
   // Chart 1: Resourcefulness Dependence Gap
   new Chart(document.getElementById('resourcefulnessDependenceGapChart'), {

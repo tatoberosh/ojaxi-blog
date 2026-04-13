@@ -186,5 +186,3 @@ Focus on covering their needs, managing their wants, and consistently investing 
 *At Ojakee, we believe financial clarity empowers better parenting. Our tools are designed to help you navigate these tough decisions with data and confidence.*
 
 [→ Plan your family's financial future with Ojakee](https://ojakee.com)
-
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>

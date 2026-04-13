@@ -27,6 +27,10 @@ The specific challenges children face in developing digital boundary skills incl
 - **Design manipulation**: Digital platforms are intentionally designed to reduce friction and eliminate natural stopping points: auto-play videos, infinite scroll, and read receipts all work against boundary-setting by making disconnection feel like a social act rather than a personal choice.
 - **Parental inconsistency**: Parents often send mixed messages about digital boundaries, sometimes enforcing strict limits and sometimes allowing unlimited use, creating confusion about whether boundaries are real or negotiable.
 
+<div style="height: 400px; margin: 2rem 0;">
+  <canvas id="digitalChart2"></canvas>
+</div>
+
 ## The Digital Boundary Protocol: Four Stages of Online Limit Mastery
 
 Teaching children to set and maintain personal boundaries in digital spaces requires a structured progression that builds digital literacy and assertiveness skills incrementally while providing the support children need to navigate the social pressure that comes with boundary-setting. The protocol follows four stages that align with social and cognitive development.
@@ -38,6 +42,10 @@ Teaching children to set and maintain personal boundaries in digital spaces requ
 **Stage Three: The Boundary Enforcer (Ages 9-12)**. This is where digital boundary maintenance truly develops. Children learn to enforce their own boundaries independently, even when social pressure pushes them to abandon those boundaries. After the group chat incident, Ethan practiced the skills of boundary enforcement: he muted the group chat, then left it, then blocked a user who continued to message him privately. Each action felt uncomfortable because it carried social risk. But each action also felt empowering because it demonstrated that he had control over his digital experience. We introduced the concept of "boundary scripts": pre-written phrases that children can use when their boundaries are challenged. "I do not check my phone after 9 PM." "I do not share photos of myself online." "I am not comfortable with this conversation." Ethan practiced these scripts until they felt natural, and then he used them in real situations. He discovered that most people respect boundaries when they are stated clearly, and that the people who do not respect them are exactly the people he should not be interacting with.
 
 **Stage Four: The Digital Citizen (Ages 12+)**. By this stage, teenagers can set, communicate, and maintain comprehensive digital boundaries across multiple platforms and social contexts. They understand that digital boundaries are not just about safety but about well-being: protecting their time, attention, sleep, and mental health from the extractive design of digital platforms. Teenagers at this stage learn to conduct regular "digital boundary audits": reviewing their platform settings, assessing their usage patterns, identifying boundary violations, and making adjustments. They also learn to respect other people's digital boundaries, understanding that not responding immediately is not a personal slight, that declining to participate in a group conversation is a valid choice, and that everyone has the right to control their own digital experience. This stage prepares them for the reality of adult digital life, where boundary-setting is one of the most important skills for maintaining mental health in an always-connected world.
+
+<div style="height: 400px; margin: 2rem 0;">
+  <canvas id="digitalChart1"></canvas>
+</div>
 
 ## The Treatcoin Integration: Rewarding Digital Boundary Setting
 
@@ -53,6 +61,10 @@ Our Treatcoin system reinforces digital boundary behaviors that demonstrate grow
 
 The Treatcoin system for digital boundaries has one essential rule: coins are never awarded for simply following parental rules. The system rewards self-initiated boundary-setting and maintenance, creating a clear incentive structure that values internal motivation over external compliance.
 
+<div style="height: 400px; margin: 2rem 0;">
+  <canvas id="digitalChart3"></canvas>
+</div>
+
 ## The Long-term Life Skills Benefits
 
 The benefits of developing digital boundary-setting skills extend into every domain of adult life, creating compounding advantages that accumulate over decades.
@@ -64,6 +76,10 @@ The benefits of developing digital boundary-setting skills extend into every dom
 **Professional focus**: Adults who can set digital boundaries are more focused and productive at work because they are not constantly interrupted by notifications, social media, and messaging apps. They have learned to control their attention rather than surrendering it to platform design.
 
 **Relationship quality**: Digital boundaries improve relationships by ensuring that face-to-face interactions are not interrupted by devices, that partners' boundaries around digital sharing are respected, and that social media does not become a source of relationship conflict.
+
+<div style="height: 400px; margin: 2rem 0;">
+  <canvas id="digitalChart4"></canvas>
+</div>
 
 ## Common Implementation Challenges and Solutions
 
@@ -99,6 +115,10 @@ The framework that organizes our approach to teaching digital boundary-setting a
 
 **E - Evaluate Regularly**: the reflective skill of reviewing your digital boundaries periodically to ensure they are still serving your needs and adjusting them as your digital life evolves. Children learn that boundaries are not permanent but require ongoing attention and adjustment.
 
+<div style="height: 400px; margin: 2rem 0;">
+  <canvas id="digitalChart5"></canvas>
+</div>
+
 ## Conclusion: Building Digital Boundaries Through Familiar Practice
 
 Teaching children to set and maintain personal boundaries in digital spaces is one of the most health-protective and socially empowering skills a parent can cultivate. It is also one of the most challenging, because it requires us to navigate the tension between our children's social lives and their well-being, to trust that they can handle the social discomfort of boundary-setting, and to model the digital boundaries we want them to adopt. But the alternative is a generation of adults who are perpetually connected, perpetually distracted, and perpetually anxious, who have never learned to say no to the digital demands that consume their time and attention, and who experience the cumulative mental health damage of boundary-less digital life.
@@ -111,119 +131,106 @@ Life-Ready Parenting is about equipping children with the skills they will need 
 
 Next week, we continue Season 2 with an exploration of building self-motivation without external rewards, examining how the ability to generate internal drive builds sustained achievement and personal fulfillment.
 
-```html
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<canvas id="digitalChart1"></canvas>
 <script>
-new Chart(document.getElementById('digitalChart1'), {
+document.addEventListener('DOMContentLoaded', function() {
+  // Chart 1
+  new Chart(document.getElementById('digitalChart1'), {
     type: 'bar',
     data: {
-        labels: ['Ages 4-6', 'Ages 6-9', 'Ages 9-12', 'Ages 12+'],
-        datasets: [{
-            label: 'Digital Boundary Skill Level (%)',
-            data: [12, 32, 58, 82],
-            backgroundColor: ['#FF6384', '#36A2EB', '#FFCE56', '#4BC0C0']
-        }]
+      labels: ['Ages 4-6', 'Ages 6-9', 'Ages 9-12', 'Ages 12+'],
+      datasets: [{
+        label: 'Digital Boundary Skill Level (%)',
+        data: [12, 32, 58, 82],
+        backgroundColor: ['#FF6384', '#36A2EB', '#FFCE56', '#4BC0C0']
+      }]
     },
     options: {
-        responsive: true,
-        plugins: {
-            title: { display: true, text: 'Digital Boundary Skill Development by Age Stage' },
-            legend: { display: false }
-        },
-        scales: { y: { beginAtZero: true, max: 100, title: { display: true, text: 'Skill Proficiency (%)' } } }
+      responsive: true,
+      plugins: {
+        title: { display: true, text: 'Digital Boundary Skill Development by Age Stage' },
+        legend: { display: false }
+      },
+      scales: { y: { beginAtZero: true, max: 100, title: { display: true, text: 'Skill Proficiency (%)' } } }
     }
-});
-</script>
-
-<canvas id="digitalChart2"></canvas>
-<script>
-new Chart(document.getElementById('digitalChart2'), {
+  });
+  // Chart 2
+  new Chart(document.getElementById('digitalChart2'), {
     type: 'doughnut',
     data: {
-        labels: ['Boundary Invisibility', 'Social Pressure Amplification', 'Design Manipulation', 'Parental Inconsistency'],
-        datasets: [{
-            data: [26, 28, 24, 22],
-            backgroundColor: ['#FF6384', '#36A2EB', '#FFCE56', '#4BC0C0']
-        }]
+      labels: ['Boundary Invisibility', 'Social Pressure Amplification', 'Design Manipulation', 'Parental Inconsistency'],
+      datasets: [{
+        data: [26, 28, 24, 22],
+        backgroundColor: ['#FF6384', '#36A2EB', '#FFCE56', '#4BC0C0']
+      }]
     },
     options: {
-        responsive: true,
-        plugins: {
-            title: { display: true, text: 'Primary Barriers to Digital Boundary Setting' }
-        }
+      responsive: true,
+      plugins: {
+        title: { display: true, text: 'Primary Barriers to Digital Boundary Setting' }
+      }
     }
-});
-</script>
-
-<canvas id="digitalChart3"></canvas>
-<script>
-new Chart(document.getElementById('digitalChart3'), {
+  });
+  // Chart 3
+  new Chart(document.getElementById('digitalChart3'), {
     type: 'line',
     data: {
-        labels: ['Age 9', 'Age 11', 'Age 13', 'Age 15', 'Age 17', 'Age 18'],
-        datasets: [{
-            label: 'Self-Initiated Boundary Actions Per Week',
-            data: [0.2, 0.8, 2.0, 3.5, 5.0, 6.2],
-            borderColor: '#FFCE56',
-            tension: 0.3,
-            fill: false
-        }]
+      labels: ['Age 9', 'Age 11', 'Age 13', 'Age 15', 'Age 17', 'Age 18'],
+      datasets: [{
+        label: 'Self-Initiated Boundary Actions Per Week',
+        data: [0.2, 0.8, 2.0, 3.5, 5.0, 6.2],
+        borderColor: '#FFCE56',
+        tension: 0.3,
+        fill: false
+      }]
     },
     options: {
-        responsive: true,
-        plugins: {
-            title: { display: true, text: 'Growth in Weekly Self-Initiated Digital Boundary Actions Over Childhood' }
-        },
-        scales: { y: { beginAtZero: true, title: { display: true, text: 'Boundary Actions Per Week' } } }
+      responsive: true,
+      plugins: {
+        title: { display: true, text: 'Growth in Weekly Self-Initiated Digital Boundary Actions Over Childhood' }
+      },
+      scales: { y: { beginAtZero: true, title: { display: true, text: 'Boundary Actions Per Week' } } }
     }
-});
-</script>
-
-<canvas id="digitalChart4"></canvas>
-<script>
-new Chart(document.getElementById('digitalChart4'), {
+  });
+  // Chart 4
+  new Chart(document.getElementById('digitalChart4'), {
     type: 'bar',
     data: {
-        labels: ['Mental Health', 'Sleep Quality', 'Professional Focus', 'Relationship Quality'],
-        datasets: [{
-            label: 'Long-term Benefit Score',
-            data: [88, 91, 84, 82],
-            backgroundColor: ['#36A2EB', '#FF6384', '#4BC0C0', '#FFCE56']
-        }]
+      labels: ['Mental Health', 'Sleep Quality', 'Professional Focus', 'Relationship Quality'],
+      datasets: [{
+        label: 'Long-term Benefit Score',
+        data: [88, 91, 84, 82],
+        backgroundColor: ['#36A2EB', '#FF6384', '#4BC0C0', '#FFCE56']
+      }]
     },
     options: {
-        responsive: true,
-        plugins: {
-            title: { display: true, text: 'Long-term Life Skills Benefits of Digital Boundary Setting' },
-            legend: { display: false }
-        },
-        scales: { y: { beginAtZero: true, max: 100, title: { display: true, text: 'Benefit Impact Score' } } }
+      responsive: true,
+      plugins: {
+        title: { display: true, text: 'Long-term Life Skills Benefits of Digital Boundary Setting' },
+        legend: { display: false }
+      },
+      scales: { y: { beginAtZero: true, max: 100, title: { display: true, text: 'Benefit Impact Score' } } }
     }
-});
-</script>
-
-<canvas id="digitalChart5"></canvas>
-<script>
-new Chart(document.getElementById('digitalChart5'), {
+  });
+  // Chart 5
+  new Chart(document.getElementById('digitalChart5'), {
     type: 'radar',
     data: {
-        labels: ['Find Your Limits', 'Establish Clear Rules', 'Navigate Social Pressure', 'Control Your Settings', 'Evaluate Regularly'],
-        datasets: [{
-            label: 'FENCE Framework Elements',
-            data: [76, 80, 74, 82, 72],
-            backgroundColor: 'rgba(255, 99, 132, 0.2)',
-            borderColor: '#FF6384',
-            pointBackgroundColor: '#FF6384'
-        }]
+      labels: ['Find Your Limits', 'Establish Clear Rules', 'Navigate Social Pressure', 'Control Your Settings', 'Evaluate Regularly'],
+      datasets: [{
+        label: 'FENCE Framework Elements',
+        data: [76, 80, 74, 82, 72],
+        backgroundColor: 'rgba(255, 99, 132, 0.2)',
+        borderColor: '#FF6384',
+        pointBackgroundColor: '#FF6384'
+      }]
     },
     options: {
-        responsive: true,
-        plugins: {
-            title: { display: true, text: 'FENCE Framework Skill Distribution' }
-        },
-        scales: { r: { beginAtZero: true, max: 100 } }
+      responsive: true,
+      plugins: {
+        title: { display: true, text: 'FENCE Framework Skill Distribution' }
+      },
+      scales: { r: { beginAtZero: true, max: 100 } }
     }
+  });
 });
 </script>
-```

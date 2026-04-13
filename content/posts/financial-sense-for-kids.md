@@ -1,4 +1,4 @@
----
+﻿---
 title: "From Piggy Banks to Pixels: Cultivating Financial Wisdom in the Digital Age"
 date: 2025-11-15T12:00:00-05:00
 draft: false
@@ -28,9 +28,7 @@ For example, a child's $10 weekly allowance could be broken down as follows:
 <div style="height:400px; width:100%;">
   <canvas id="allowanceChart"></canvas>
 </div>
-
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<script>
+`n<script>
 document.addEventListener('DOMContentLoaded', function() {
   new Chart(document.getElementById('allowanceChart'), {
     type: 'doughnut',

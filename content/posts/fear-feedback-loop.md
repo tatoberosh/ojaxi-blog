@@ -1,4 +1,4 @@
----
+﻿---
 title: "The Fear Feedback Loop: Mapping Phobias, Avoidance Behaviors, and Exposure Therapy Milestones"
 date: 2025-12-11T10:00:00-05:00
 draft: false
@@ -209,9 +209,7 @@ The Fear Feedback Loop is not an unbreakable pattern—it's a mechanical process
 Remember, the goal isn't to eliminate all fears (which would be unhealthy), but to ensure that fears don't become limiting phobias. With patience, consistency, and the right data-driven approach, children can learn to face their fears with confidence, building the emotional strength that will serve them throughout their lives.
 
 The feedback loop can be broken. The question is not whether your child can overcome their fears, but how systematically and confidently you can guide them through the process.
-
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<script>
+`n<script>
 document.addEventListener('DOMContentLoaded', function() {
   // Chart 1: Fear Loop
   new Chart(document.getElementById('fearLoopChart'), {

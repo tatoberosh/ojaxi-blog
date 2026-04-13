@@ -154,9 +154,7 @@ Remember, the goal isn't to create children who expect disasters but to teach ch
 **Life-Ready Parenting means your child won't face emergency response for the first time at age 25—with accidents, medical emergencies, or natural disasters that require competence and calm action. They'll have already practiced the skills they need to handle whatever crisis situations life brings their way.**
 
 **Week 3 of Life-Ready Parenting Season 2 begins!** We're diving into advanced safety and independence skills that prepare children for real-world competence. Today we covered emergency confidence—tomorrow we'll explore teaching children how to assess personal safety risks intelligently. Stay tuned!
-
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<script>
+`n<script>
 document.addEventListener('DOMContentLoaded', function() {
   // Chart 1: Emergency Dependence Gap
   new Chart(document.getElementById('emergencyDependenceGapChart'), {

@@ -1,4 +1,4 @@
----
+﻿---
 title: "Handling Stress and Anxiety with Healthy Coping Strategies: Building Emotional Wellness in Children"
 date: 2026-03-11T10:00:00-05:00
 draft: false
@@ -154,9 +154,7 @@ Remember, the goal isn't to eliminate all stress but to teach children that they
 **Life-Ready Parenting means your child won't face independent stress management for the first time at age 25—with career pressure, relationship stress, or life demands that require competence and emotional wellness. They'll have already practiced the skills they need to handle whatever life brings their way.**
 
 **Life-Ready Parenting Season 2 continues tomorrow!** We're exploring how children can develop critical thinking skills for the digital age. Don't miss it!
-
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<script>
+`n<script>
 document.addEventListener('DOMContentLoaded', function() {
   // Chart 1: Stress Management Dependence Gap
   new Chart(document.getElementById('stressManagementDependenceGapChart'), {

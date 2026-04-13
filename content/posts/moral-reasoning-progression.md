@@ -1,4 +1,4 @@
----
+﻿---
 title: "Moral Reasoning Progression: Stages of Ethical Development — And How to Scaffold Conversations"
 date: 2025-12-12T10:00:00-05:00
 draft: false
@@ -187,9 +187,7 @@ Moral reasoning development is not a race—it's a gradual progression that requ
 The goal is not to create a child who simply follows rules, but one who can think critically about right and wrong, consider the impact of their actions on others, and make ethical decisions even when no one is watching. This is the foundation of character that will guide them throughout their lives.
 
 Remember, we're not just shaping behavior—we're nurturing the ethical reasoning systems that will guide your child's decisions long after they've left your home. The conversations you have today about fairness, justice, and how to treat others are investments in the person they'll become tomorrow.
-
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<script>
+`n<script>
 document.addEventListener('DOMContentLoaded', function() {
   // Chart 1: Kohlberg's Stages
   new Chart(document.getElementById('kohlbergStagesChart'), {

@@ -154,9 +154,7 @@ Remember, the goal isn't to create perfect chefs who never burn food but to teac
 **Life-Ready Parenting means your child won't face independent meal preparation for the first time at age 25—with grocery budgeting, nutritional planning, or daily cooking that require competence and creativity. They'll have already practiced the skills they need to prepare whatever healthy meals serve their bodies.**
 
 **Week 2 of Life-Ready Parenting Season 2 continues!** We're building advanced independence skills that prepare children for real-world self-sufficiency. Today we covered cooking from scratch—tomorrow we'll explore teaching children how to develop comfort with solitude and alone time. Stay tuned!
-
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<script>
+`n<script>
 document.addEventListener('DOMContentLoaded', function() {
   // Chart 1: Cooking Dependence Gap
   new Chart(document.getElementById('cookingDependenceGapChart'), {

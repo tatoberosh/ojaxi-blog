@@ -32,6 +32,10 @@ The gap between the financial skills children need and the financial education t
 
 - **Parents lack confidence in their own financial knowledge**: Many parents feel unqualified to teach financial skills because they struggle with their own financial management. The Ohio State study found that 56 percent of parents rated their own financial literacy as below average, creating a cycle where financially uncertain parents raise financially uncertain children. This lack of confidence prevents parents from initiating the conversations their children desperately need.
 
+<div style="height: 400px; margin: 2rem 0;">
+  <canvas id="financialDependenceGapCausesChart"></canvas>
+</div>
+
 ## The Budget Protocol: Four Stages of Financial Mastery
 
 Teaching children to budget and track expenses is a progressive curriculum that builds complexity as children mature. The Budget Protocol outlines four stages, each introducing age-appropriate financial concepts and practical skills.
@@ -52,6 +56,10 @@ Pre-teens develop the capacity to manage multiple budget categories over longer 
 
 Teenagers should be capable of managing a comprehensive personal budget that mirrors adult financial planning. Introduce concepts such as percentage-based budgeting, emergency funds, investment basics, and charitable giving strategies. Encourage teenagers to earn income through age-appropriate work, such as babysitting, lawn care, or tutoring, and to budget this income independently. Teach them to compare prices, evaluate value, and resist impulse purchases. Discuss real family financial decisions, such as comparing insurance plans, evaluating major purchases, or planning a family vacation budget. Teenagers should be able to create and maintain a detailed budget, track all income and expenses, identify trends, and make informed adjustments to achieve their financial goals.
 
+<div style="height: 400px; margin: 2rem 0;">
+  <canvas id="budgetingCompetencyChart"></canvas>
+</div>
+
 ## The Treatcoin Integration: Rewarding Financial Responsibility
 
 The Treatcoin system reinforces financial learning by rewarding children for demonstrating budgeting and expense tracking behaviors. Here is how financial responsibility maps onto the four reward tiers:
@@ -64,6 +72,10 @@ The Treatcoin system reinforces financial learning by rewarding children for dem
 
 **Five Coins: Financial Innovation** - The highest financial reward goes to children who demonstrate creative financial thinking, such as finding ways to earn additional income, negotiating a better price on a desired purchase, creating a budget system that helps the whole family, or teaching financial skills to younger siblings. When Ethan created a neighborhood pet-sitting service, developed a pricing structure, tracked his business income and expenses separately, and presented a quarterly profit report, he earned five Treatcoins for financial innovation.
 
+<div style="height: 400px; margin: 2rem 0;">
+  <canvas id="budgetTreatcoinDistributionChart"></canvas>
+</div>
+
 ## The Long-term Life Skills Benefits
 
 The benefits of teaching children to budget and track expenses extend far beyond childhood money management. These skills form the foundation for financial independence and responsible decision-making throughout life.
@@ -75,6 +87,10 @@ The benefits of teaching children to budget and track expenses extend far beyond
 **Improved impulse control and delayed gratification**: Budgeting inherently requires choosing between immediate desires and longer-term goals. Children who practice budgeting learn to pause before purchasing, evaluate whether an item fits their plan, and delay gratification when necessary. This skill transfers to many other areas of life, from academic study to health decisions to relationship choices.
 
 **Greater awareness of value and resource allocation**: Children who budget learn to distinguish between price and value, understanding that the cheapest option is not always the best and that the most expensive option is rarely necessary. They develop the ability to evaluate trade-offs, prioritize spending, and allocate limited resources to maximize satisfaction. This awareness serves them in every financial decision they will make throughout their lives.
+
+<div style="height: 400px; margin: 2rem 0;">
+  <canvas id="financialDecisionMakingOverTimeChart"></canvas>
+</div>
 
 ## Common Implementation Challenges and Solutions
 
@@ -126,6 +142,10 @@ The TRACK Framework provides a comprehensive structure for teaching children to 
 
 **K - Keep Reviewing and Adjusting**: A budget is not a set-it-and-forget-it document. Children should review their budget performance regularly, comparing actual spending to planned spending, identifying patterns, and making adjustments for the next period. This review process transforms budgeting from a static exercise into a dynamic learning system. Each review makes the next budget more accurate and more effective.
 
+<div style="height: 400px; margin: 2rem 0;">
+  <canvas id="trackFrameworkSkillDevelopmentChart"></canvas>
+</div>
+
 ## Conclusion: Building Financial Confidence Through Familiar Practice
 
 Teaching children to budget and track expenses is not about creating miniature accountants. It is about creating confident, capable individuals who understand that money is a tool to be managed intentionally, not a mystery to be feared or a resource to be wasted. Every allowance payment, every shopping trip, every savings goal is an opportunity to practice these skills in low-stakes environments so that when the stakes are high, children have the framework and confidence to manage their finances responsibly.
@@ -135,148 +155,154 @@ The most powerful financial tool I have given my children is not money but a sys
 Life-Ready Parenting is not about providing children with everything they want. It is about equipping them with the skills, frameworks, and discipline to manage resources wisely and achieve their goals through intentional planning. When we teach children to budget rather than simply spend, we give them the gift of financial independence that will serve them for the rest of their lives.
 
 This article is part of the Life-Ready Parenting Season 2 series. Tomorrow, we will explore Developing Patience and Delayed Gratification Skills, another essential life skill that children can begin developing today. Follow along as we continue building practical frameworks for raising capable, confident, life-ready children.
-
-```chartjs
-{
-  "type": "bar",
-  "data": {
-    "labels": ["Ages 4-6", "Ages 6-9", "Ages 9-12", "Ages 12+"],
-    "datasets": [{
-      "label": "Budgeting Competency Level (%)",
-      "data": [20, 42, 68, 88],
-      "backgroundColor": ["#FF6384", "#36A2EB", "#FFCE56", "#4BC0C0"]
-    }]
-  },
-  "options": {
-    "responsive": true,
-    "plugins": {
-      "title": {
-        "display": true,
-        "text": "Budgeting Competency by Age Stage"
-      }
+`n<script>
+document.addEventListener('DOMContentLoaded', function() {
+  // Chart 1: Budgeting Competency by Age Stage
+  new Chart(document.getElementById('budgetingCompetencyChart'), {
+    type: 'bar',
+    data: {
+      labels: ['Ages 4-6', 'Ages 6-9', 'Ages 9-12', 'Ages 12+'],
+      datasets: [{
+        label: 'Budgeting Competency Level (%)',
+        data: [20, 42, 68, 88],
+        backgroundColor: ['#e74c3c', '#3498db', '#2ecc71', '#f39c12']
+      }]
     },
-    "scales": {
-      "y": {
-        "beginAtZero": true,
-        "max": 100
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: {
+        title: {
+          display: true,
+          text: 'Budgeting Competency by Age Stage'
+        }
+      },
+      scales: {
+        y: {
+          beginAtZero: true,
+          max: 100
+        }
       }
     }
-  }
-}
-```
+  });
 
-```chartjs
-{
-  "type": "doughnut",
-  "data": {
-    "labels": ["Money Taboo", "Allowance Without Accountability", "Digital Payment Obscurity", "Parent Financial Confidence Gap"],
-    "datasets": [{
-      "data": [30, 28, 24, 18],
-      "backgroundColor": ["#FF6384", "#36A2EB", "#FFCE56", "#4BC0C0"]
-    }]
-  },
-  "options": {
-    "responsive": true,
-    "plugins": {
-      "title": {
-        "display": true,
-        "text": "Primary Causes of the Financial Dependence Gap"
+  // Chart 2: Primary Causes of the Financial Dependence Gap
+  new Chart(document.getElementById('financialDependenceGapCausesChart'), {
+    type: 'doughnut',
+    data: {
+      labels: ['Money Taboo', 'Allowance Without Accountability', 'Digital Payment Obscurity', 'Parent Financial Confidence Gap'],
+      datasets: [{
+        data: [30, 28, 24, 18],
+        backgroundColor: ['#e74c3c', '#3498db', '#2ecc71', '#f39c12']
+      }]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: {
+        title: {
+          display: true,
+          text: 'Primary Causes of the Financial Dependence Gap'
+        },
+        legend: { position: 'bottom' }
       }
     }
-  }
-}
-```
+  });
 
-```chartjs
-{
-  "type": "line",
-  "data": {
-    "labels": ["Age 6", "Age 8", "Age 10", "Age 12", "Age 14", "Age 16"],
-    "datasets": [{
-      "label": "With Budget Training",
-      "data": [12, 30, 52, 70, 83, 92],
-      "borderColor": "#4BC0C0",
-      "fill": false
-    }, {
-      "label": "Without Budget Training",
-      "data": [8, 14, 20, 28, 35, 40],
-      "borderColor": "#FF6384",
-      "fill": false
-    }]
-  },
-  "options": {
-    "responsive": true,
-    "plugins": {
-      "title": {
-        "display": true,
-        "text": "Financial Decision-Making Score Over Time"
-      }
+  // Chart 3: Financial Decision-Making Score Over Time
+  new Chart(document.getElementById('financialDecisionMakingOverTimeChart'), {
+    type: 'line',
+    data: {
+      labels: ['Age 6', 'Age 8', 'Age 10', 'Age 12', 'Age 14', 'Age 16'],
+      datasets: [{
+        label: 'With Budget Training',
+        data: [12, 30, 52, 70, 83, 92],
+        borderColor: '#3498db',
+        backgroundColor: 'rgba(52, 152, 219, 0.1)',
+        fill: true
+      }, {
+        label: 'Without Budget Training',
+        data: [8, 14, 20, 28, 35, 40],
+        borderColor: '#e74c3c',
+        backgroundColor: 'rgba(231, 76, 60, 0.1)',
+        fill: true
+      }]
     },
-    "scales": {
-      "y": {
-        "beginAtZero": true,
-        "max": 100
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: {
+        title: {
+          display: true,
+          text: 'Financial Decision-Making Score Over Time'
+        }
+      },
+      scales: {
+        y: {
+          beginAtZero: true,
+          max: 100
+        }
       }
     }
-  }
-}
-```
+  });
 
-```chartjs
-{
-  "type": "bar",
-  "data": {
-    "labels": ["1 Coin: Tracking", "2 Coins: Budget Adherence", "3 Coins: Savings Goal", "5 Coins: Innovation"],
-    "datasets": [{
-      "label": "Average Coins Earned Per Month",
-      "data": [14, 6, 3, 1],
-      "backgroundColor": ["#36A2EB", "#4BC0C0", "#FFCE56", "#FF6384"]
-    }]
-  },
-  "options": {
-    "responsive": true,
-    "plugins": {
-      "title": {
-        "display": true,
-        "text": "Treatcoin Financial Reward Distribution"
-      }
+  // Chart 4: Treatcoin Financial Reward Distribution
+  new Chart(document.getElementById('budgetTreatcoinDistributionChart'), {
+    type: 'bar',
+    data: {
+      labels: ['1 Coin: Tracking', '2 Coins: Budget Adherence', '3 Coins: Savings Goal', '5 Coins: Innovation'],
+      datasets: [{
+        label: 'Average Coins Earned Per Month',
+        data: [14, 6, 3, 1],
+        backgroundColor: ['#3498db', '#2ecc71', '#f39c12', '#e74c3c']
+      }]
     },
-    "indexAxis": "y"
-  }
-}
-```
-
-```chartjs
-{
-  "type": "radar",
-  "data": {
-    "labels": ["Income Calculation", "Goal Setting", "Category Allocation", "Transaction Capture", "Budget Review"],
-    "datasets": [{
-      "label": "After 6 Months",
-      "data": [55, 50, 48, 62, 40],
-      "borderColor": "#36A2EB",
-      "backgroundColor": "rgba(54, 162, 235, 0.2)"
-    }, {
-      "label": "After 12 Months",
-      "data": [82, 78, 80, 88, 72],
-      "borderColor": "#4BC0C0",
-      "backgroundColor": "rgba(75, 192, 192, 0.2)"
-    }]
-  },
-  "options": {
-    "responsive": true,
-    "plugins": {
-      "title": {
-        "display": true,
-        "text": "TRACK Framework Skill Development Over Time"
-      }
-    },
-    "scales": {
-      "r": {
-        "beginAtZero": true,
-        "max": 100
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      indexAxis: 'y',
+      plugins: {
+        title: {
+          display: true,
+          text: 'Treatcoin Financial Reward Distribution'
+        }
       }
     }
-  }
-}
-```
+  });
+
+  // Chart 5: TRACK Framework Skill Development Over Time
+  new Chart(document.getElementById('trackFrameworkSkillDevelopmentChart'), {
+    type: 'radar',
+    data: {
+      labels: ['Income Calculation', 'Goal Setting', 'Category Allocation', 'Transaction Capture', 'Budget Review'],
+      datasets: [{
+        label: 'After 6 Months',
+        data: [55, 50, 48, 62, 40],
+        borderColor: '#3498db',
+        backgroundColor: 'rgba(52, 152, 219, 0.2)'
+      }, {
+        label: 'After 12 Months',
+        data: [82, 78, 80, 88, 72],
+        borderColor: '#2ecc71',
+        backgroundColor: 'rgba(46, 204, 113, 0.2)'
+      }]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: {
+        title: {
+          display: true,
+          text: 'TRACK Framework Skill Development Over Time'
+        }
+      },
+      scales: {
+        r: {
+          beginAtZero: true,
+          max: 100
+        }
+      }
+    }
+  });
+});
+</script>

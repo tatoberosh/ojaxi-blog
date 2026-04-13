@@ -1,4 +1,4 @@
----
+﻿---
 title: "Dealing with a Minor Injury (Cleaning a Scrape): Building Self-Care Independence in Children"
 date: 2026-02-05T10:00:00-05:00
 draft: false
@@ -117,9 +117,7 @@ The key is patience, consistency, and understanding that self-care is a skill th
 Remember, the goal isn't to eliminate all healthcare assistance but to teach children that they can care for minor injuries with proper technique and awareness. When we take the time to help our children practice self-care in safe, supportive environments, we build stronger individuals and support their development into self-sufficient adults who can navigate life's health challenges with grace.
 
 **Life-Ready Parenting means your child won't face independent self-care for the first time at age 25—with minor injuries, basic healthcare, or health management that requires competence and confidence. They'll have already practiced the skills they need to handle whatever life brings their way.**
-
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<script>
+`n<script>
 document.addEventListener('DOMContentLoaded', function() {
   // Chart 1: Self-Care Dependence Gap
   new Chart(document.getElementById('selfCareDependenceGapChart'), {

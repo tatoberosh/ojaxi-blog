@@ -1,4 +1,4 @@
----
+﻿---
 title: "Handling Money and Making Change: Building Financial Independence in Children"
 date: 2026-02-09T10:00:00-05:00
 draft: false
@@ -117,9 +117,7 @@ The key is patience, consistency, and understanding that financial management is
 Remember, the goal isn't to eliminate all money assistance but to teach children that they can manage their finances with proper technique and awareness. When we take the time to help our children practice financial management in safe, supportive environments, we build stronger individuals and support their development into self-sufficient adults who can navigate life's financial challenges with grace.
 
 **Life-Ready Parenting means your child won't face independent money management for the first time at age 25—with work technology, personal finances, or financial wellness challenges that require competence and confidence. They'll have already practiced the skills they need to handle whatever life brings their way.**
-
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<script>
+`n<script>
 document.addEventListener('DOMContentLoaded', function() {
   // Chart 1: Financial Dependence Gap
   new Chart(document.getElementById('financialDependenceGapChart'), {

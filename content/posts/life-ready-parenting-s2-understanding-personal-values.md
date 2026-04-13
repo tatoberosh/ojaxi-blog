@@ -27,6 +27,10 @@ The specific challenges children face in developing values clarity and authentic
 - **Values conflict confusion**: When children's personal values conflict with their family's values or their peer group's values, they lack the framework to navigate the tension. They either rebel completely or conform completely, with little experience of thoughtful negotiation.
 - **Authenticity fear**: Children who begin to act on their own values often face social consequences, including teasing, exclusion, or criticism. The fear of these consequences leads many children to abandon their values in favor of social safety, creating a pattern of inauthentic living that becomes habitual.
 
+<div style="height: 400px; margin: 2rem 0;">
+  <canvas id="valuesChart2"></canvas>
+</div>
+
 ## The Values Protocol: Four Stages of Authentic Living Mastery
 
 Teaching children to identify their personal values and live authentically requires a structured progression that builds self-knowledge incrementally while providing the emotional support children need to act on their convictions. The protocol follows four stages that align with identity development milestones.
@@ -38,6 +42,10 @@ Teaching children to identify their personal values and live authentically requi
 **Stage Three: The Values Practitioner (Ages 9-12)**. This is where values-based living truly begins. Children learn to make decisions based on their identified values, even when those decisions are socially costly. After the birthday party incident, Ethan and I created a "values decision matrix": before making a choice in a socially challenging situation, he would ask himself three questions: "What does my values say I should do? What am I afraid will happen if I do that? Is the fear bigger than the values?" We practiced with hypothetical scenarios and then with real ones. Ethan began to make small values-congruent choices: sitting with a kid who was eating alone at lunch, telling a friend that a joke was not funny, admitting when he was wrong instead of defending himself. Each choice was difficult. Each choice built his values muscle.
 
 **Stage Four: The Values Advocate (Ages 12+)**. By this stage, teenagers can articulate their values clearly, make decisions consistently aligned with them, and advocate for their values in social and institutional settings. They understand that living authentically does not mean being rigid or judgmental of others who hold different values. Teenagers at this stage learn to navigate values conflicts with nuance: they can hold firm to their own convictions while respecting others' right to different beliefs. They learn to identify institutions and systems that conflict with their values and to make informed decisions about how to engage with or distance themselves from those systems. This stage prepares them for the reality of adult life, where values clarity is the compass that guides career choices, relationship decisions, and civic engagement.
+
+<div style="height: 400px; margin: 2rem 0;">
+  <canvas id="valuesChart1"></canvas>
+</div>
 
 ## The Treatcoin Integration: Rewarding Values-Based Living
 
@@ -53,6 +61,10 @@ Our Treatcoin system reinforces values identification and authentic living behav
 
 The Treatcoin system for values-based living has one essential rule: coins are never awarded for simply stating a value. The system rewards the alignment between stated values and actual behavior, creating a clear incentive structure that values authenticity over aspirational rhetoric.
 
+<div style="height: 400px; margin: 2rem 0;">
+  <canvas id="valuesChart3"></canvas>
+</div>
+
 ## The Long-term Life Skills Benefits
 
 The benefits of developing values clarity and authentic living skills extend into every domain of adult life, creating compounding advantages that accumulate over decades.
@@ -64,6 +76,10 @@ The benefits of developing values clarity and authentic living skills extend int
 **Moral courage**: Adults with strong values clarity are more likely to speak up against injustice, report unethical behavior, and take principled stands even when doing so is personally costly. They have practiced the muscle of values-congruent action throughout their lives.
 
 **Psychological well-being**: The alignment between values and actions is one of the strongest predictors of psychological well-being. Adults who live authentically experience less internal conflict, less cognitive dissonance, and less of the chronic low-grade anxiety that comes from living in ways that feel false.
+
+<div style="height: 400px; margin: 2rem 0;">
+  <canvas id="valuesChart4"></canvas>
+</div>
 
 ## Common Implementation Challenges and Solutions
 
@@ -101,6 +117,10 @@ The framework that organizes our approach to teaching values clarity and authent
 
 **S - Sustain Authenticity Over Time**: The long-term discipline of maintaining alignment between values and actions across changing circumstances. Children learn that authenticity is not a one-time achievement but an ongoing practice of course correction.
 
+<div style="height: 400px; margin: 2rem 0;">
+  <canvas id="valuesChart5"></canvas>
+</div>
+
 ## Conclusion: Building Authentic Living Through Values Practice
 
 Teaching children to identify their personal values and live authentically is one of the most profound investments a parent can make in their child's future well-being. It is also one of the most challenging, because it requires us to create space for our children to develop values that may differ from our own, and to support them when their values-congruent choices lead to social difficulty. But the alternative is a generation of adults who do not know what they believe, who make decisions based on fear rather than conviction, and who experience the chronic dissatisfaction that comes from living lives designed by other people's expectations.
@@ -113,119 +133,106 @@ Life-Ready Parenting is about equipping children with the internal compass they 
 
 Next week, we continue Season 2 with an exploration of developing children's comfort with ambiguity and uncertainty, examining how the ability to tolerate not-knowing builds cognitive flexibility and creative problem-solving.
 
-```html
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<canvas id="valuesChart1"></canvas>
 <script>
-new Chart(document.getElementById('valuesChart1'), {
+document.addEventListener('DOMContentLoaded', function() {
+  // Chart 1
+  new Chart(document.getElementById('valuesChart1'), {
     type: 'bar',
     data: {
-        labels: ['Ages 4-6', 'Ages 6-9', 'Ages 9-12', 'Ages 12+'],
-        datasets: [{
-            label: 'Values Clarity Skill Level (%)',
-            data: [12, 32, 58, 82],
-            backgroundColor: ['#4BC0C0', '#FF6384', '#FFCE56', '#36A2EB']
-        }]
+      labels: ['Ages 4-6', 'Ages 6-9', 'Ages 9-12', 'Ages 12+'],
+      datasets: [{
+        label: 'Values Clarity Skill Level (%)',
+        data: [12, 32, 58, 82],
+        backgroundColor: ['#4BC0C0', '#FF6384', '#FFCE56', '#36A2EB']
+      }]
     },
     options: {
-        responsive: true,
-        plugins: {
-            title: { display: true, text: 'Values Clarity and Authentic Living Skill Development by Age Stage' },
-            legend: { display: false }
-        },
-        scales: { y: { beginAtZero: true, max: 100, title: { display: true, text: 'Skill Proficiency (%)' } } }
+      responsive: true,
+      plugins: {
+        title: { display: true, text: 'Values Clarity and Authentic Living Skill Development by Age Stage' },
+        legend: { display: false }
+      },
+      scales: { y: { beginAtZero: true, max: 100, title: { display: true, text: 'Skill Proficiency (%)' } } }
     }
-});
-</script>
-
-<canvas id="valuesChart2"></canvas>
-<script>
-new Chart(document.getElementById('valuesChart2'), {
+  });
+  // Chart 2
+  new Chart(document.getElementById('valuesChart2'), {
     type: 'doughnut',
     data: {
-        labels: ['Values Invisibility', 'Peer Pressure Amplification', 'Values Conflict Confusion', 'Authenticity Fear'],
-        datasets: [{
-            data: [26, 28, 20, 26],
-            backgroundColor: ['#FF6384', '#36A2EB', '#FFCE56', '#4BC0C0']
-        }]
+      labels: ['Values Invisibility', 'Peer Pressure Amplification', 'Values Conflict Confusion', 'Authenticity Fear'],
+      datasets: [{
+        data: [26, 28, 20, 26],
+        backgroundColor: ['#FF6384', '#36A2EB', '#FFCE56', '#4BC0C0']
+      }]
     },
     options: {
-        responsive: true,
-        plugins: {
-            title: { display: true, text: 'Primary Barriers to Values-Based Living' }
-        }
+      responsive: true,
+      plugins: {
+        title: { display: true, text: 'Primary Barriers to Values-Based Living' }
+      }
     }
-});
-</script>
-
-<canvas id="valuesChart3"></canvas>
-<script>
-new Chart(document.getElementById('valuesChart3'), {
+  });
+  // Chart 3
+  new Chart(document.getElementById('valuesChart3'), {
     type: 'line',
     data: {
-        labels: ['Age 8', 'Age 10', 'Age 12', 'Age 14', 'Age 16', 'Age 18'],
-        datasets: [{
-            label: 'Values-Congruent Decisions Per Week',
-            data: [0.8, 1.5, 3.2, 4.8, 6.1, 7.5],
-            borderColor: '#FFCE56',
-            tension: 0.3,
-            fill: false
-        }]
+      labels: ['Age 8', 'Age 10', 'Age 12', 'Age 14', 'Age 16', 'Age 18'],
+      datasets: [{
+        label: 'Values-Congruent Decisions Per Week',
+        data: [0.8, 1.5, 3.2, 4.8, 6.1, 7.5],
+        borderColor: '#FFCE56',
+        tension: 0.3,
+        fill: false
+      }]
     },
     options: {
-        responsive: true,
-        plugins: {
-            title: { display: true, text: 'Growth in Weekly Values-Congruent Decisions Over Childhood' }
-        },
-        scales: { y: { beginAtZero: true, title: { display: true, text: 'Values-Congruent Decisions Per Week' } } }
+      responsive: true,
+      plugins: {
+        title: { display: true, text: 'Growth in Weekly Values-Congruent Decisions Over Childhood' }
+      },
+      scales: { y: { beginAtZero: true, title: { display: true, text: 'Values-Congruent Decisions Per Week' } } }
     }
-});
-</script>
-
-<canvas id="valuesChart4"></canvas>
-<script>
-new Chart(document.getElementById('valuesChart4'), {
+  });
+  // Chart 4
+  new Chart(document.getElementById('valuesChart4'), {
     type: 'bar',
     data: {
-        labels: ['Career Fulfillment', 'Relationship Depth', 'Moral Courage', 'Psychological Well-being'],
-        datasets: [{
-            label: 'Long-term Benefit Score',
-            data: [85, 88, 76, 90],
-            backgroundColor: ['#36A2EB', '#FF6384', '#4BC0C0', '#FFCE56']
-        }]
+      labels: ['Career Fulfillment', 'Relationship Depth', 'Moral Courage', 'Psychological Well-being'],
+      datasets: [{
+        label: 'Long-term Benefit Score',
+        data: [85, 88, 76, 90],
+        backgroundColor: ['#36A2EB', '#FF6384', '#4BC0C0', '#FFCE56']
+      }]
     },
     options: {
-        responsive: true,
-        plugins: {
-            title: { display: true, text: 'Long-term Life Skills Benefits of Values Clarity' },
-            legend: { display: false }
-        },
-        scales: { y: { beginAtZero: true, max: 100, title: { display: true, text: 'Benefit Impact Score' } } }
+      responsive: true,
+      plugins: {
+        title: { display: true, text: 'Long-term Life Skills Benefits of Values Clarity' },
+        legend: { display: false }
+      },
+      scales: { y: { beginAtZero: true, max: 100, title: { display: true, text: 'Benefit Impact Score' } } }
     }
-});
-</script>
-
-<canvas id="valuesChart5"></canvas>
-<script>
-new Chart(document.getElementById('valuesChart5'), {
+  });
+  // Chart 5
+  new Chart(document.getElementById('valuesChart5'), {
     type: 'radar',
     data: {
-        labels: ['Clarify Core Values', 'Observe Values in Action', 'Make Values-Congruent Choices', 'Process Values Conflicts', 'Advocate for Values', 'Sustain Authenticity'],
-        datasets: [{
-            label: 'COMPASS Framework Elements',
-            data: [78, 74, 80, 72, 76, 75],
-            backgroundColor: 'rgba(75, 192, 192, 0.2)',
-            borderColor: '#4BC0C0',
-            pointBackgroundColor: '#4BC0C0'
-        }]
+      labels: ['Clarify Core Values', 'Observe Values in Action', 'Make Values-Congruent Choices', 'Process Values Conflicts', 'Advocate for Values', 'Sustain Authenticity'],
+      datasets: [{
+        label: 'COMPASS Framework Elements',
+        data: [78, 74, 80, 72, 76, 75],
+        backgroundColor: 'rgba(75, 192, 192, 0.2)',
+        borderColor: '#4BC0C0',
+        pointBackgroundColor: '#4BC0C0'
+      }]
     },
     options: {
-        responsive: true,
-        plugins: {
-            title: { display: true, text: 'COMPASS Framework Skill Distribution' }
-        },
-        scales: { r: { beginAtZero: true, max: 100 } }
+      responsive: true,
+      plugins: {
+        title: { display: true, text: 'COMPASS Framework Skill Distribution' }
+      },
+      scales: { r: { beginAtZero: true, max: 100 } }
     }
+  });
 });
 </script>
-```

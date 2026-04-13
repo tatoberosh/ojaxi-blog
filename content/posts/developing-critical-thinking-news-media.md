@@ -156,9 +156,7 @@ Remember, the goal isn't to create children who distrust everything they read bu
 **Life-Ready Parenting means your child won't face independent media analysis for the first time at age 25—with financial decisions, voting choices, and health information that require competence and critical thinking. They'll have already practiced the skills they need to handle whatever information challenges life brings their way.**
 
 **Tomorrow in our Life-Ready Parenting Season 2 series, we'll explore how teaching children basic home maintenance and repair skills builds the practical competence they need for independent living. See you on March 24th.**
-
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<script>
+`n<script>
 document.addEventListener('DOMContentLoaded', function() {
   // Chart 1: Media Dependence Gap
   new Chart(document.getElementById('mediaDependenceGapChart'), {

@@ -1,4 +1,4 @@
----
+﻿---
 title: "The Allowance Algorithm: A Modern Parent's Guide to Chores, Money, and Financial Literacy"
 date: 2025-11-22
 draft: false
@@ -85,9 +85,7 @@ Her parents helped her create a pie chart to see where her money came from.
 ### Conclusion: The Goal is Conversation
 
 The Allowance Algorithm is not about raising mini-accountants. It's about starting a lifelong conversation about money in a structured, positive, and empowering way. By making earning, saving, and spending a visible and interactive part of family life, you demystify finance and give your children the confidence and skills they need to navigate the complex economic world ahead. The most important part of the algorithm isn't the numbers; it's the dialogue and the habits it inspires.
-
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<script>
+`n<script>
 document.addEventListener('DOMContentLoaded', function() {
   // Chart 1: Allowance by Age
   new Chart(document.getElementById('allowanceByAgeChart'), {

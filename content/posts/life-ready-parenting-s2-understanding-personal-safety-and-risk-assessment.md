@@ -32,6 +32,10 @@ The gap between what children need to know about personal safety and what they a
 
 - **Inconsistent messaging across environments**: Children receive conflicting safety messages from schools, parents, media, and peers, creating confusion about which guidelines to follow and when. A survey conducted by the American Academy of Pediatrics found that 62 percent of children aged six to twelve could not reconcile the different safety rules they encountered at home, at school, and at friends' houses.
 
+<div style="height: 400px; margin: 2rem 0;">
+  <canvas id="safetyDependenceGapCausesChart"></canvas>
+</div>
+
 ## The Safety Protocol: Four Stages of Risk Assessment Mastery
 
 Teaching children to assess personal safety risks is not a single conversation but a progressive curriculum that evolves as children grow. The Safety Protocol outlines four distinct stages, each building on the previous one and introducing age-appropriate concepts and skills.
@@ -52,6 +56,10 @@ Pre-teens develop the cognitive capacity to analyze complex situations and plan 
 
 Teenagers should be capable of independent risk assessment and should begin mentoring younger children in safety skills. This stage focuses on real-world application and refinement of judgment. Encourage teenagers to take on responsibilities that require safety judgment, such as babysitting, navigating public transportation independently, or planning outdoor activities with peers. Discuss current events involving safety failures and successes, analyzing what went right or wrong and what could have been done differently. Teenagers should be able to articulate their risk assessment process clearly and help younger siblings or peers develop their own safety awareness.
 
+<div style="height: 400px; margin: 2rem 0;">
+  <canvas id="safetyRiskAssessmentCompetencyChart"></canvas>
+</div>
+
 ## The Treatcoin Integration: Rewarding Safety Awareness
 
 The Treatcoin system provides a structured way to reinforce safety learning and motivate children to practice risk assessment skills consistently. Here is how safety awareness maps onto the four reward tiers:
@@ -64,6 +72,10 @@ The Treatcoin system provides a structured way to reinforce safety learning and 
 
 **Five Coins: Safety Leadership** - The highest safety reward goes to children who demonstrate safety leadership by helping others develop their awareness. This could involve teaching a younger sibling a safety skill, helping a friend navigate an uncomfortable situation, or taking appropriate action during an actual emergency. When Maya helped her six-year-old friend understand why they should not approach an unfamiliar dog at the park, explaining the signs of an agitated animal and what to do instead, she earned five Treatcoins for safety leadership.
 
+<div style="height: 400px; margin: 2rem 0;">
+  <canvas id="safetyTreatcoinDistributionChart"></canvas>
+</div>
+
 ## The Long-term Life Skills Benefits
 
 The benefits of teaching children personal safety and risk assessment skills extend far beyond childhood injury prevention. These skills form the foundation for critical life competencies that serve individuals throughout their entire lives.
@@ -75,6 +87,10 @@ The benefits of teaching children personal safety and risk assessment skills ext
 **Greater independence and confidence**: Children who trust their ability to assess and manage risks become more independent and confident in their decision-making. This confidence reduces anxiety in new situations and encourages healthy exploration and growth. Research from the University of Colorado's Independence Project showed that young adults who had practiced independent risk assessment as children reported 41 percent lower anxiety levels when entering college or the workforce compared to their peers.
 
 **Stronger boundary-setting abilities**: Understanding personal safety inherently involves understanding personal boundaries. Children who learn to recognize unsafe situations also learn to recognize and communicate their own boundaries in relationships, social settings, and professional environments. This skill is particularly valuable in preventing exploitation and maintaining healthy relationships throughout life.
+
+<div style="height: 400px; margin: 2rem 0;">
+  <canvas id="safetyDecisionMakingOverTimeChart"></canvas>
+</div>
 
 ## Common Implementation Challenges and Solutions
 
@@ -124,6 +140,10 @@ The SAFE Framework provides a comprehensive structure for teaching children to e
 
 **E - Execute and Evaluate**: The final step is executing the chosen response and then evaluating whether it was effective. Did the response keep the child safe? Would a different response have been better? What would the child do differently next time? This reflective component is essential for continuous improvement in risk assessment skills. After any safety-related incident or practice scenario, take time to discuss what happened, what was done well, and what could be improved.
 
+<div style="height: 400px; margin: 2rem 0;">
+  <canvas id="safeFrameworkSkillDevelopmentChart"></canvas>
+</div>
+
 ## Conclusion: Building Safety Awareness Through Familiar Practice
 
 Teaching children to assess personal safety risks is not about creating a generation of paranoid worriers. It is about creating a generation of confident, capable individuals who can navigate the world with awareness, judgment, and the skills to protect themselves when necessary. Every walk to the park, every visit to a new place, every conversation about a news story is an opportunity to practice these skills in low-stakes environments so that when high-stakes situations arise, children have the framework and confidence to respond appropriately.
@@ -134,147 +154,154 @@ Life-Ready Parenting is not about shielding children from every possible danger.
 
 This article is part of the Life-Ready Parenting Season 2 series. Tomorrow, we will explore Learning to Budget and Track Personal Expenses, another essential life skill that children can begin developing today. Follow along as we continue building practical frameworks for raising capable, confident, life-ready children.
 
-```chartjs
-{
-  "type": "bar",
-  "data": {
-    "labels": ["Ages 4-6", "Ages 6-9", "Ages 9-12", "Ages 12+"],
-    "datasets": [{
-      "label": "Risk Assessment Competency Level (%)",
-      "data": [25, 48, 72, 91],
-      "backgroundColor": ["#FF6384", "#36A2EB", "#FFCE56", "#4BC0C0"]
-    }]
-  },
-  "options": {
-    "responsive": true,
-    "plugins": {
-      "title": {
-        "display": true,
-        "text": "Risk Assessment Competency by Age Stage"
-      }
+`n<script>
+document.addEventListener('DOMContentLoaded', function() {
+  // Chart 1: Risk Assessment Competency by Age Stage
+  new Chart(document.getElementById('safetyRiskAssessmentCompetencyChart'), {
+    type: 'bar',
+    data: {
+      labels: ['Ages 4-6', 'Ages 6-9', 'Ages 9-12', 'Ages 12+'],
+      datasets: [{
+        label: 'Risk Assessment Competency Level (%)',
+        data: [25, 48, 72, 91],
+        backgroundColor: ['#e74c3c', '#3498db', '#2ecc71', '#f39c12']
+      }]
     },
-    "scales": {
-      "y": {
-        "beginAtZero": true,
-        "max": 100
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: {
+        title: {
+          display: true,
+          text: 'Risk Assessment Competency by Age Stage'
+        }
+      },
+      scales: {
+        y: {
+          beginAtZero: true,
+          max: 100
+        }
       }
     }
-  }
-}
-```
+  });
 
-```chartjs
-{
-  "type": "doughnut",
-  "data": {
-    "labels": ["Overprotective Supervision", "Abstract Warnings", "Digital Risk Confusion", "Inconsistent Messaging"],
-    "datasets": [{
-      "data": [35, 25, 22, 18],
-      "backgroundColor": ["#FF6384", "#36A2EB", "#FFCE56", "#4BC0C0"]
-    }]
-  },
-  "options": {
-    "responsive": true,
-    "plugins": {
-      "title": {
-        "display": true,
-        "text": "Primary Causes of the Safety Dependence Gap"
+  // Chart 2: Primary Causes of the Safety Dependence Gap
+  new Chart(document.getElementById('safetyDependenceGapCausesChart'), {
+    type: 'doughnut',
+    data: {
+      labels: ['Overprotective Supervision', 'Abstract Warnings', 'Digital Risk Confusion', 'Inconsistent Messaging'],
+      datasets: [{
+        data: [35, 25, 22, 18],
+        backgroundColor: ['#e74c3c', '#3498db', '#2ecc71', '#f39c12']
+      }]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: {
+        title: {
+          display: true,
+          text: 'Primary Causes of the Safety Dependence Gap'
+        },
+        legend: { position: 'bottom' }
       }
     }
-  }
-}
-```
+  });
 
-```chartjs
-{
-  "type": "line",
-  "data": {
-    "labels": ["Age 5", "Age 7", "Age 9", "Age 11", "Age 13", "Age 15"],
-    "datasets": [{
-      "label": "With Safety Training",
-      "data": [15, 35, 55, 72, 85, 93],
-      "borderColor": "#4BC0C0",
-      "fill": false
-    }, {
-      "label": "Without Safety Training",
-      "data": [10, 18, 25, 32, 38, 42],
-      "borderColor": "#FF6384",
-      "fill": false
-    }]
-  },
-  "options": {
-    "responsive": true,
-    "plugins": {
-      "title": {
-        "display": true,
-        "text": "Safety Decision-Making Score Over Time"
-      }
+  // Chart 3: Safety Decision-Making Score Over Time
+  new Chart(document.getElementById('safetyDecisionMakingOverTimeChart'), {
+    type: 'line',
+    data: {
+      labels: ['Age 5', 'Age 7', 'Age 9', 'Age 11', 'Age 13', 'Age 15'],
+      datasets: [{
+        label: 'With Safety Training',
+        data: [15, 35, 55, 72, 85, 93],
+        borderColor: '#3498db',
+        backgroundColor: 'rgba(52, 152, 219, 0.1)',
+        fill: true
+      }, {
+        label: 'Without Safety Training',
+        data: [10, 18, 25, 32, 38, 42],
+        borderColor: '#e74c3c',
+        backgroundColor: 'rgba(231, 76, 60, 0.1)',
+        fill: true
+      }]
     },
-    "scales": {
-      "y": {
-        "beginAtZero": true,
-        "max": 100
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: {
+        title: {
+          display: true,
+          text: 'Safety Decision-Making Score Over Time'
+        }
+      },
+      scales: {
+        y: {
+          beginAtZero: true,
+          max: 100
+        }
       }
     }
-  }
-}
-```
+  });
 
-```chartjs
-{
-  "type": "bar",
-  "data": {
-    "labels": ["1 Coin: Observation", "2 Coins: Protocol Practice", "3 Coins: Safety Planning", "5 Coins: Leadership"],
-    "datasets": [{
-      "label": "Average Coins Earned Per Month",
-      "data": [12, 8, 4, 2],
-      "backgroundColor": ["#36A2EB", "#4BC0C0", "#FFCE56", "#FF6384"]
-    }]
-  },
-  "options": {
-    "responsive": true,
-    "plugins": {
-      "title": {
-        "display": true,
-        "text": "Treatcoin Safety Reward Distribution"
-      }
+  // Chart 4: Treatcoin Safety Reward Distribution
+  new Chart(document.getElementById('safetyTreatcoinDistributionChart'), {
+    type: 'bar',
+    data: {
+      labels: ['1 Coin: Observation', '2 Coins: Protocol Practice', '3 Coins: Safety Planning', '5 Coins: Leadership'],
+      datasets: [{
+        label: 'Average Coins Earned Per Month',
+        data: [12, 8, 4, 2],
+        backgroundColor: ['#3498db', '#2ecc71', '#f39c12', '#e74c3c']
+      }]
     },
-    "indexAxis": "y"
-  }
-}
-```
-
-```chartjs
-{
-  "type": "radar",
-  "data": {
-    "labels": ["Environmental Scanning", "Risk Probability Assessment", "Response Formulation", "Emergency Response", "Safety Communication"],
-    "datasets": [{
-      "label": "After 6 Months",
-      "data": [60, 45, 50, 40, 55],
-      "borderColor": "#36A2EB",
-      "backgroundColor": "rgba(54, 162, 235, 0.2)"
-    }, {
-      "label": "After 12 Months",
-      "data": [85, 75, 80, 70, 82],
-      "borderColor": "#4BC0C0",
-      "backgroundColor": "rgba(75, 192, 192, 0.2)"
-    }]
-  },
-  "options": {
-    "responsive": true,
-    "plugins": {
-      "title": {
-        "display": true,
-        "text": "SAFE Framework Skill Development Over Time"
-      }
-    },
-    "scales": {
-      "r": {
-        "beginAtZero": true,
-        "max": 100
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      indexAxis: 'y',
+      plugins: {
+        title: {
+          display: true,
+          text: 'Treatcoin Safety Reward Distribution'
+        }
       }
     }
-  }
-}
-```
+  });
+
+  // Chart 5: SAFE Framework Skill Development Over Time
+  new Chart(document.getElementById('safeFrameworkSkillDevelopmentChart'), {
+    type: 'radar',
+    data: {
+      labels: ['Environmental Scanning', 'Risk Probability Assessment', 'Response Formulation', 'Emergency Response', 'Safety Communication'],
+      datasets: [{
+        label: 'After 6 Months',
+        data: [60, 45, 50, 40, 55],
+        borderColor: '#3498db',
+        backgroundColor: 'rgba(52, 152, 219, 0.2)'
+      }, {
+        label: 'After 12 Months',
+        data: [85, 75, 80, 70, 82],
+        borderColor: '#2ecc71',
+        backgroundColor: 'rgba(46, 204, 113, 0.2)'
+      }]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: {
+        title: {
+          display: true,
+          text: 'SAFE Framework Skill Development Over Time'
+        }
+      },
+      scales: {
+        r: {
+          beginAtZero: true,
+          max: 100
+        }
+      }
+    }
+  });
+});
+</script>

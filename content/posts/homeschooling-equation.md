@@ -1,4 +1,4 @@
----
+﻿---
 title: "The Homeschooling Equation: A Data-Driven Look at the Pros and Cons"
 date: 2025-11-25T11:00:00-05:00
 draft: false
@@ -33,9 +33,7 @@ Proponents of homeschooling point to a powerful set of benefits that are difficu
 <div style="height: 400px; margin: 2rem 0;">
   <canvas id="timeAllocationChart"></canvas>
 </div>
-
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<script>
+`n<script>
 document.addEventListener('DOMContentLoaded', function() {
   new Chart(document.getElementById('timeAllocationChart'), {
     type: 'bar',

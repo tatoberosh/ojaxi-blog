@@ -1,4 +1,4 @@
----
+﻿---
 title: "The Breathing Pattern Monitor: Teaching Diaphragmatic Breathing — and Tracking Stress Reduction"
 date: 2025-12-19T10:00:00-05:00
 draft: false
@@ -293,9 +293,7 @@ The Breathing Pattern Monitor transforms what could be a simple breathing exerci
 The key is consistency, patience, and understanding that learning to regulate breathing is a skill that develops over months and years, not days. With proper implementation through the Breathing Pattern Monitor, children gain access to a powerful tool for emotional regulation that they can use independently throughout their lives.
 
 The data-driven approach ensures that efforts are focused on techniques that actually work for your specific child, while the progressive structure provides clear milestones and motivation for continued practice. Most importantly, the framework creates a foundation for lifelong wellness that extends far beyond breathing exercises.
-
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<script>
+`n<script>
 document.addEventListener('DOMContentLoaded', function() {
   // Chart 1: Stress-Breathing Connection
   new Chart(document.getElementById('stressBreathingConnectionChart'), {

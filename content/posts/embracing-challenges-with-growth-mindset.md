@@ -1,4 +1,4 @@
----
+﻿---
 title: "Embracing Challenges with a Growth Mindset: Building Resilience in Children"
 date: 2026-03-15T10:00:00-05:00
 draft: false
@@ -155,7 +155,6 @@ Remember, the goal isn't to eliminate all struggle but to teach children that th
 
 **Congratulations on completing Week 1 of Life-Ready Parenting Season 2!** Over the past 10 days, we've explored emotional regulation, self-advocacy, rejection resilience, conflict resolution, time management, stress management, digital literacy, financial literacy, empathy, and growth mindset. Your child is building a powerful toolkit for life! Stay tuned for Week 2, where we'll dive deeper into advanced independence skills.
 
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 <script>
 document.addEventListener('DOMContentLoaded', function() {
   // Chart 1: Growth Mindset Dependence Gap

@@ -1,4 +1,4 @@
----
+﻿---
 title: "The Healthy Snack Deception: Identifying Candy Bars in Disguise — and Finding Real Nutrition"
 date: 2025-12-20T10:00:00-05:00
 draft: false
@@ -303,9 +303,7 @@ The key is consistency, education, and understanding that the food industry inve
 Remember, the goal isn't perfection in your child's diet but rather consistent progress toward providing genuinely nutritious options that support optimal growth and development. The most successful nutritional strategies are those that evolve with your family's circumstances and ultimately become integrated parts of your daily routine.
 
 The deception analyzer provides a framework for making these decisions systematically rather than reactively, ensuring that your child's snack choices support not just their current health but also their long-term wellness and relationship with real food.
-
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<script>
+`n<script>
 document.addEventListener('DOMContentLoaded', function() {
   // Chart 1: Marketing Masquerade
   new Chart(document.getElementById('marketingMasqueradeChart'), {

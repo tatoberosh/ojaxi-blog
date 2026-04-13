@@ -1,4 +1,4 @@
----
+﻿---
 title: "Navigating Disappointment Without a Meltdown: Building Emotional Regulation in Children"
 date: 2026-03-06T10:00:00-05:00
 draft: false
@@ -135,9 +135,7 @@ Remember, the goal isn't to eliminate all disappointment but to teach children t
 **Life-Ready Parenting means your child won't face independent disappointment handling for the first time at age 25—with job rejections, relationship endings, or career setbacks that require competence and resilience. They'll have already practiced the skills they need to handle whatever life brings their way.**
 
 **Welcome to Life-Ready Parenting Season 2!** After 30 days of foundational skills in Season 1, we're diving deeper into advanced emotional intelligence, practical independence, and real-world preparation. Stay tuned for daily insights to help your children thrive more than ever.
-
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<script>
+`n<script>
 document.addEventListener('DOMContentLoaded', function() {
   // Chart 1: Disappointment Dependence Gap
   new Chart(document.getElementById('disappointmentDependenceGapChart'), {

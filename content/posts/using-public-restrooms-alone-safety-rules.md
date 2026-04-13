@@ -1,4 +1,4 @@
----
+﻿---
 title: "Using Public Restrooms Alone (with Safety Rules): Building Privacy Independence in Children"
 date: 2026-01-24T10:00:00-05:00
 draft: false
@@ -252,9 +252,7 @@ The key is patience, consistency, and understanding that privacy independence is
 Remember, the goal isn't to eliminate all privacy risks but to teach children that they can safely manage their own needs with proper technique and awareness. When we take the time to help our children practice privacy independence in safe, supportive environments, we build stronger individuals and support their development into self-sufficient adults who can navigate life's public spaces with grace.
 
 Life-Ready Parenting means your child won't face independent public restroom use for the first time at age 25—with work facilities, travel situations, or public space challenges that require competence and independence. They'll have already practiced the skills they need to handle whatever life brings their way.
-
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<script>
+`n<script>
 document.addEventListener('DOMContentLoaded', function() {
   // Chart 1: Privacy Dependence Gap
   new Chart(document.getElementById('privacyDependenceGapChart'), {

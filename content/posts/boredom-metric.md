@@ -1,4 +1,4 @@
----
+﻿---
 title: "The Boredom Metric: When Boredom is Good — And How to Quantify Its Creative Output"
 date: 2025-12-13T10:00:00-05:00
 draft: false
@@ -144,9 +144,7 @@ In our hyper-scheduled, overstimulated world, boredom has become a rarity. But b
 The next time your child declares they're bored, resist the urge to immediately provide entertainment. Instead, use the Boredom Metric to see this as an opportunity for creative growth. Boredom isn't the enemy of productivity—it's the foundation of innovation.
 
 By quantifying and nurturing the creative output of boredom, we're not just giving our children free time—we're giving them the gift of their own minds, the space to explore, and the opportunity to discover what they can create when left to their own devices.
-
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<script>
+`n<script>
 document.addEventListener('DOMContentLoaded', function() {
   // Chart 1: Boredom Science
   new Chart(document.getElementById('boredomScienceChart'), {

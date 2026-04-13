@@ -156,9 +156,7 @@ Remember, the goal isn't to create children who never go along with the group bu
 **Life-Ready Parenting means your child won't face independent moral decision-making for the first time at age 25—with workplace ethics dilemmas, financial pressures, and relationship compromises that require competence and courage. They'll have already practiced the skills they need to handle whatever social challenges life brings their way.**
 
 **Tomorrow in our Life-Ready Parenting Season 2 series, we'll explore how teaching children to build and maintain meaningful friendships builds the social connection skills they need for lifelong wellbeing. See you on March 21st.**
-
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<script>
+`n<script>
 document.addEventListener('DOMContentLoaded', function() {
   // Chart 1: Peer Pressure Dependence Gap
   new Chart(document.getElementById('peerPressureDependenceGapChart'), {

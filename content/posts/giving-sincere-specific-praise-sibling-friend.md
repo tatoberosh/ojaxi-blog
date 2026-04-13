@@ -1,4 +1,4 @@
----
+﻿---
 title: "Giving Sincere, Specific Praise to a Sibling/Friend: Building Authentic Recognition Skills in Children"
 date: 2026-01-31T10:00:00-05:00
 draft: false
@@ -252,9 +252,7 @@ The key is patience, consistency, and understanding that authentic recognition i
 Remember, the goal isn't to eliminate all generic praise but to teach children that they can give meaningful, specific acknowledgment with proper technique and awareness. When we take the time to help our children practice authentic recognition in safe, supportive environments, we build stronger individuals and support their development into emotionally intelligent adults who can navigate life's relationship challenges with grace.
 
 Life-Ready Parenting means your child won't face meaningful relationship building for the first time at age 25—with workplace collaboration, romantic relationships, or community involvement that requires authentic connection and recognition. They'll have already practiced the skills they need to handle whatever life brings their way.
-
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<script>
+`n<script>
 document.addEventListener('DOMContentLoaded', function() {
   // Chart 1: Generic Praise Gap
   new Chart(document.getElementById('genericPraiseGapChart'), {

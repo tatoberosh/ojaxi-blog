@@ -27,6 +27,10 @@ The specific challenges children face in developing feedback literacy include:
 - **Specificity deficit**: Most feedback children receive is either too vague to be useful, "good job" or too personal to be constructive, "you are not trying hard enough." Children rarely experience feedback that is specific, actionable, and focused on behavior rather than identity.
 - **Reciprocity gap**: Children are rarely taught how to give feedback to others, leaving them without the perspective-taking skills that come from articulating constructive observations about someone else's performance. Without the experience of giving feedback, receiving it feels like a one-way judgment rather than a mutual exchange.
 
+<div style="height: 400px; margin: 2rem 0;">
+  <canvas id="feedbackChart2"></canvas>
+</div>
+
 ## The Feedback Protocol: Four Stages of Constructive Critique Mastery
 
 Teaching children to give and receive constructive feedback requires a structured progression that builds communication skills incrementally while managing the emotional vulnerability that feedback inherently involves. The protocol follows four stages that align with social and cognitive development.
@@ -38,6 +42,10 @@ Teaching children to give and receive constructive feedback requires a structure
 **Stage Three: The Feedback Exchanger (Ages 9-12)**. This is where feedback literacy truly develops. Children learn to both give and receive feedback in structured exchanges. After Ethan's soccer practice, we instituted a "feedback circle" at dinner where each family member shared one specific observation about something another family member did well and one specific suggestion for improvement. Ethan learned to receive feedback without defending himself, using the phrase "Thank you for telling me. Let me think about that." He also learned to give feedback without attacking, using the formula: "I noticed [specific behavior]. It had [specific effect]. Next time, you might try [specific suggestion]." We practiced with real situations: his sister's piano practice, his father's cooking, his own homework habits. Each exchange built his comfort with the vulnerability that feedback requires.
 
 **Stage Four: The Growth Facilitator (Ages 12+)**. By this stage, teenagers can facilitate feedback conversations in group settings, help others receive feedback productively, and use feedback systematically to drive their own improvement. They understand that feedback is not a occasional event but a continuous process of observation, communication, and adjustment. Teenagers at this stage learn to seek out feedback proactively, to ask for specific types of feedback, and to synthesize feedback from multiple sources into a coherent improvement plan. They also learn to recognize when feedback is unconstructive, such as personal attacks or vague criticism, and to respond to unconstructive feedback by redirecting toward specificity: "Can you tell me specifically what I should do differently?" This stage prepares them for the reality of adult professional life, where feedback exchange is one of the most important drivers of career growth.
+
+<div style="height: 400px; margin: 2rem 0;">
+  <canvas id="feedbackChart1"></canvas>
+</div>
 
 ## The Treatcoin Integration: Rewarding Feedback Literacy
 
@@ -53,6 +61,10 @@ Our Treatcoin system reinforces feedback behaviors that demonstrate growing comm
 
 The Treatcoin system for feedback literacy has one essential rule: coins are never awarded for generic praise. "Good job" earns nothing. "I noticed you waited for your turn to speak during the family discussion, and it made everyone feel heard" earns one coin. The system rewards specificity, not sentiment.
 
+<div style="height: 400px; margin: 2rem 0;">
+  <canvas id="feedbackChart3"></canvas>
+</div>
+
 ## The Long-term Life Skills Benefits
 
 The benefits of developing feedback literacy extend into every domain of adult life, creating compounding advantages that accumulate over decades.
@@ -64,6 +76,10 @@ The benefits of developing feedback literacy extend into every domain of adult l
 **Continuous improvement**: Adults with strong feedback literacy develop a habit of continuous self-improvement that compounds over their entire careers. They are always getting slightly better because they are always receiving and acting on information about how to improve.
 
 **Leadership capacity**: The ability to give and receive feedback is one of the defining characteristics of effective leaders. Adults who developed this skill as children can coach their teams, receive input from their reports, and create cultures of continuous improvement that benefit entire organizations.
+
+<div style="height: 400px; margin: 2rem 0;">
+  <canvas id="feedbackChart4"></canvas>
+</div>
 
 ## Common Implementation Challenges and Solutions
 
@@ -101,6 +117,10 @@ The framework that organizes our approach to teaching feedback literacy is captu
 
 **R - Repeat Regularly**: The habit-building skill of making feedback exchange a regular practice rather than an occasional event. Children learn that feedback is most effective when it is frequent, low-stakes, and integrated into daily life.
 
+<div style="height: 400px; margin: 2rem 0;">
+  <canvas id="feedbackChart5"></canvas>
+</div>
+
 ## Conclusion: Building Feedback Literacy Through Familiar Practice
 
 Teaching children to give and receive constructive feedback is one of the most professionally valuable and relationally transformative skills a parent can cultivate. It is also one of the most challenging, because it requires us to model the vulnerability we want our children to develop, to receive their feedback about our parenting without defensiveness, and to create a family culture where honest communication is valued over comfortable silence. But the alternative is a generation of adults who cannot handle criticism, who cannot coach their colleagues, and who miss out on the continuous improvement that comes from regular, honest feedback exchange.
@@ -113,119 +133,106 @@ Life-Ready Parenting is about equipping children with the skills they will need 
 
 Next week, we continue Season 2 with an exploration of building resilience after academic or athletic setbacks, examining how the ability to recover from failure builds perseverance and long-term achievement.
 
-```html
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<canvas id="feedbackChart1"></canvas>
 <script>
-new Chart(document.getElementById('feedbackChart1'), {
+document.addEventListener('DOMContentLoaded', function() {
+  // Chart 1
+  new Chart(document.getElementById('feedbackChart1'), {
     type: 'bar',
     data: {
-        labels: ['Ages 4-6', 'Ages 6-9', 'Ages 9-12', 'Ages 12+'],
-        datasets: [{
-            label: 'Feedback Literacy Skill Level (%)',
-            data: [16, 36, 63, 86],
-            backgroundColor: ['#36A2EB', '#FF6384', '#FFCE56', '#4BC0C0']
-        }]
+      labels: ['Ages 4-6', 'Ages 6-9', 'Ages 9-12', 'Ages 12+'],
+      datasets: [{
+        label: 'Feedback Literacy Skill Level (%)',
+        data: [16, 36, 63, 86],
+        backgroundColor: ['#36A2EB', '#FF6384', '#FFCE56', '#4BC0C0']
+      }]
     },
     options: {
-        responsive: true,
-        plugins: {
-            title: { display: true, text: 'Feedback Literacy Skill Development by Age Stage' },
-            legend: { display: false }
-        },
-        scales: { y: { beginAtZero: true, max: 100, title: { display: true, text: 'Skill Proficiency (%)' } } }
+      responsive: true,
+      plugins: {
+        title: { display: true, text: 'Feedback Literacy Skill Development by Age Stage' },
+        legend: { display: false }
+      },
+      scales: { y: { beginAtZero: true, max: 100, title: { display: true, text: 'Skill Proficiency (%)' } } }
     }
-});
-</script>
-
-<canvas id="feedbackChart2"></canvas>
-<script>
-new Chart(document.getElementById('feedbackChart2'), {
+  });
+  // Chart 2
+  new Chart(document.getElementById('feedbackChart2'), {
     type: 'doughnut',
     data: {
-        labels: ['Feedback Fear', 'Praise Inflation', 'Specificity Deficit', 'Reciprocity Gap'],
-        datasets: [{
-            data: [28, 22, 26, 24],
-            backgroundColor: ['#FF6384', '#36A2EB', '#FFCE56', '#4BC0C0']
-        }]
+      labels: ['Feedback Fear', 'Praise Inflation', 'Specificity Deficit', 'Reciprocity Gap'],
+      datasets: [{
+        data: [28, 22, 26, 24],
+        backgroundColor: ['#FF6384', '#36A2EB', '#FFCE56', '#4BC0C0']
+      }]
     },
     options: {
-        responsive: true,
-        plugins: {
-            title: { display: true, text: 'Primary Barriers to Feedback Literacy' }
-        }
+      responsive: true,
+      plugins: {
+        title: { display: true, text: 'Primary Barriers to Feedback Literacy' }
+      }
     }
-});
-</script>
-
-<canvas id="feedbackChart3"></canvas>
-<script>
-new Chart(document.getElementById('feedbackChart3'), {
+  });
+  // Chart 3
+  new Chart(document.getElementById('feedbackChart3'), {
     type: 'line',
     data: {
-        labels: ['Age 8', 'Age 10', 'Age 12', 'Age 14', 'Age 16', 'Age 18'],
-        datasets: [{
-            label: 'Constructive Feedback Exchanges Per Week',
-            data: [0.5, 1.3, 2.8, 4.2, 5.5, 6.8],
-            borderColor: '#FFCE56',
-            tension: 0.3,
-            fill: false
-        }]
+      labels: ['Age 8', 'Age 10', 'Age 12', 'Age 14', 'Age 16', 'Age 18'],
+      datasets: [{
+        label: 'Constructive Feedback Exchanges Per Week',
+        data: [0.5, 1.3, 2.8, 4.2, 5.5, 6.8],
+        borderColor: '#FFCE56',
+        tension: 0.3,
+        fill: false
+      }]
     },
     options: {
-        responsive: true,
-        plugins: {
-            title: { display: true, text: 'Growth in Weekly Constructive Feedback Exchanges Over Childhood' }
-        },
-        scales: { y: { beginAtZero: true, title: { display: true, text: 'Feedback Exchanges Per Week' } } }
+      responsive: true,
+      plugins: {
+        title: { display: true, text: 'Growth in Weekly Constructive Feedback Exchanges Over Childhood' }
+      },
+      scales: { y: { beginAtZero: true, title: { display: true, text: 'Feedback Exchanges Per Week' } } }
     }
-});
-</script>
-
-<canvas id="feedbackChart4"></canvas>
-<script>
-new Chart(document.getElementById('feedbackChart4'), {
+  });
+  // Chart 4
+  new Chart(document.getElementById('feedbackChart4'), {
     type: 'bar',
     data: {
-        labels: ['Professional Acceleration', 'Relationship Depth', 'Continuous Improvement', 'Leadership Capacity'],
-        datasets: [{
-            label: 'Long-term Benefit Score',
-            data: [89, 84, 91, 86],
-            backgroundColor: ['#36A2EB', '#FF6384', '#4BC0C0', '#FFCE56']
-        }]
+      labels: ['Professional Acceleration', 'Relationship Depth', 'Continuous Improvement', 'Leadership Capacity'],
+      datasets: [{
+        label: 'Long-term Benefit Score',
+        data: [89, 84, 91, 86],
+        backgroundColor: ['#36A2EB', '#FF6384', '#4BC0C0', '#FFCE56']
+      }]
     },
     options: {
-        responsive: true,
-        plugins: {
-            title: { display: true, text: 'Long-term Life Skills Benefits of Feedback Literacy' },
-            legend: { display: false }
-        },
-        scales: { y: { beginAtZero: true, max: 100, title: { display: true, text: 'Benefit Impact Score' } } }
+      responsive: true,
+      plugins: {
+        title: { display: true, text: 'Long-term Life Skills Benefits of Feedback Literacy' },
+        legend: { display: false }
+      },
+      scales: { y: { beginAtZero: true, max: 100, title: { display: true, text: 'Benefit Impact Score' } } }
     }
-});
-</script>
-
-<canvas id="feedbackChart5"></canvas>
-<script>
-new Chart(document.getElementById('feedbackChart5'), {
+  });
+  // Chart 5
+  new Chart(document.getElementById('feedbackChart5'), {
     type: 'radar',
     data: {
-        labels: ['Make It Specific', 'Identify the Effect', 'Recommend Alternative', 'Receive Without Defending', 'Observe Own Performance', 'Repeat Regularly'],
-        datasets: [{
-            label: 'MIRROR Framework Elements',
-            data: [82, 76, 80, 74, 78, 72],
-            backgroundColor: 'rgba(54, 162, 235, 0.2)',
-            borderColor: '#36A2EB',
-            pointBackgroundColor: '#36A2EB'
-        }]
+      labels: ['Make It Specific', 'Identify the Effect', 'Recommend Alternative', 'Receive Without Defending', 'Observe Own Performance', 'Repeat Regularly'],
+      datasets: [{
+        label: 'MIRROR Framework Elements',
+        data: [82, 76, 80, 74, 78, 72],
+        backgroundColor: 'rgba(54, 162, 235, 0.2)',
+        borderColor: '#36A2EB',
+        pointBackgroundColor: '#36A2EB'
+      }]
     },
     options: {
-        responsive: true,
-        plugins: {
-            title: { display: true, text: 'MIRROR Framework Skill Distribution' }
-        },
-        scales: { r: { beginAtZero: true, max: 100 } }
+      responsive: true,
+      plugins: {
+        title: { display: true, text: 'MIRROR Framework Skill Distribution' }
+      },
+      scales: { r: { beginAtZero: true, max: 100 } }
     }
+  });
 });
 </script>
-```

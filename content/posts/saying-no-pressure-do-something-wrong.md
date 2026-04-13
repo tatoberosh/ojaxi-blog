@@ -1,4 +1,4 @@
----
+﻿---
 title: "Saying \"No\" When Someone Pressures Them to Do Something Wrong: Building Moral Courage in Children"
 date: 2026-01-28T10:00:00-05:00
 draft: false
@@ -252,9 +252,7 @@ The key is patience, consistency, and understanding that moral courage is a skil
 Remember, the goal isn't to eliminate all moral risks but to teach children that they can safely stand up for what's right with proper technique and awareness. When we take the time to help our children practice moral courage in safe, supportive environments, we build stronger individuals and support their development into self-sufficient adults who can navigate life's ethical challenges with grace.
 
 Life-Ready Parenting means your child won't face independent ethical decision-making for the first time at age 25—with workplace dilemmas, professional ethics, or moral challenges that require competence and courage. They'll have already practiced the skills they need to handle whatever life brings their way.
-
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<script>
+`n<script>
 document.addEventListener('DOMContentLoaded', function() {
   // Chart 1: Moral Dependence Gap
   new Chart(document.getElementById('moralDependenceGapChart'), {

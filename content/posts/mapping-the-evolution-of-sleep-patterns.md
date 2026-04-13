@@ -1,4 +1,4 @@
----
+﻿---
 title: "Mapping the Evolution of Sleep Patterns: A Data-Driven Guide for Parents"
 date: 2025-11-19T10:00:00-05:00
 draft: false
@@ -62,9 +62,7 @@ Every family's sleep journey is unique. What part of your child's sleep evolutio
 ---
 
 *At Ojakee, we're building tools to help parents navigate these challenges with data and confidence. Our app is designed to help you track not just sleep, but the full spectrum of your child's development, turning data into peace of mind. [Learn more about how Ojakee can support your family's journey.](https://ojakee.com)*
-
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<script>
+`n<script>
 document.addEventListener('DOMContentLoaded', function() {
   // Chart 1: Sleep Architecture Changes
   new Chart(document.getElementById('sleepArchitectureChart'), {

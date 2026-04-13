@@ -1,4 +1,4 @@
----
+﻿---
 title: "The Parent's Dashboard: A Command Center for Modern Parenting"
 date: 2025-11-20T11:00:00-05:00
 draft: false
@@ -54,9 +54,7 @@ The parent's dashboard represents a new era of informed, proactive, and connecte
 If you could design your perfect parent's dashboard, what's the one piece of information you'd want to see every day? Let us know in the poll!
 
 <div class="strawpoll-embed" id="strawpoll_eNg6vJQwLgA" style="height: 772px; max-width: 640px; width: 100%; margin: 0 auto; display: flex; flex-direction: column;"><iframe title="StrawPoll Embed" id="strawpoll_iframe_eNg6vJQwLgA" src="https://strawpoll.com/embed/eNg6vJQwLgA" style="position: static; visibility: visible; display: block; width: 100%; flex-grow: 1;" frameborder="0" allowfullscreen allowtransparency>Loading...</iframe><script async src="https://cdn.strawpoll.com/dist/widgets.js" charset="utf-8"></script></div>
-
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<script>
+`n<script>
 document.addEventListener('DOMContentLoaded', function() {
   // Chart 1: Data Streams
   new Chart(document.getElementById('dashboardDataStreamsChart'), {

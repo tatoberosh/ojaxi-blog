@@ -1,4 +1,4 @@
----
+﻿---
 title: "Voice Assistant Dependency Index: Measuring Reliance on Siri/Alexa/Google — And Building Independent Problem-Solving"
 date: 2025-12-17T10:00:00-05:00
 draft: false
@@ -258,9 +258,7 @@ By systematically measuring and reducing dependency while building independent p
 The investment in independent problem-solving skills pays dividends throughout life. Children who learn to think critically, research independently, and persist through challenges will be better equipped to navigate an increasingly complex world, regardless of what technological tools are available.
 
 Remember, the most important skill you can teach your child in the age of AI is how to think for themselves. The tools may change, but the value of independent, critical thinking remains constant. The VADI helps you strike the right balance between leveraging technology's benefits and preserving the irreplaceable value of independent learning and problem-solving.
-
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<script>
+`n<script>
 document.addEventListener('DOMContentLoaded', function() {
   // Chart 1: Dependency Dimensions
   new Chart(document.getElementById('dependencyDimensionsChart'), {

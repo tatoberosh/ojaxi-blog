@@ -141,5 +141,3 @@ The best gift you can give your kids is your time and attention. But a thoughtfu
 *At Ojakee, we're dedicated to helping parents make smarter decisions with data, not just on Black Friday, but every day. Cut through the noise and find what truly matters.*
 
 [→ Explore more data-driven parenting insights at Ojakee.com](https://ojakee.com)
-
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>

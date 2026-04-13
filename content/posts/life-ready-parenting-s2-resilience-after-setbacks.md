@@ -27,6 +27,10 @@ The specific challenges children face in developing setback resilience include:
 - **Process blindness**: Children rarely analyze the process that led to the setback. They see the outcome, the grade, the loss, the cut, and they stop there. They do not examine their preparation, their strategy, or their execution, which are the only things they can actually change.
 - **Recovery isolation**: Children typically experience setbacks alone. They receive a grade, they feel bad, they move on. There is rarely a structured process for examining what happened and planning what to do differently, leaving children to figure out recovery on their own.
 
+<div style="height: 400px; margin: 2rem 0;">
+  <canvas id="setbackChart2"></canvas>
+</div>
+
 ## The Setback Resilience Protocol: Four Stages of Bounce Mastery
 
 Teaching children to build resilience after academic or athletic setbacks requires a structured progression that builds emotional regulation and analytical skills incrementally while providing the support children need to process disappointment productively. The protocol follows four stages that align with emotional and cognitive development.
@@ -38,6 +42,10 @@ Teaching children to build resilience after academic or athletic setbacks requir
 **Stage Three: The Adjustment Maker (Ages 9-12)**. This is where setback resilience truly develops. Children learn to take the insights from their process analysis and make specific adjustments for next time. After Sophie's math test, we created a "next time plan": instead of rereading notes, she would practice solving problems similar to the ones on the test. Instead of studying alone, she would study with a classmate who could explain concepts she did not understand. Instead of cramming the night before, she would practice a little each day for a week. We introduced the concept of "setback-to-strategy conversion": every setback contains information about what strategy to use next time. Sophie began to see disappointing results not as verdicts but as data points that informed her next approach.
 
 **Stage Four: The Resilience Builder (Ages 12+)**. By this stage, teenagers can process setbacks independently, extract useful information, adjust their approach, and persist through multiple consecutive setbacks without losing motivation. They understand that setbacks are not occasional anomalies but regular features of any challenging endeavor. Teenagers at this stage learn to normalize setbacks as part of the learning process, to seek out challenging situations where setbacks are likely, and to use each setback as a source of strategic information. They also learn to support their peers through setbacks, offering the same process-focused, adjustment-oriented perspective that they have developed for themselves. This stage prepares them for the reality of adult life, where setbacks are frequent and the ability to recover from them is one of the strongest predictors of long-term success.
+
+<div style="height: 400px; margin: 2rem 0;">
+  <canvas id="setbackChart1"></canvas>
+</div>
 
 ## The Treatcoin Integration: Rewarding Setback Resilience
 
@@ -53,6 +61,10 @@ Our Treatcoin system reinforces setback recovery behaviors that demonstrate emot
 
 The Treatcoin system for setback resilience has one essential rule: coins are never awarded for the outcome itself. A child who gets an A after a setback earns the same coins as a child who improves from a 62 to a 72. The system rewards the recovery process, not the final score.
 
+<div style="height: 400px; margin: 2rem 0;">
+  <canvas id="setbackChart3"></canvas>
+</div>
+
 ## The Long-term Life Skills Benefits
 
 The benefits of developing setback resilience extend into every domain of adult life, creating compounding advantages that accumulate over decades.
@@ -64,6 +76,10 @@ The benefits of developing setback resilience extend into every domain of adult 
 **Athletic development**: Athletes who developed setback resilience as children continue to improve after poor performances, injuries, and competitive losses. They do not quit sports after disappointing seasons because they understand that athletic development is a long-term process punctuated by frequent setbacks.
 
 **Mental health**: Setback resilience is one of the strongest protective factors against depression and anxiety. Adults who can process failures productively experience less rumination, less catastrophizing, and less of the chronic self-doubt that comes from interpreting setbacks as identity verdicts.
+
+<div style="height: 400px; margin: 2rem 0;">
+  <canvas id="setbackChart4"></canvas>
+</div>
 
 ## Common Implementation Challenges and Solutions
 
@@ -101,6 +117,10 @@ The framework that organizes our approach to teaching setback resilience is capt
 
 **E - Extract the Long-term Lesson**: The reflective skill of identifying the broader principle that the setback teaches, beyond the immediate situation. Children learn that every setback is a teacher, and the lesson is always valuable if you are willing to learn it.
 
+<div style="height: 400px; margin: 2rem 0;">
+  <canvas id="setbackChart5"></canvas>
+</div>
+
 ## Conclusion: Building Setback Resilience Through Familiar Practice
 
 Teaching children to build resilience after academic or athletic setbacks is one of the most achievement-enabling and emotionally protective skills a parent can cultivate. It is also one of the most challenging, because it requires us to sit with our children in their disappointment without fixing it, to resist the urge to minimize their pain or solve their problems, and to trust that the process of recovering from a setback is itself the skill we are trying to build. But the alternative is a generation of adults who interpret every failure as a verdict, who abandon challenging pursuits at the first sign of difficulty, and who never discover how capable they are because they never persist long enough to find out.
@@ -112,120 +132,106 @@ When Sophie unfolded that math test and we looked at it together, she was not ju
 Life-Ready Parenting is about equipping children with the skills they will need when they fail, because they will fail, and the measure of their success will not be whether they fail but whether they get back up. Setback resilience is not just about math tests and soccer games. It is about the perseverance that comes from treating every failure as information, the growth mindset that comes from believing that ability can be developed, and the long-term achievement that comes from never giving up.
 
 Next week, we continue Season 2 with an exploration of helping children understand and manage their personal stress triggers, examining how the ability to identify and regulate stress responses builds emotional health and decision-making quality.
-
-```html
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<canvas id="setbackChart1"></canvas>
-<script>
-new Chart(document.getElementById('setbackChart1'), {
+`n<script>
+document.addEventListener('DOMContentLoaded', function() {
+  // Chart 1
+  new Chart(document.getElementById('setbackChart1'), {
     type: 'bar',
     data: {
-        labels: ['Ages 4-6', 'Ages 6-9', 'Ages 9-12', 'Ages 12+'],
-        datasets: [{
-            label: 'Setback Resilience Skill Level (%)',
-            data: [13, 33, 59, 83],
-            backgroundColor: ['#FF6384', '#36A2EB', '#FFCE56', '#4BC0C0']
-        }]
+      labels: ['Ages 4-6', 'Ages 6-9', 'Ages 9-12', 'Ages 12+'],
+      datasets: [{
+        label: 'Setback Resilience Skill Level (%)',
+        data: [13, 33, 59, 83],
+        backgroundColor: ['#FF6384', '#36A2EB', '#FFCE56', '#4BC0C0']
+      }]
     },
     options: {
-        responsive: true,
-        plugins: {
-            title: { display: true, text: 'Setback Resilience Skill Development by Age Stage' },
-            legend: { display: false }
-        },
-        scales: { y: { beginAtZero: true, max: 100, title: { display: true, text: 'Skill Proficiency (%)' } } }
+      responsive: true,
+      plugins: {
+        title: { display: true, text: 'Setback Resilience Skill Development by Age Stage' },
+        legend: { display: false }
+      },
+      scales: { y: { beginAtZero: true, max: 100, title: { display: true, text: 'Skill Proficiency (%)' } } }
     }
-});
-</script>
-
-<canvas id="setbackChart2"></canvas>
-<script>
-new Chart(document.getElementById('setbackChart2'), {
+  });
+  // Chart 2
+  new Chart(document.getElementById('setbackChart2'), {
     type: 'doughnut',
     data: {
-        labels: ['Identity Fusion', 'Emotional Overwhelm', 'Process Blindness', 'Recovery Isolation'],
-        datasets: [{
-            data: [27, 26, 24, 23],
-            backgroundColor: ['#FF6384', '#36A2EB', '#FFCE56', '#4BC0C0']
-        }]
+      labels: ['Identity Fusion', 'Emotional Overwhelm', 'Process Blindness', 'Recovery Isolation'],
+      datasets: [{
+        data: [27, 26, 24, 23],
+        backgroundColor: ['#FF6384', '#36A2EB', '#FFCE56', '#4BC0C0']
+      }]
     },
     options: {
-        responsive: true,
-        plugins: {
-            title: { display: true, text: 'Primary Barriers to Setback Resilience' }
-        }
+      responsive: true,
+      plugins: {
+        title: { display: true, text: 'Primary Barriers to Setback Resilience' }
+      }
     }
-});
-</script>
-
-<canvas id="setbackChart3"></canvas>
-<script>
-new Chart(document.getElementById('setbackChart3'), {
+  });
+  // Chart 3
+  new Chart(document.getElementById('setbackChart3'), {
     type: 'line',
     data: {
-        labels: ['Age 8', 'Age 10', 'Age 12', 'Age 14', 'Age 16', 'Age 18'],
-        datasets: [{
-            label: 'Successful Recovery Attempts After Setbacks (%)',
-            data: [12, 28, 48, 65, 78, 88],
-            borderColor: '#FFCE56',
-            tension: 0.3,
-            fill: false
-        }]
+      labels: ['Age 8', 'Age 10', 'Age 12', 'Age 14', 'Age 16', 'Age 18'],
+      datasets: [{
+        label: 'Successful Recovery Attempts After Setbacks (%)',
+        data: [12, 28, 48, 65, 78, 88],
+        borderColor: '#FFCE56',
+        tension: 0.3,
+        fill: false
+      }]
     },
     options: {
-        responsive: true,
-        plugins: {
-            title: { display: true, text: 'Growth in Successful Setback Recovery Rates Over Childhood' }
-        },
-        scales: { y: { beginAtZero: true, max: 100, title: { display: true, text: 'Recovery Rate (%)' } } }
+      responsive: true,
+      plugins: {
+        title: { display: true, text: 'Growth in Successful Setback Recovery Rates Over Childhood' }
+      },
+      scales: { y: { beginAtZero: true, max: 100, title: { display: true, text: 'Recovery Rate (%)' } } }
     }
-});
-</script>
-
-<canvas id="setbackChart4"></canvas>
-<script>
-new Chart(document.getElementById('setbackChart4'), {
+  });
+  // Chart 4
+  new Chart(document.getElementById('setbackChart4'), {
     type: 'bar',
     data: {
-        labels: ['Academic Persistence', 'Career Advancement', 'Athletic Development', 'Mental Health'],
-        datasets: [{
-            label: 'Long-term Benefit Score',
-            data: [86, 83, 78, 90],
-            backgroundColor: ['#36A2EB', '#FF6384', '#4BC0C0', '#FFCE56']
-        }]
+      labels: ['Academic Persistence', 'Career Advancement', 'Athletic Development', 'Mental Health'],
+      datasets: [{
+        label: 'Long-term Benefit Score',
+        data: [86, 83, 78, 90],
+        backgroundColor: ['#36A2EB', '#FF6384', '#4BC0C0', '#FFCE56']
+      }]
     },
     options: {
-        responsive: true,
-        plugins: {
-            title: { display: true, text: 'Long-term Life Skills Benefits of Setback Resilience' },
-            legend: { display: false }
-        },
-        scales: { y: { beginAtZero: true, max: 100, title: { display: true, text: 'Benefit Impact Score' } } }
+      responsive: true,
+      plugins: {
+        title: { display: true, text: 'Long-term Life Skills Benefits of Setback Resilience' },
+        legend: { display: false }
+      },
+      scales: { y: { beginAtZero: true, max: 100, title: { display: true, text: 'Benefit Impact Score' } } }
     }
-});
-</script>
-
-<canvas id="setbackChart5"></canvas>
-<script>
-new Chart(document.getElementById('setbackChart5'), {
+  });
+  // Chart 5
+  new Chart(document.getElementById('setbackChart5'), {
     type: 'radar',
     data: {
-        labels: ['Breathe and Feel', 'Observe the Process', 'Understand the Gap', 'Navigate Adjustment', 'Commit to Next Attempt', 'Extract Long-term Lesson'],
-        datasets: [{
-            label: 'BOUNCE Framework Elements',
-            data: [74, 80, 76, 82, 78, 72],
-            backgroundColor: 'rgba(255, 99, 132, 0.2)',
-            borderColor: '#FF6384',
-            pointBackgroundColor: '#FF6384'
-        }]
+      labels: ['Breathe and Feel', 'Observe the Process', 'Understand the Gap', 'Navigate Adjustment', 'Commit to Next Attempt', 'Extract Long-term Lesson'],
+      datasets: [{
+        label: 'BOUNCE Framework Elements',
+        data: [74, 80, 76, 82, 78, 72],
+        backgroundColor: 'rgba(255, 99, 132, 0.2)',
+        borderColor: '#FF6384',
+        pointBackgroundColor: '#FF6384'
+      }]
     },
     options: {
-        responsive: true,
-        plugins: {
-            title: { display: true, text: 'BOUNCE Framework Skill Distribution' }
-        },
-        scales: { r: { beginAtZero: true, max: 100 } }
+      responsive: true,
+      plugins: {
+        title: { display: true, text: 'BOUNCE Framework Skill Distribution' }
+      },
+      scales: { r: { beginAtZero: true, max: 100 } }
     }
+  });
 });
 </script>
-```

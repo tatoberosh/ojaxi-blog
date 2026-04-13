@@ -156,9 +156,7 @@ Remember, the goal isn't to create children with hundreds of friends but to teac
 **Life-Ready Parenting means your child won't face independent friendship-building for the first time at age 25—with college dorms, new cities, and career changes that require competence and social courage. They'll have already practiced the skills they need to handle whatever social opportunities life brings their way.**
 
 **Tomorrow in our Life-Ready Parenting Season 2 series, we'll explore how teaching children to understand and manage their personal energy levels builds the self-awareness they need for sustained wellbeing. See you on March 22nd.**
-
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<script>
+`n<script>
 document.addEventListener('DOMContentLoaded', function() {
   // Chart 1: Friendship Dependence Gap
   new Chart(document.getElementById('friendshipDependenceGapChart'), {

@@ -32,6 +32,10 @@ The gap between children's digital activity and their understanding of its conse
 
 - **The consequences are delayed and invisible**: Unlike physical actions, which often have immediate and visible consequences, digital actions can have consequences that do not manifest for years. A post made at age twelve might not cause problems until age eighteen, when a college admissions officer sees it. This delay makes it nearly impossible for children to connect their actions to their consequences naturally. Research from the University of Texas at Austin's Developmental Psychology Lab found that children under age fourteen struggle to conceptualize consequences more than six months in the future, making digital footprint management inherently counterintuitive for this age group.
 
+<div style="height: 400px; margin: 2rem 0;">
+  <canvas id="digitalDependenceGapCausesChart"></canvas>
+</div>
+
 ## The Digital Protocol: Four Stages of Digital Footprint Mastery
 
 Teaching children to understand and manage their digital footprint is a progressive curriculum that builds digital citizenship skills over time. The Digital Protocol outlines four distinct stages, each introducing age-appropriate concepts and practical skills.
@@ -52,6 +56,10 @@ Pre-teens develop the capacity to manage their own digital presence with parenta
 
 Teenagers should transition from footprint management to footprint building, actively creating a digital presence that reflects their values, achievements, and aspirations. At this stage, teenagers should understand how algorithms work, how data is collected and used, how to protect their privacy while still building a positive online presence, and how their digital footprint affects college admissions and employment prospects. Encourage teenagers to create content that showcases their skills, passions, and character: art portfolios, writing samples, project documentation, community service records, and thoughtful commentary on topics they care about. Discuss real-world examples of digital footprint consequences, both positive and negative, and analyze what made the difference. Teenagers should be able to articulate their digital footprint strategy, conduct comprehensive audits, manage multiple platforms responsibly, and build a digital presence that opens doors rather than closing them.
 
+<div style="height: 400px; margin: 2rem 0;">
+  <canvas id="digitalFootprintCompetencyChart"></canvas>
+</div>
+
 ## The Treatcoin Integration: Rewarding Digital Responsibility
 
 The Treatcoin system reinforces digital footprint learning by rewarding children for demonstrating responsible digital citizenship and proactive footprint management. Here is how digital responsibility maps onto the four reward tiers:
@@ -64,6 +72,10 @@ The Treatcoin system reinforces digital footprint learning by rewarding children
 
 **Five Coins: Digital Leadership** - The highest digital responsibility reward goes to children who demonstrate digital citizenship leadership by helping others develop their footprint awareness. This could involve teaching a younger sibling a digital safety skill, helping a friend clean up their online presence, or creating content that educates others about digital responsibility. When Ethan created a short video explaining the Grandma Rule and shared it with his school's digital citizenship club, he earned five Treatcoins for digital leadership.
 
+<div style="height: 400px; margin: 2rem 0;">
+  <canvas id="digitalResponsibilityTreatcoinChart"></canvas>
+</div>
+
 ## The Long-term Life Skills Benefits
 
 The benefits of teaching children to manage their digital footprint extend far beyond childhood online safety. These skills form the foundation for professional success, personal reputation management, and responsible citizenship in an increasingly digital world.
@@ -75,6 +87,10 @@ The benefits of teaching children to manage their digital footprint extend far b
 **Improved critical thinking about media**: Managing a digital footprint requires understanding how platforms work, how content is distributed, and how audiences interpret messages. This understanding develops critical thinking skills that apply to all media consumption. The University of Oxford study found that children taught digital footprint management scored 29 percent higher on media literacy assessments than peers who were not taught these skills.
 
 **Greater self-awareness and identity clarity**: The process of evaluating one's digital presence forces reflection on values, identity, and the impression one wants to make on the world. Children who practice digital footprint management develop a clearer sense of who they are and who they want to be, because they must articulate these things when curating their online presence. This self-awareness benefits every area of life, from relationships to career choices to personal growth.
+
+<div style="height: 400px; margin: 2rem 0;">
+  <canvas id="digitalCitizenshipOverTimeChart"></canvas>
+</div>
 
 ## Common Implementation Challenges and Solutions
 
@@ -126,6 +142,10 @@ The PRINT Framework provides a comprehensive structure for teaching children to 
 
 **T - Think Long-Term**: Every digital action should be evaluated through a long-term lens. Teach children to ask themselves: "How will I feel about this post in one year? In five years? In ten years?" This long-term thinking is counterintuitive for children, whose natural time horizon is short, but it is essential for responsible digital citizenship. Use concrete examples of both positive and negative long-term digital footprint consequences to make the abstract concept tangible.
 
+<div style="height: 400px; margin: 2rem 0;">
+  <canvas id="printFrameworkSkillDevelopmentChart"></canvas>
+</div>
+
 ## Conclusion: Building Digital Wisdom Through Familiar Practice
 
 Teaching children to manage their digital footprint is not about restricting their online activity or instilling fear of the internet. It is about empowering them to use digital tools intentionally, responsibly, and strategically, creating an online presence that reflects their best selves and opens doors to their future. Every post, every photo, every comment is an opportunity to practice digital citizenship in low-stakes environments so that when the stakes are high, children have the framework and wisdom to represent themselves well.
@@ -136,147 +156,154 @@ Life-Ready Parenting is not about keeping children offline. It is about equippin
 
 This article is part of the Life-Ready Parenting Season 2 series. Tomorrow, we will explore Learning Basic First Aid and Health Emergency Response, another essential life skill that children can begin developing today. Follow along as we continue building practical frameworks for raising capable, confident, life-ready children.
 
-```chartjs
-{
-  "type": "bar",
-  "data": {
-    "labels": ["Ages 4-6", "Ages 6-9", "Ages 9-12", "Ages 12+"],
-    "datasets": [{
-      "label": "Digital Footprint Competency Level (%)",
-      "data": [18, 38, 62, 85],
-      "backgroundColor": ["#FF6384", "#36A2EB", "#FFCE56", "#4BC0C0"]
-    }]
-  },
-  "options": {
-    "responsive": true,
-    "plugins": {
-      "title": {
-        "display": true,
-        "text": "Digital Footprint Competency by Age Stage"
-      }
+`n<script>
+document.addEventListener('DOMContentLoaded', function() {
+  // Chart 1: Digital Footprint Competency by Age Stage
+  new Chart(document.getElementById('digitalFootprintCompetencyChart'), {
+    type: 'bar',
+    data: {
+      labels: ['Ages 4-6', 'Ages 6-9', 'Ages 9-12', 'Ages 12+'],
+      datasets: [{
+        label: 'Digital Footprint Competency Level (%)',
+        data: [18, 38, 62, 85],
+        backgroundColor: ['#e74c3c', '#3498db', '#2ecc71', '#f39c12']
+      }]
     },
-    "scales": {
-      "y": {
-        "beginAtZero": true,
-        "max": 100
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: {
+        title: {
+          display: true,
+          text: 'Digital Footprint Competency by Age Stage'
+        }
+      },
+      scales: {
+        y: {
+          beginAtZero: true,
+          max: 100
+        }
       }
     }
-  }
-}
-```
+  });
 
-```chartjs
-{
-  "type": "doughnut",
-  "data": {
-    "labels": ["Digital Native vs Citizen Gap", "Parent Digital Literacy Gap", "Platform Design Against Reflection", "Delayed Invisible Consequences"],
-    "datasets": [{
-      "data": [28, 30, 22, 20],
-      "backgroundColor": ["#FF6384", "#36A2EB", "#FFCE56", "#4BC0C0"]
-    }]
-  },
-  "options": {
-    "responsive": true,
-    "plugins": {
-      "title": {
-        "display": true,
-        "text": "Primary Causes of the Digital Dependence Gap"
+  // Chart 2: Primary Causes of the Digital Dependence Gap
+  new Chart(document.getElementById('digitalDependenceGapCausesChart'), {
+    type: 'doughnut',
+    data: {
+      labels: ['Digital Native vs Citizen Gap', 'Parent Digital Literacy Gap', 'Platform Design Against Reflection', 'Delayed Invisible Consequences'],
+      datasets: [{
+        data: [28, 30, 22, 20],
+        backgroundColor: ['#e74c3c', '#3498db', '#2ecc71', '#f39c12']
+      }]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: {
+        title: {
+          display: true,
+          text: 'Primary Causes of the Digital Dependence Gap'
+        },
+        legend: { position: 'bottom' }
       }
     }
-  }
-}
-```
+  });
 
-```chartjs
-{
-  "type": "line",
-  "data": {
-    "labels": ["Age 8", "Age 10", "Age 12", "Age 14", "Age 16", "Age 18"],
-    "datasets": [{
-      "label": "With Digital Footprint Education",
-      "data": [15, 32, 50, 68, 82, 91],
-      "borderColor": "#4BC0C0",
-      "fill": false
-    }, {
-      "label": "Without Digital Footprint Education",
-      "data": [10, 16, 22, 28, 33, 37],
-      "borderColor": "#FF6384",
-      "fill": false
-    }]
-  },
-  "options": {
-    "responsive": true,
-    "plugins": {
-      "title": {
-        "display": true,
-        "text": "Digital Citizenship Score Over Time"
-      }
+  // Chart 3: Digital Citizenship Score Over Time
+  new Chart(document.getElementById('digitalCitizenshipOverTimeChart'), {
+    type: 'line',
+    data: {
+      labels: ['Age 8', 'Age 10', 'Age 12', 'Age 14', 'Age 16', 'Age 18'],
+      datasets: [{
+        label: 'With Digital Footprint Education',
+        data: [15, 32, 50, 68, 82, 91],
+        borderColor: '#3498db',
+        backgroundColor: 'rgba(52, 152, 219, 0.1)',
+        fill: true
+      }, {
+        label: 'Without Digital Footprint Education',
+        data: [10, 16, 22, 28, 33, 37],
+        borderColor: '#e74c3c',
+        backgroundColor: 'rgba(231, 76, 60, 0.1)',
+        fill: true
+      }]
     },
-    "scales": {
-      "y": {
-        "beginAtZero": true,
-        "max": 100
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: {
+        title: {
+          display: true,
+          text: 'Digital Citizenship Score Over Time'
+        }
+      },
+      scales: {
+        y: {
+          beginAtZero: true,
+          max: 100
+        }
       }
     }
-  }
-}
-```
+  });
 
-```chartjs
-{
-  "type": "bar",
-  "data": {
-    "labels": ["1 Coin: Audit", "2 Coins: Thoughtful Posting", "3 Coins: Privacy Config", "5 Coins: Leadership"],
-    "datasets": [{
-      "label": "Average Coins Earned Per Month",
-      "data": [8, 10, 3, 1],
-      "backgroundColor": ["#36A2EB", "#4BC0C0", "#FFCE56", "#FF6384"]
-    }]
-  },
-  "options": {
-    "responsive": true,
-    "plugins": {
-      "title": {
-        "display": true,
-        "text": "Treatcoin Digital Responsibility Reward Distribution"
-      }
+  // Chart 4: Treatcoin Digital Responsibility Reward Distribution
+  new Chart(document.getElementById('digitalResponsibilityTreatcoinChart'), {
+    type: 'bar',
+    data: {
+      labels: ['1 Coin: Audit', '2 Coins: Thoughtful Posting', '3 Coins: Privacy Config', '5 Coins: Leadership'],
+      datasets: [{
+        label: 'Average Coins Earned Per Month',
+        data: [8, 10, 3, 1],
+        backgroundColor: ['#3498db', '#2ecc71', '#f39c12', '#e74c3c']
+      }]
     },
-    "indexAxis": "y"
-  }
-}
-```
-
-```chartjs
-{
-  "type": "radar",
-  "data": {
-    "labels": ["Pause Before Posting", "Regular Review", "Platform Investigation", "Positive Content Creation", "Long-Term Thinking"],
-    "datasets": [{
-      "label": "After 6 Months",
-      "data": [52, 45, 40, 48, 35],
-      "borderColor": "#36A2EB",
-      "backgroundColor": "rgba(54, 162, 235, 0.2)"
-    }, {
-      "label": "After 12 Months",
-      "data": [80, 75, 72, 78, 68],
-      "borderColor": "#4BC0C0",
-      "backgroundColor": "rgba(75, 192, 192, 0.2)"
-    }]
-  },
-  "options": {
-    "responsive": true,
-    "plugins": {
-      "title": {
-        "display": true,
-        "text": "PRINT Framework Skill Development Over Time"
-      }
-    },
-    "scales": {
-      "r": {
-        "beginAtZero": true,
-        "max": 100
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      indexAxis: 'y',
+      plugins: {
+        title: {
+          display: true,
+          text: 'Treatcoin Digital Responsibility Reward Distribution'
+        }
       }
     }
-  }
-}
-```
+  });
+
+  // Chart 5: PRINT Framework Skill Development Over Time
+  new Chart(document.getElementById('printFrameworkSkillDevelopmentChart'), {
+    type: 'radar',
+    data: {
+      labels: ['Pause Before Posting', 'Regular Review', 'Platform Investigation', 'Positive Content Creation', 'Long-Term Thinking'],
+      datasets: [{
+        label: 'After 6 Months',
+        data: [52, 45, 40, 48, 35],
+        borderColor: '#3498db',
+        backgroundColor: 'rgba(52, 152, 219, 0.2)'
+      }, {
+        label: 'After 12 Months',
+        data: [80, 75, 72, 78, 68],
+        borderColor: '#2ecc71',
+        backgroundColor: 'rgba(46, 204, 113, 0.2)'
+      }]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: {
+        title: {
+          display: true,
+          text: 'PRINT Framework Skill Development Over Time'
+        }
+      },
+      scales: {
+        r: {
+          beginAtZero: true,
+          max: 100
+        }
+      }
+    }
+  });
+});
+</script>

@@ -1,4 +1,4 @@
----
+﻿---
 title: "I Followed a Toddler's Diet for a Day. My Conclusions Were Hilarious (and Sad)."
 date: 2025-12-21T10:00:00-05:00
 draft: false
@@ -316,9 +316,7 @@ The data-driven analysis revealed that toddler diets are often characterized by 
 The key insight is that feeding toddlers effectively requires understanding both their developmental needs and the realities of modern food marketing. Success comes not from perfect nutrition but from consistent progress toward better choices, gradual exposure to new foods, and creating positive associations with healthy eating.
 
 Most importantly, the toddler diet experiment reinforced that nutrition is not just about calories and nutrients – it's about establishing lifelong patterns of health, developing a positive relationship with food, and creating family traditions around nourishment and togetherness. The path forward requires patience, persistence, and the understanding that small, consistent improvements can lead to significant long-term benefits for our children's health and well-being.
-
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<script>
+`n<script>
 document.addEventListener('DOMContentLoaded', function() {
   // Chart 1: Experimental Design
   new Chart(document.getElementById('experimentalDesignChart'), {

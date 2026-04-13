@@ -27,6 +27,10 @@ The specific challenges children face in developing comfort with ambiguity inclu
 - **Failure intolerance**: Modern educational environments often penalize wrong answers heavily, creating an association between uncertainty and failure. Children learn that not knowing the answer is a negative state to be avoided rather than a natural starting point for exploration.
 - **Certainty addiction**: Children raised in environments where adults provide constant reassurance and clear expectations develop a psychological dependency on certainty. When certainty is unavailable, as in many real-life situations, they experience disproportionate distress.
 
+<div style="height: 400px; margin: 2rem 0;">
+  <canvas id="ambiguityChart2"></canvas>
+</div>
+
 ## The Ambiguity Protocol: Four Stages of Uncertainty Mastery
 
 Teaching children to develop comfort with ambiguity and uncertainty requires a structured progression that gradually increases exposure to open-ended situations while providing the emotional support children need to tolerate the discomfort of not-knowing. The protocol follows four stages that align with cognitive development milestones.
@@ -38,6 +42,10 @@ Teaching children to develop comfort with ambiguity and uncertainty requires a s
 **Stage Three: The Experiment Designer (Ages 9-12)**. This is where ambiguity tolerance truly develops. Children learn to design small experiments to test their hypotheses in uncertain situations. Sophie began approaching ambiguous problems systematically: "I think this piece goes here. Let me try it and see if it works. If it does not, I will try something else." We introduced the concept of "reversible decisions" versus "irreversible decisions": some choices can be undone, so it is safe to try them and adjust, while others are permanent and require more careful consideration. Sophie learned to distinguish between the two and to approach reversible decisions with experimentation rather than paralysis. We also practiced "comfort with incomplete information": making the best decision possible with the information available, rather than waiting for complete certainty.
 
 **Stage Four: The Ambiguity Navigator (Ages 12+)**. By this stage, teenagers can function effectively in highly ambiguous situations, generating options, testing hypotheses, and adjusting course based on feedback. They understand that ambiguity is not a problem to be solved but a condition to be navigated. Teenagers at this stage learn to tolerate the emotional discomfort of uncertainty without rushing to premature closure. They can hold multiple conflicting possibilities in mind simultaneously and make decisions without complete information. They also learn to recognize when ambiguity is productive, such as in creative processes, and when it is harmful, such as in situations requiring clear ethical boundaries. This stage prepares them for the reality of adult life, where most important decisions are made under conditions of significant uncertainty.
+
+<div style="height: 400px; margin: 2rem 0;">
+  <canvas id="ambiguityChart1"></canvas>
+</div>
 
 ## The Treatcoin Integration: Rewarding Ambiguity Tolerance
 
@@ -53,6 +61,10 @@ Our Treatcoin system reinforces ambiguity tolerance behaviors that demonstrate c
 
 The Treatcoin system for ambiguity tolerance has one essential rule: coins are never awarded for getting the right answer. The system rewards the process of navigating uncertainty, not the production of correct outcomes. A wrong answer reached through thoughtful experimentation earns more coins than a right answer reached by asking for help immediately.
 
+<div style="height: 400px; margin: 2rem 0;">
+  <canvas id="ambiguityChart3"></canvas>
+</div>
+
 ## The Long-term Life Skills Benefits
 
 The benefits of developing comfort with ambiguity and uncertainty extend into every domain of adult life, creating compounding advantages that accumulate over decades.
@@ -64,6 +76,10 @@ The benefits of developing comfort with ambiguity and uncertainty extend into ev
 **Decision quality**: Adults comfortable with ambiguity make better decisions under uncertainty because they generate more options, test their assumptions, and adjust based on feedback rather than committing prematurely to a single course of action.
 
 **Stress reduction**: Ambiguity intolerance is a significant contributor to chronic anxiety. Adults who have developed comfort with uncertainty experience less distress when facing unknown outcomes, because they have practiced the emotional regulation required to function without complete information.
+
+<div style="height: 400px; margin: 2rem 0;">
+  <canvas id="ambiguityChart4"></canvas>
+</div>
 
 ## Common Implementation Challenges and Solutions
 
@@ -99,6 +115,10 @@ The framework that organizes our approach to teaching ambiguity tolerance is cap
 
 **A - Adjust Based on Feedback**: The adaptive skill of modifying their approach based on the results of their experiments. Children learn that wrong turns are not failures but data points that inform the next decision.
 
+<div style="height: 400px; margin: 2rem 0;">
+  <canvas id="ambiguityChart5"></canvas>
+</div>
+
 ## Conclusion: Building Ambiguity Tolerance Through Familiar Practice
 
 Teaching children to develop comfort with ambiguity and uncertainty is one of the most cognitively valuable and emotionally protective skills a parent can cultivate. It is also one of the most challenging, because it requires us to watch our children experience the discomfort of not-knowing without rushing in to provide the answers we possess. We must trust that the friction of uncertainty is precisely the condition that builds cognitive flexibility, and that the skills children develop through navigating ambiguous situations will serve them for the rest of their lives.
@@ -111,119 +131,106 @@ Life-Ready Parenting is about equipping children with the skills they will need 
 
 Next week, we continue Season 2 with an exploration of teaching children to give and receive constructive feedback, examining how the ability to exchange honest, helpful critique builds growth mindset and interpersonal trust.
 
-```html
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<canvas id="ambiguityChart1"></canvas>
 <script>
-new Chart(document.getElementById('ambiguityChart1'), {
+document.addEventListener('DOMContentLoaded', function() {
+  // Chart 1
+  new Chart(document.getElementById('ambiguityChart1'), {
     type: 'bar',
     data: {
-        labels: ['Ages 4-6', 'Ages 6-9', 'Ages 9-12', 'Ages 12+'],
-        datasets: [{
-            label: 'Ambiguity Tolerance Skill Level (%)',
-            data: [14, 34, 60, 84],
-            backgroundColor: ['#FFCE56', '#4BC0C0', '#FF6384', '#36A2EB']
-        }]
+      labels: ['Ages 4-6', 'Ages 6-9', 'Ages 9-12', 'Ages 12+'],
+      datasets: [{
+        label: 'Ambiguity Tolerance Skill Level (%)',
+        data: [14, 34, 60, 84],
+        backgroundColor: ['#FFCE56', '#4BC0C0', '#FF6384', '#36A2EB']
+      }]
     },
     options: {
-        responsive: true,
-        plugins: {
-            title: { display: true, text: 'Ambiguity Tolerance Skill Development by Age Stage' },
-            legend: { display: false }
-        },
-        scales: { y: { beginAtZero: true, max: 100, title: { display: true, text: 'Skill Proficiency (%)' } } }
+      responsive: true,
+      plugins: {
+        title: { display: true, text: 'Ambiguity Tolerance Skill Development by Age Stage' },
+        legend: { display: false }
+      },
+      scales: { y: { beginAtZero: true, max: 100, title: { display: true, text: 'Skill Proficiency (%)' } } }
     }
-});
-</script>
-
-<canvas id="ambiguityChart2"></canvas>
-<script>
-new Chart(document.getElementById('ambiguityChart2'), {
+  });
+  // Chart 2
+  new Chart(document.getElementById('ambiguityChart2'), {
     type: 'doughnut',
     data: {
-        labels: ['Answer Dependency', 'Structure Reliance', 'Failure Intolerance', 'Certainty Addiction'],
-        datasets: [{
-            data: [27, 24, 25, 24],
-            backgroundColor: ['#FF6384', '#36A2EB', '#FFCE56', '#4BC0C0']
-        }]
+      labels: ['Answer Dependency', 'Structure Reliance', 'Failure Intolerance', 'Certainty Addiction'],
+      datasets: [{
+        data: [27, 24, 25, 24],
+        backgroundColor: ['#FF6384', '#36A2EB', '#FFCE56', '#4BC0C0']
+      }]
     },
     options: {
-        responsive: true,
-        plugins: {
-            title: { display: true, text: 'Primary Barriers to Ambiguity Tolerance' }
-        }
+      responsive: true,
+      plugins: {
+        title: { display: true, text: 'Primary Barriers to Ambiguity Tolerance' }
+      }
     }
-});
-</script>
-
-<canvas id="ambiguityChart3"></canvas>
-<script>
-new Chart(document.getElementById('ambiguityChart3'), {
+  });
+  // Chart 3
+  new Chart(document.getElementById('ambiguityChart3'), {
     type: 'line',
     data: {
-        labels: ['Age 7', 'Age 9', 'Age 11', 'Age 13', 'Age 15', 'Age 17'],
-        datasets: [{
-            label: 'Ambiguous Problems Attempted Per Week',
-            data: [0.4, 1.0, 2.2, 3.5, 4.8, 6.0],
-            borderColor: '#FFCE56',
-            tension: 0.3,
-            fill: false
-        }]
+      labels: ['Age 7', 'Age 9', 'Age 11', 'Age 13', 'Age 15', 'Age 17'],
+      datasets: [{
+        label: 'Ambiguous Problems Attempted Per Week',
+        data: [0.4, 1.0, 2.2, 3.5, 4.8, 6.0],
+        borderColor: '#FFCE56',
+        tension: 0.3,
+        fill: false
+      }]
     },
     options: {
-        responsive: true,
-        plugins: {
-            title: { display: true, text: 'Growth in Weekly Ambiguous Problem Attempts Over Childhood' }
-        },
-        scales: { y: { beginAtZero: true, title: { display: true, text: 'Problems Attempted Per Week' } } }
+      responsive: true,
+      plugins: {
+        title: { display: true, text: 'Growth in Weekly Ambiguous Problem Attempts Over Childhood' }
+      },
+      scales: { y: { beginAtZero: true, title: { display: true, text: 'Problems Attempted Per Week' } } }
     }
-});
-</script>
-
-<canvas id="ambiguityChart4"></canvas>
-<script>
-new Chart(document.getElementById('ambiguityChart4'), {
+  });
+  // Chart 4
+  new Chart(document.getElementById('ambiguityChart4'), {
     type: 'bar',
     data: {
-        labels: ['Innovation Capacity', 'Adaptive Resilience', 'Decision Quality', 'Stress Reduction'],
-        datasets: [{
-            label: 'Long-term Benefit Score',
-            data: [87, 82, 85, 79],
-            backgroundColor: ['#36A2EB', '#FF6384', '#4BC0C0', '#FFCE56']
-        }]
+      labels: ['Innovation Capacity', 'Adaptive Resilience', 'Decision Quality', 'Stress Reduction'],
+      datasets: [{
+        label: 'Long-term Benefit Score',
+        data: [87, 82, 85, 79],
+        backgroundColor: ['#36A2EB', '#FF6384', '#4BC0C0', '#FFCE56']
+      }]
     },
     options: {
-        responsive: true,
-        plugins: {
-            title: { display: true, text: 'Long-term Life Skills Benefits of Ambiguity Tolerance' },
-            legend: { display: false }
-        },
-        scales: { y: { beginAtZero: true, max: 100, title: { display: true, text: 'Benefit Impact Score' } } }
+      responsive: true,
+      plugins: {
+        title: { display: true, text: 'Long-term Life Skills Benefits of Ambiguity Tolerance' },
+        legend: { display: false }
+      },
+      scales: { y: { beginAtZero: true, max: 100, title: { display: true, text: 'Benefit Impact Score' } } }
     }
-});
-</script>
-
-<canvas id="ambiguityChart5"></canvas>
-<script>
-new Chart(document.getElementById('ambiguityChart5'), {
+  });
+  // Chart 5
+  new Chart(document.getElementById('ambiguityChart5'), {
     type: 'radar',
     data: {
-        labels: ['Frame the Unknown', 'Options Before Answers', 'Generate Experiments', 'Navigate Discomfort', 'Adjust Based on Feedback'],
-        datasets: [{
-            label: 'FOG Framework Elements',
-            data: [76, 80, 82, 70, 78],
-            backgroundColor: 'rgba(255, 206, 86, 0.2)',
-            borderColor: '#FFCE56',
-            pointBackgroundColor: '#FFCE56'
-        }]
+      labels: ['Frame the Unknown', 'Options Before Answers', 'Generate Experiments', 'Navigate Discomfort', 'Adjust Based on Feedback'],
+      datasets: [{
+        label: 'FOG Framework Elements',
+        data: [76, 80, 82, 70, 78],
+        backgroundColor: 'rgba(255, 206, 86, 0.2)',
+        borderColor: '#FFCE56',
+        pointBackgroundColor: '#FFCE56'
+      }]
     },
     options: {
-        responsive: true,
-        plugins: {
-            title: { display: true, text: 'FOG Framework Skill Distribution' }
-        },
-        scales: { r: { beginAtZero: true, max: 100 } }
+      responsive: true,
+      plugins: {
+        title: { display: true, text: 'FOG Framework Skill Distribution' }
+      },
+      scales: { r: { beginAtZero: true, max: 100 } }
     }
+  });
 });
 </script>
-```

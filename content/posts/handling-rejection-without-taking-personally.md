@@ -1,4 +1,4 @@
----
+﻿---
 title: "Handling Rejection Without Taking It Personally: Building Emotional Resilience in Children"
 date: 2026-03-08T10:00:00-05:00
 draft: false
@@ -148,9 +148,7 @@ Remember, the goal isn't to eliminate all rejection but to teach children that t
 **Life-Ready Parenting means your child won't face independent rejection handling for the first time at age 25—with job applications, romantic relationships, or business proposals that require competence and resilience. They'll have already practiced the skills they need to handle whatever life brings their way.**
 
 **Life-Ready Parenting Season 2 continues tomorrow!** We're exploring how children can develop healthy conflict resolution skills that will serve them throughout life. Don't miss it!
-
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<script>
+`n<script>
 document.addEventListener('DOMContentLoaded', function() {
   // Chart 1: Rejection Dependence Gap
   new Chart(document.getElementById('rejectionDependenceGapChart'), {

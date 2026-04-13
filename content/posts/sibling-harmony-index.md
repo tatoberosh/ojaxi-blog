@@ -1,4 +1,4 @@
----
+﻿---
 title: "The Sibling Harmony Index: A Data-Driven Guide to Peace at Home"
 date: 2025-11-24T09:00:00-05:00
 draft: false
@@ -39,9 +39,7 @@ By logging these events, we can generate a **"Sibling Harmony Index,"** a dynami
 <div style="height: 400px; margin: 2rem 0;">
   <canvas id="interactionBreakdownChart"></canvas>
 </div>
-
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<script>
+`n<script>
 document.addEventListener('DOMContentLoaded', function() {
   new Chart(document.getElementById('interactionBreakdownChart'), {
     type: 'pie',

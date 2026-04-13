@@ -1,4 +1,4 @@
----
+﻿---
 title: "Language Acquisition Rate Tracker: Comparing Vocabulary Growth Across Languages, Media, and Social Settings"
 date: 2025-12-10T10:00:00-05:00
 draft: false
@@ -205,9 +205,7 @@ The Language Acquisition Rate Tracker transforms language learning from a hit-or
 Remember, multilingualism is not about achieving equal proficiency in all languages—it's about building strong, functional relationships with each language that serve your child's personal, academic, and social needs. The data helps you make informed decisions about where to invest time and effort for maximum impact.
 
 The most successful multilingual families are those that maintain consistent exposure while adapting their approach based on measurable outcomes. Track, adjust, celebrate, and watch as your child's linguistic abilities flourish.
-
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<script>
+`n<script>
 document.addEventListener('DOMContentLoaded', function() {
   // Chart 1: Multilingual Brain
   new Chart(document.getElementById('multilingualBrainChart'), {

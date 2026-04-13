@@ -1,4 +1,4 @@
----
+﻿---
 title: "Handling Being Compared to Others: Building Self-Worth Independence in Children"
 date: 2026-03-02T10:00:00-05:00
 draft: false
@@ -117,9 +117,7 @@ The key is patience, consistency, and understanding that self-worth is a skill t
 Remember, the goal isn't to eliminate all comparisons but to teach children that they can handle comparisons with proper technique and awareness. When we take the time to help our children practice self-worth in safe, supportive environments, we build stronger individuals and support their development into self-sufficient adults who can navigate life's comparisons with grace.
 
 **Life-Ready Parenting means your child won't face independent comparison handling for the first time at age 25—with workplace comparisons, professional competition, or social comparisons that require competence and self-worth. They'll have already practiced the skills they need to handle whatever life brings their way.**
-
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<script>
+`n<script>
 document.addEventListener('DOMContentLoaded', function() {
   // Chart 1: Comparison Dependence Gap
   new Chart(document.getElementById('comparisonDependenceGapChart'), {

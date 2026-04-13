@@ -27,6 +27,10 @@ The specific challenges children face in navigating conflict between friends inc
 - **Loyalty confusion**: Children struggle to understand that maintaining separate friendships with conflicting parties does not constitute betrayal. The concept of bilateral loyalty is developmentally sophisticated and rarely taught explicitly.
 - **Resolution pressure**: Children feel responsible for fixing their friends' conflicts, believing that if they cannot restore harmony, they have failed as a friend. This pressure leads to ineffective interventions and unnecessary guilt when conflicts persist despite their efforts.
 
+<div style="height: 400px; margin: 2rem 0;">
+  <canvas id="conflictChart2"></canvas>
+</div>
+
 ## The Friendship Conflict Protocol: Four Stages of Peer Mediation Mastery
 
 Teaching children to navigate conflict between their friends requires a structured progression that builds diplomatic skills incrementally while protecting their emotional well-being. The protocol follows four stages that align with social and cognitive development.
@@ -38,6 +42,10 @@ Teaching children to navigate conflict between their friends requires a structur
 **Stage Three: The Diplomatic Listener (Ages 9-12)**. This stage introduces active listening and de-escalation skills. Children learn to listen to both sides of a conflict without judgment, to ask clarifying questions, and to help their friends articulate their own feelings and needs. Sophie practiced the "three-question technique": "What happened? How did that make you feel? What do you need?" We role-played scenarios where Sophie's friends were upset with each other, and she practiced listening to each one separately, reflecting back what she heard, and encouraging them to talk to each other directly. We also introduced the concept of "conflict ownership": the conflict belongs to the people directly involved, not to the bystander. Sophie learned that she could be supportive without being responsible for the outcome.
 
 **Stage Four: The Peer Mediator (Ages 12+)**. By this stage, teenagers can facilitate constructive conversations between conflicting friends, help identify common ground, and suggest compromise solutions. They understand that not all conflicts can or should be resolved, and they are comfortable maintaining relationships with people who are in conflict with each other. Teenagers at this stage learn formal mediation techniques: establishing ground rules for conversation, ensuring each party speaks without interruption, identifying shared interests, and exploring mutually acceptable solutions. They also learn to recognize when a conflict requires adult intervention, such as in cases of bullying or safety concerns. This stage prepares them for the reality of adult social and professional life, where conflict navigation is one of the most valuable interpersonal skills.
+
+<div style="height: 400px; margin: 2rem 0;">
+  <canvas id="conflictChart1"></canvas>
+</div>
 
 ## The Treatcoin Integration: Rewarding Friendship Conflict Navigation
 
@@ -53,6 +61,10 @@ Our Treatcoin system reinforces conflict navigation behaviors that demonstrate e
 
 The Treatcoin system for conflict navigation has one essential rule: coins are never awarded for simply avoiding conflict or walking away. The system rewards engagement with difficult social situations using mature strategies, not avoidance of social discomfort.
 
+<div style="height: 400px; margin: 2rem 0;">
+  <canvas id="conflictChart3"></canvas>
+</div>
+
 ## The Long-term Life Skills Benefits
 
 The benefits of learning to navigate conflict between friends compound across every dimension of adult social and professional life, creating advantages that extend far beyond the playground.
@@ -64,6 +76,10 @@ The benefits of learning to navigate conflict between friends compound across ev
 **Emotional resilience**: Children who learn to navigate conflict between friends develop a form of emotional resilience that protects them from the destabilizing effects of social drama. They do not crumble when their social world is turbulent because they have learned to maintain their own center while others are in conflict.
 
 **Community leadership**: The ability to navigate conflict diplomatically is one of the most valuable skills for community leadership. Adults who possess this skill can bring together people with different perspectives, facilitate productive dialogue, and build coalitions across divides. They are the people who make neighborhoods, organizations, and communities function effectively.
+
+<div style="height: 400px; margin: 2rem 0;">
+  <canvas id="conflictChart4"></canvas>
+</div>
 
 ## Common Implementation Challenges and Solutions
 
@@ -101,6 +117,10 @@ The framework that organizes our approach to teaching friendship conflict naviga
 
 **E - Emotional Self-Protection**: The self-care skill of managing your own emotional response to others' conflicts. Children learn to support their friends without absorbing their distress, maintaining their own well-being while being present for others.
 
+<div style="height: 400px; margin: 2rem 0;">
+  <canvas id="conflictChart5"></canvas>
+</div>
+
 ## Conclusion: Building Friendship Navigation Through Familiar Practice
 
 Teaching children to navigate conflict between their friends is one of the most socially valuable and emotionally sophisticated skills a parent can cultivate. It is also one of the most challenging, because it requires us to watch our children experience social pain without rushing in to fix it. We must trust that the discomfort of being caught in the middle is precisely the condition that builds diplomatic capacity, and that the skills children develop through navigating friend conflicts will serve them for the rest of their lives.
@@ -112,120 +132,106 @@ When Sophie walked into school the next day and told Maya and Chloe exactly what
 Life-Ready Parenting is about equipping children with the skills they will need when they navigate the complex social landscapes of adolescence, college, and professional life. Friendship conflict navigation is not just about playground drama. It is about the emotional intelligence that comes from understanding multiple perspectives, the diplomatic thinking that comes from refusing to take sides, and the relational resilience that comes from maintaining your own center while others are in turmoil.
 
 Next week, we continue Season 2 with an exploration of helping children understand their personal values and live authentically, examining how the ability to identify and act on core values builds moral clarity and purposeful decision-making.
-
-```html
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<canvas id="conflictChart1"></canvas>
-<script>
-new Chart(document.getElementById('conflictChart1'), {
+`n<script>
+document.addEventListener('DOMContentLoaded', function() {
+  // Chart 1
+  new Chart(document.getElementById('conflictChart1'), {
     type: 'bar',
     data: {
-        labels: ['Ages 4-6', 'Ages 6-9', 'Ages 9-12', 'Ages 12+'],
-        datasets: [{
-            label: 'Conflict Navigation Skill Level (%)',
-            data: [15, 35, 62, 85],
-            backgroundColor: ['#FF6384', '#36A2EB', '#FFCE56', '#4BC0C0']
-        }]
+      labels: ['Ages 4-6', 'Ages 6-9', 'Ages 9-12', 'Ages 12+'],
+      datasets: [{
+        label: 'Conflict Navigation Skill Level (%)',
+        data: [15, 35, 62, 85],
+        backgroundColor: ['#FF6384', '#36A2EB', '#FFCE56', '#4BC0C0']
+      }]
     },
     options: {
-        responsive: true,
-        plugins: {
-            title: { display: true, text: 'Friendship Conflict Navigation Skill Development by Age Stage' },
-            legend: { display: false }
-        },
-        scales: { y: { beginAtZero: true, max: 100, title: { display: true, text: 'Skill Proficiency (%)' } } }
+      responsive: true,
+      plugins: {
+        title: { display: true, text: 'Friendship Conflict Navigation Skill Development by Age Stage' },
+        legend: { display: false }
+      },
+      scales: { y: { beginAtZero: true, max: 100, title: { display: true, text: 'Skill Proficiency (%)' } } }
     }
-});
-</script>
-
-<canvas id="conflictChart2"></canvas>
-<script>
-new Chart(document.getElementById('conflictChart2'), {
+  });
+  // Chart 2
+  new Chart(document.getElementById('conflictChart2'), {
     type: 'doughnut',
     data: {
-        labels: ['Triangulation Vulnerability', 'Emotional Contagion', 'Loyalty Confusion', 'Resolution Pressure'],
-        datasets: [{
-            data: [28, 25, 22, 25],
-            backgroundColor: ['#FF6384', '#36A2EB', '#FFCE56', '#4BC0C0']
-        }]
+      labels: ['Triangulation Vulnerability', 'Emotional Contagion', 'Loyalty Confusion', 'Resolution Pressure'],
+      datasets: [{
+        data: [28, 25, 22, 25],
+        backgroundColor: ['#FF6384', '#36A2EB', '#FFCE56', '#4BC0C0']
+      }]
     },
     options: {
-        responsive: true,
-        plugins: {
-            title: { display: true, text: 'Primary Barriers to Friendship Conflict Navigation' }
-        }
+      responsive: true,
+      plugins: {
+        title: { display: true, text: 'Primary Barriers to Friendship Conflict Navigation' }
+      }
     }
-});
-</script>
-
-<canvas id="conflictChart3"></canvas>
-<script>
-new Chart(document.getElementById('conflictChart3'), {
+  });
+  // Chart 3
+  new Chart(document.getElementById('conflictChart3'), {
     type: 'line',
     data: {
-        labels: ['Age 7', 'Age 9', 'Age 11', 'Age 13', 'Age 15', 'Age 17'],
-        datasets: [{
-            label: 'Successful Boundary Assertions Per Month',
-            data: [0.3, 1.1, 2.4, 3.8, 5.2, 6.5],
-            borderColor: '#FFCE56',
-            tension: 0.3,
-            fill: false
-        }]
+      labels: ['Age 7', 'Age 9', 'Age 11', 'Age 13', 'Age 15', 'Age 17'],
+      datasets: [{
+        label: 'Successful Boundary Assertions Per Month',
+        data: [0.3, 1.1, 2.4, 3.8, 5.2, 6.5],
+        borderColor: '#FFCE56',
+        tension: 0.3,
+        fill: false
+      }]
     },
     options: {
-        responsive: true,
-        plugins: {
-            title: { display: true, text: 'Growth in Monthly Boundary Assertions During Friend Conflicts' }
-        },
-        scales: { y: { beginAtZero: true, title: { display: true, text: 'Boundary Assertions Per Month' } } }
+      responsive: true,
+      plugins: {
+        title: { display: true, text: 'Growth in Monthly Boundary Assertions During Friend Conflicts' }
+      },
+      scales: { y: { beginAtZero: true, title: { display: true, text: 'Boundary Assertions Per Month' } } }
     }
-});
-</script>
-
-<canvas id="conflictChart4"></canvas>
-<script>
-new Chart(document.getElementById('conflictChart4'), {
+  });
+  // Chart 4
+  new Chart(document.getElementById('conflictChart4'), {
     type: 'bar',
     data: {
-        labels: ['Workplace Mediation', 'Relationship Stability', 'Emotional Resilience', 'Community Leadership'],
-        datasets: [{
-            label: 'Long-term Benefit Score',
-            data: [88, 84, 79, 82],
-            backgroundColor: ['#36A2EB', '#FF6384', '#4BC0C0', '#FFCE56']
-        }]
+      labels: ['Workplace Mediation', 'Relationship Stability', 'Emotional Resilience', 'Community Leadership'],
+      datasets: [{
+        label: 'Long-term Benefit Score',
+        data: [88, 84, 79, 82],
+        backgroundColor: ['#36A2EB', '#FF6384', '#4BC0C0', '#FFCE56']
+      }]
     },
     options: {
-        responsive: true,
-        plugins: {
-            title: { display: true, text: 'Long-term Life Skills Benefits of Conflict Navigation' },
-            legend: { display: false }
-        },
-        scales: { y: { beginAtZero: true, max: 100, title: { display: true, text: 'Benefit Impact Score' } } }
+      responsive: true,
+      plugins: {
+        title: { display: true, text: 'Long-term Life Skills Benefits of Conflict Navigation' },
+        legend: { display: false }
+      },
+      scales: { y: { beginAtZero: true, max: 100, title: { display: true, text: 'Benefit Impact Score' } } }
     }
-});
-</script>
-
-<canvas id="conflictChart5"></canvas>
-<script>
-new Chart(document.getElementById('conflictChart5'), {
+  });
+  // Chart 5
+  new Chart(document.getElementById('conflictChart5'), {
     type: 'radar',
     data: {
-        labels: ['Boundaries First', 'Reflect Without Repeating', 'Identify Real Issue', 'Direct Communication', 'Grace for Unresolved', 'Emotional Self-Protection'],
-        datasets: [{
-            label: 'BRIDGE Framework Elements',
-            data: [82, 78, 74, 85, 70, 76],
-            backgroundColor: 'rgba(255, 99, 132, 0.2)',
-            borderColor: '#FF6384',
-            pointBackgroundColor: '#FF6384'
-        }]
+      labels: ['Boundaries First', 'Reflect Without Repeating', 'Identify Real Issue', 'Direct Communication', 'Grace for Unresolved', 'Emotional Self-Protection'],
+      datasets: [{
+        label: 'BRIDGE Framework Elements',
+        data: [82, 78, 74, 85, 70, 76],
+        backgroundColor: 'rgba(255, 99, 132, 0.2)',
+        borderColor: '#FF6384',
+        pointBackgroundColor: '#FF6384'
+      }]
     },
     options: {
-        responsive: true,
-        plugins: {
-            title: { display: true, text: 'BRIDGE Framework Skill Distribution' }
-        },
-        scales: { r: { beginAtZero: true, max: 100 } }
+      responsive: true,
+      plugins: {
+        title: { display: true, text: 'BRIDGE Framework Skill Distribution' }
+      },
+      scales: { r: { beginAtZero: true, max: 100 } }
     }
+  });
 });
 </script>
-```

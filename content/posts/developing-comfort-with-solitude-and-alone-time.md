@@ -154,9 +154,7 @@ Remember, the goal isn't to create children who never want social connection but
 **Life-Ready Parenting means your child won't face comfortable solitude for the first time at age 25—with apartment living, emotional processing, or life transitions that require competence and inner peace. They'll have already practiced the skills they need to find peace in whatever alone time life brings their way.**
 
 **Week 2 of Life-Ready Parenting Season 2 continues!** We're building advanced independence skills that prepare children for real-world self-sufficiency. Today we covered solitude comfort—tomorrow we'll explore teaching children how to build confidence in emergency situations. Stay tuned!
-
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<script>
+`n<script>
 document.addEventListener('DOMContentLoaded', function() {
   // Chart 1: Solitude Dependence Gap
   new Chart(document.getElementById('solitudeDependenceGapChart'), {

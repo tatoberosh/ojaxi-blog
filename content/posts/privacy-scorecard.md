@@ -1,4 +1,4 @@
----
+﻿---
 title: "The Privacy Scorecard: Evaluating Apps/Sites for Data Collection, Tracking, and Consent Practices"
 date: 2025-12-18T10:00:00-05:00
 draft: false
@@ -232,9 +232,7 @@ The Privacy Scorecard transforms parental privacy concerns from vague worries in
 The goal isn't perfection but progress—creating awareness of digital privacy practices and making better-informed choices. As children grow and mature, involve them in the evaluation process to build their own digital privacy literacy. The skills they learn through privacy evaluation will serve them throughout their digital lives, helping them become conscious, responsible digital citizens.
 
 Remember, privacy isn't about avoiding all technology—it's about choosing tools that align with your family's values and protect your children's rights in the digital world. The Privacy Scorecard provides the framework to make those choices with confidence and clarity.
-
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<script>
+`n<script>
 document.addEventListener('DOMContentLoaded', function() {
   // Chart 1: Privacy Pillars
   new Chart(document.getElementById('privacyPillarsChart'), {

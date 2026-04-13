@@ -1,4 +1,4 @@
----
+﻿---
 title: "Understanding Money Basics: Building Financial Literacy in Children"
 date: 2026-03-13T10:00:00-05:00
 draft: false
@@ -151,9 +151,7 @@ Remember, the goal isn't to create perfect savers but to teach children that the
 **Life-Ready Parenting means your child won't face independent money management for the first time at age 25—with salaries, bills, investments, or debt that require competence and financial literacy. They'll have already practiced the skills they need to handle whatever economic situations life brings their way.**
 
 **Life-Ready Parenting Season 2 continues tomorrow!** We're exploring how children can develop empathy and perspective-taking skills. Don't miss it!
-
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<script>
+`n<script>
 document.addEventListener('DOMContentLoaded', function() {
   // Chart 1: Financial Literacy Dependence Gap
   new Chart(document.getElementById('financialLiteracyDependenceGapChart'), {

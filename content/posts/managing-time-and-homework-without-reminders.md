@@ -1,4 +1,4 @@
----
+﻿---
 title: "Managing Time and Homework Without Constant Reminders: Building Self-Management in Children"
 date: 2026-03-10T10:00:00-05:00
 draft: false
@@ -151,9 +151,7 @@ Remember, the goal isn't perfect time management but to teach children that they
 **Life-Ready Parenting means your child won't face independent time management for the first time at age 25—with work deadlines, bill payments, or life responsibilities that require competence and self-direction. They'll have already practiced the skills they need to handle whatever life brings their way.**
 
 **Life-Ready Parenting Season 2 continues tomorrow!** We're exploring how children can develop healthy coping mechanisms for stress and anxiety. Don't miss it!
-
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<script>
+`n<script>
 document.addEventListener('DOMContentLoaded', function() {
   // Chart 1: Time Management Dependence Gap
   new Chart(document.getElementById('timeManagementDependenceGapChart'), {

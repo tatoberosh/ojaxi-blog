@@ -1,4 +1,4 @@
----
+﻿---
 title: "The Treatcoin Tariff: How to Win the War Against Junk Food Without Banning It"
 date: 2025-11-23T10:00:00-05:00
 draft: false
@@ -27,9 +27,7 @@ Let's break down the cost of a typical after-school snack for two kids:
 <div style="height: 400px; margin: 2rem 0;">
   <canvas id="costComparisonChart"></canvas>
 </div>
-
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<script>
+`n<script>
 document.addEventListener('DOMContentLoaded', function() {
   new Chart(document.getElementById('costComparisonChart'), {
     type: 'bar',

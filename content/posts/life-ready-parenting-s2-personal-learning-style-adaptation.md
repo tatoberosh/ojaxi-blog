@@ -27,6 +27,10 @@ The specific challenges children face in developing learning style awareness inc
 - **Teacher dependency**: Children expect teachers to deliver information in the way that works best for them, rather than taking responsibility for adapting the information to their own learning preferences. When the teacher's method does not match their learning style, they conclude that the subject is too hard rather than that their approach needs adjustment.
 - **Effort confusion**: Children equate time spent studying with learning, believing that if they studied for two hours, they must have learned. They do not understand that the quality of study strategy matters far more than the quantity of study time, leading them to invest enormous effort in ineffective methods.
 
+<div style="height: 400px; margin: 2rem 0;">
+  <canvas id="learningChart2"></canvas>
+</div>
+
 ## The Learning Style Protocol: Four Stages of Learning Adaptation Mastery
 
 Teaching children to identify their personal learning style and adapt their study strategies requires a structured progression that builds metacognitive awareness incrementally while providing the experimentation opportunities children need to discover what works for them. The protocol follows four stages that align with cognitive development milestones.
@@ -38,6 +42,10 @@ Teaching children to identify their personal learning style and adapt their stud
 **Stage Three: The Learning Adaptor (Ages 9-12)**. This is where learning adaptation truly develops. Children learn to select and combine study strategies based on the content they are learning and the type of assessment they will face. Sophie began approaching each study session strategically: "This is a vocabulary test, so I will draw pictures and make up stories. This is a math test, so I will practice solving problems. This is an essay test, so I will practice explaining the concepts out loud." We introduced the concept of "strategy matching": the idea that the best study method depends on what you are studying and how you will be tested. Sophie also learned to combine methods for maximum effectiveness: she would draw a concept, explain it aloud, and then teach it to someone else, creating multiple encoding pathways for the same information. She began to see studying not as a chore but as a design challenge: how do I engineer my study session so that my brain actually retains this information?
 
 **Stage Four: The Self-Directed Learner (Ages 12+)**. By this stage, teenagers can independently assess their learning needs, select appropriate strategies, monitor their effectiveness, and adjust their approach based on results. They understand that learning style is not a fixed label, "I am a visual learner," but a dynamic set of preferences and strategies that vary by content, context, and goal. Teenagers at this stage learn to advocate for themselves in educational settings: "I learn this material better when I can see it visually. Can you provide a diagram?" They also learn to teach themselves new subjects entirely, using their knowledge of effective learning strategies to acquire new skills and knowledge without formal instruction. This stage prepares them for the reality of adult life, where the ability to learn independently is one of the most valuable and most rewarded capabilities.
+
+<div style="height: 400px; margin: 2rem 0;">
+  <canvas id="learningChart1"></canvas>
+</div>
 
 ## The Treatcoin Integration: Rewarding Learning Adaptation
 
@@ -53,6 +61,10 @@ Our Treatcoin system reinforces learning adaptation behaviors that demonstrate g
 
 The Treatcoin system for learning adaptation has one essential rule: coins are never awarded for hours spent studying. Two hours of ineffective flashcard review earns zero coins. Thirty minutes of strategic, method-matched study that produces results earns three coins. The system rewards learning effectiveness, not time investment.
 
+<div style="height: 400px; margin: 2rem 0;">
+  <canvas id="learningChart3"></canvas>
+</div>
+
 ## The Long-term Life Skills Benefits
 
 The benefits of developing learning style awareness and adaptation skills extend into every domain of adult life, creating compounding advantages that accumulate over decades.
@@ -64,6 +76,10 @@ The benefits of developing learning style awareness and adaptation skills extend
 **Self-advocacy**: Adults with strong learning self-awareness can articulate their learning needs to teachers, trainers, and managers, requesting the formats and approaches that work best for them. They do not suffer silently through ineffective instruction.
 
 **Lifelong learning**: The ability to learn independently is the foundation of lifelong intellectual growth. Adults who developed learning adaptation skills as children continue to learn throughout their lives, pursuing new interests, acquiring new skills, and staying intellectually engaged long after formal education ends.
+
+<div style="height: 400px; margin: 2rem 0;">
+  <canvas id="learningChart4"></canvas>
+</div>
 
 ## Common Implementation Challenges and Solutions
 
@@ -99,6 +115,10 @@ The framework that organizes our approach to teaching learning style awareness a
 
 **A - Adapt Continuously**: The growth skill of revising your learning strategies as content changes, as you develop, and as new methods become available. Children learn that learning adaptation is not a one-time discovery but an ongoing process of optimization.
 
+<div style="height: 400px; margin: 2rem 0;">
+  <canvas id="learningChart5"></canvas>
+</div>
+
 ## Conclusion: Building Learning Adaptation Through Familiar Practice
 
 Teaching children to understand their personal learning style and adapt their study strategies is one of the most academically empowering and cognitively liberating skills a parent can cultivate. It is also one of the most challenging, because it requires us to resist the instinct to tell our children how to study, and instead create the conditions for them to discover how they study best. But the alternative is a generation of students who study hard using methods that do not work, who conclude that they are bad at subjects they could master with the right approach, and who never discover the joy of learning efficiently.
@@ -111,119 +131,106 @@ Life-Ready Parenting is about equipping children with the skills they will need 
 
 Next week, we continue Season 2 with an exploration of teaching children to set and maintain personal boundaries online, examining how the ability to navigate digital social spaces with clear boundaries builds digital wellness and online safety.
 
-```html
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<canvas id="learningChart1"></canvas>
 <script>
-new Chart(document.getElementById('learningChart1'), {
+document.addEventListener('DOMContentLoaded', function() {
+  // Chart 1
+  new Chart(document.getElementById('learningChart1'), {
     type: 'bar',
     data: {
-        labels: ['Ages 4-6', 'Ages 6-9', 'Ages 9-12', 'Ages 12+'],
-        datasets: [{
-            label: 'Learning Adaptation Skill Level (%)',
-            data: [14, 34, 60, 83],
-            backgroundColor: ['#4BC0C0', '#FF6384', '#FFCE56', '#36A2EB']
-        }]
+      labels: ['Ages 4-6', 'Ages 6-9', 'Ages 9-12', 'Ages 12+'],
+      datasets: [{
+        label: 'Learning Adaptation Skill Level (%)',
+        data: [14, 34, 60, 83],
+        backgroundColor: ['#4BC0C0', '#FF6384', '#FFCE56', '#36A2EB']
+      }]
     },
     options: {
-        responsive: true,
-        plugins: {
-            title: { display: true, text: 'Learning Adaptation Skill Development by Age Stage' },
-            legend: { display: false }
-        },
-        scales: { y: { beginAtZero: true, max: 100, title: { display: true, text: 'Skill Proficiency (%)' } } }
+      responsive: true,
+      plugins: {
+        title: { display: true, text: 'Learning Adaptation Skill Development by Age Stage' },
+        legend: { display: false }
+      },
+      scales: { y: { beginAtZero: true, max: 100, title: { display: true, text: 'Skill Proficiency (%)' } } }
     }
-});
-</script>
-
-<canvas id="learningChart2"></canvas>
-<script>
-new Chart(document.getElementById('learningChart2'), {
+  });
+  // Chart 2
+  new Chart(document.getElementById('learningChart2'), {
     type: 'doughnut',
     data: {
-        labels: ['Strategy Uniformity', 'Learning Blindness', 'Teacher Dependency', 'Effort Confusion'],
-        datasets: [{
-            data: [27, 25, 23, 25],
-            backgroundColor: ['#FF6384', '#36A2EB', '#FFCE56', '#4BC0C0']
-        }]
+      labels: ['Strategy Uniformity', 'Learning Blindness', 'Teacher Dependency', 'Effort Confusion'],
+      datasets: [{
+        data: [27, 25, 23, 25],
+        backgroundColor: ['#FF6384', '#36A2EB', '#FFCE56', '#4BC0C0']
+      }]
     },
     options: {
-        responsive: true,
-        plugins: {
-            title: { display: true, text: 'Primary Barriers to Learning Style Adaptation' }
-        }
+      responsive: true,
+      plugins: {
+        title: { display: true, text: 'Primary Barriers to Learning Style Adaptation' }
+      }
     }
-});
-</script>
-
-<canvas id="learningChart3"></canvas>
-<script>
-new Chart(document.getElementById('learningChart3'), {
+  });
+  // Chart 3
+  new Chart(document.getElementById('learningChart3'), {
     type: 'line',
     data: {
-        labels: ['Age 8', 'Age 10', 'Age 12', 'Age 14', 'Age 16', 'Age 18'],
-        datasets: [{
-            label: 'Study Strategy Effectiveness Score (%)',
-            data: [22, 35, 52, 68, 80, 89],
-            borderColor: '#FFCE56',
-            tension: 0.3,
-            fill: false
-        }]
+      labels: ['Age 8', 'Age 10', 'Age 12', 'Age 14', 'Age 16', 'Age 18'],
+      datasets: [{
+        label: 'Study Strategy Effectiveness Score (%)',
+        data: [22, 35, 52, 68, 80, 89],
+        borderColor: '#FFCE56',
+        tension: 0.3,
+        fill: false
+      }]
     },
     options: {
-        responsive: true,
-        plugins: {
-            title: { display: true, text: 'Growth in Study Strategy Effectiveness Over Childhood' }
-        },
-        scales: { y: { beginAtZero: true, max: 100, title: { display: true, text: 'Effectiveness Score (%)' } } }
+      responsive: true,
+      plugins: {
+        title: { display: true, text: 'Growth in Study Strategy Effectiveness Over Childhood' }
+      },
+      scales: { y: { beginAtZero: true, max: 100, title: { display: true, text: 'Effectiveness Score (%)' } } }
     }
-});
-</script>
-
-<canvas id="learningChart4"></canvas>
-<script>
-new Chart(document.getElementById('learningChart4'), {
+  });
+  // Chart 4
+  new Chart(document.getElementById('learningChart4'), {
     type: 'bar',
     data: {
-        labels: ['Academic Efficiency', 'Career Adaptability', 'Self-Advocacy', 'Lifelong Learning'],
-        datasets: [{
-            label: 'Long-term Benefit Score',
-            data: [88, 84, 79, 92],
-            backgroundColor: ['#36A2EB', '#FF6384', '#4BC0C0', '#FFCE56']
-        }]
+      labels: ['Academic Efficiency', 'Career Adaptability', 'Self-Advocacy', 'Lifelong Learning'],
+      datasets: [{
+        label: 'Long-term Benefit Score',
+        data: [88, 84, 79, 92],
+        backgroundColor: ['#36A2EB', '#FF6384', '#4BC0C0', '#FFCE56']
+      }]
     },
     options: {
-        responsive: true,
-        plugins: {
-            title: { display: true, text: 'Long-term Life Skills Benefits of Learning Adaptation' },
-            legend: { display: false }
-        },
-        scales: { y: { beginAtZero: true, max: 100, title: { display: true, text: 'Benefit Impact Score' } } }
+      responsive: true,
+      plugins: {
+        title: { display: true, text: 'Long-term Life Skills Benefits of Learning Adaptation' },
+        legend: { display: false }
+      },
+      scales: { y: { beginAtZero: true, max: 100, title: { display: true, text: 'Benefit Impact Score' } } }
     }
-});
-</script>
-
-<canvas id="learningChart5"></canvas>
-<script>
-new Chart(document.getElementById('learningChart5'), {
+  });
+  // Chart 5
+  new Chart(document.getElementById('learningChart5'), {
     type: 'radar',
     data: {
-        labels: ['List Your Methods', 'Experiment Systematically', 'Note What Works', 'Select Strategically', 'Adapt Continuously'],
-        datasets: [{
-            label: 'LENS Framework Elements',
-            data: [76, 80, 78, 82, 74],
-            backgroundColor: 'rgba(75, 192, 192, 0.2)',
-            borderColor: '#4BC0C0',
-            pointBackgroundColor: '#4BC0C0'
-        }]
+      labels: ['List Your Methods', 'Experiment Systematically', 'Note What Works', 'Select Strategically', 'Adapt Continuously'],
+      datasets: [{
+        label: 'LENS Framework Elements',
+        data: [76, 80, 78, 82, 74],
+        backgroundColor: 'rgba(75, 192, 192, 0.2)',
+        borderColor: '#4BC0C0',
+        pointBackgroundColor: '#4BC0C0'
+      }]
     },
     options: {
-        responsive: true,
-        plugins: {
-            title: { display: true, text: 'LENS Framework Skill Distribution' }
-        },
-        scales: { r: { beginAtZero: true, max: 100 } }
+      responsive: true,
+      plugins: {
+        title: { display: true, text: 'LENS Framework Skill Distribution' }
+      },
+      scales: { r: { beginAtZero: true, max: 100 } }
     }
+  });
 });
 </script>
-```
