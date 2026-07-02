@@ -252,6 +252,7 @@ The key is patience, consistency, and understanding that mechanical independence
 Remember, the goal isn't to eliminate all mechanical risks but to teach children that they can safely fix basic problems with proper technique and awareness. When we take the time to help our children practice mechanical independence in safe, supportive environments, we build stronger individuals and support their development into self-sufficient adults who can navigate life's practical challenges with grace.
 
 Life-Ready Parenting means your child won't face mechanical repairs for the first time at age 25—with car maintenance, home repairs, or equipment challenges that require competence and independence. They'll have already practiced the skills they need to handle whatever life brings their way.
+
 <script>
 document.addEventListener('DOMContentLoaded', function() {
   // Chart 1: Mechanical Dependence Gap

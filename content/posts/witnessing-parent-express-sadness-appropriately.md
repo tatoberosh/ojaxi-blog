@@ -252,6 +252,7 @@ The key is patience, consistency, and understanding that emotional maturity is a
 Remember, the goal isn't to eliminate children's concern for their parents but to teach them that emotions are normal, manageable, and can be expressed healthily. When we take the time to help our children practice emotional responsiveness in safe, supportive environments, we build stronger relationships and support their development into emotionally intelligent adults who can navigate life's emotional challenges with grace.
 
 Life-Ready Parenting means your child won't face emotional expression for the first time at age 25—with complex relationships, workplace dynamics, or personal challenges that require emotional maturity. They'll have already practiced the skills they need to handle whatever life brings their way.
+
 <script>
 document.addEventListener('DOMContentLoaded', function() {
   // Chart 1: Emotional Invisibility Gap

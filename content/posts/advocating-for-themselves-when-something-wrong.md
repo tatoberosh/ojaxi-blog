@@ -135,6 +135,7 @@ Remember, the goal isn't to create aggressive children but to teach children tha
 **Life-Ready Parenting means your child won't face independent self-advocacy for the first time at age 25—with salary negotiations, workplace conflicts, or relationship boundaries that require competence and confidence. They'll have already practiced the skills they need to handle whatever life brings their way.**
 
 **Life-Ready Parenting Season 2 continues tomorrow!** We're exploring how children can handle rejection and bounce back stronger. Don't miss it!
+
 <script>
 document.addEventListener('DOMContentLoaded', function() {
   // Chart 1: Self-Advocacy Dependence Gap

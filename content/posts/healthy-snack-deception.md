@@ -303,6 +303,7 @@ The key is consistency, education, and understanding that the food industry inve
 Remember, the goal isn't perfection in your child's diet but rather consistent progress toward providing genuinely nutritious options that support optimal growth and development. The most successful nutritional strategies are those that evolve with your family's circumstances and ultimately become integrated parts of your daily routine.
 
 The deception analyzer provides a framework for making these decisions systematically rather than reactively, ensuring that your child's snack choices support not just their current health but also their long-term wellness and relationship with real food.
+
 <script>
 document.addEventListener('DOMContentLoaded', function() {
   // Chart 1: Marketing Masquerade

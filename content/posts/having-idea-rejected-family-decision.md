@@ -252,6 +252,7 @@ The key is patience, consistency, and understanding that democratic participatio
 Remember, the goal isn't to eliminate the emotional response to rejected ideas but to teach children that democratic participation continues regardless of individual outcomes. When we take the time to help our children practice democratic processes in safe, supportive environments, we build stronger individuals and support their development into engaged citizens who can navigate life's collaborative decisions with grace.
 
 Life-Ready Parenting means your child won't face idea rejection in democratic settings for the first time at age 25—with workplace committees, community organizations, or civic duties that require resilient participation. They'll have already practiced the emotional skills they need to handle whatever life brings their way.
+
 <script>
 document.addEventListener('DOMContentLoaded', function() {
   // Chart 1: Idea Fragility Gap

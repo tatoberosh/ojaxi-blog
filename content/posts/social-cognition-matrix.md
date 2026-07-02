@@ -268,6 +268,7 @@ The Social Cognition Matrix provides a roadmap for understanding and developing 
 Remember, social cognition develops gradually and at different rates for different children. The goal isn't perfection but steady growth in understanding and navigating the complex social world. The investment in developing these skills pays dividends in your child's ability to form meaningful relationships, resolve conflicts constructively, and contribute positively to their community.
 
 In our interconnected world, strong social cognitive skills are not just nice to have—they're essential for success and happiness. The Social Cognition Matrix gives you the tools to nurture these crucial abilities in your child, one real-world interaction at a time.
+
 <script>
 document.addEventListener('DOMContentLoaded', function() {
   // Chart 1: Social Cognition Framework

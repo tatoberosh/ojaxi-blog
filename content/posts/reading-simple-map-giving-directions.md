@@ -117,6 +117,7 @@ The key is patience, consistency, and understanding that navigation is a skill t
 Remember, the goal isn't to eliminate all GPS use but to teach children that they can navigate with proper technique and awareness. When we take the time to help our children practice navigation in safe, supportive environments, we build stronger individuals and support their development into self-sufficient adults who can navigate life's travel challenges with grace.
 
 **Life-Ready Parenting means your child won't face independent navigation for the first time at age 25—with travel challenges, unfamiliar cities, or navigation problems that require competence and confidence. They'll have already practiced the skills they need to handle whatever life brings their way.**
+
 <script>
 document.addEventListener('DOMContentLoaded', function() {
   // Chart 1: Navigation Dependence Gap

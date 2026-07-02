@@ -39,6 +39,7 @@ By logging these events, we can generate a **"Sibling Harmony Index,"** a dynami
 <div style="height: 400px; margin: 2rem 0;">
   <canvas id="interactionBreakdownChart"></canvas>
 </div>
+
 <script>
 document.addEventListener('DOMContentLoaded', function() {
   new Chart(document.getElementById('interactionBreakdownChart'), {

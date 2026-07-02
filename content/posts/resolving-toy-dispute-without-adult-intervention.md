@@ -252,6 +252,7 @@ The key is patience, consistency, and understanding that conflict resolution is 
 Remember, the goal isn't to eliminate all conflicts but to teach children that they can safely resolve disagreements with proper technique and awareness. When we take the time to help our children practice conflict resolution in safe, supportive environments, we build stronger individuals and support their development into self-sufficient adults who can navigate life's relationship challenges with grace.
 
 Life-Ready Parenting means your child won't face independent conflict resolution for the first time at age 25—with workplace disagreements, romantic relationship challenges, or professional disputes that require competence and independence. They'll have already practiced the skills they need to handle whatever life brings their way.
+
 <script>
 document.addEventListener('DOMContentLoaded', function() {
   // Chart 1: Mediation Dependence Gap

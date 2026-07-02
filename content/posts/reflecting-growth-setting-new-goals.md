@@ -119,6 +119,7 @@ Remember, the goal isn't to eliminate all goal assistance but to teach children 
 **Life-Ready Parenting means your child won't face independent life planning for the first time at age 25—with career planning, life goals, or personal development that requires competence and self-direction. They'll have already practiced the skills they need to handle whatever life brings their way.**
 
 **Congratulations on completing the 30-day Life-Ready Parenting blog series!** From handling losing games to setting life goals, your child has now practiced 30 essential skills that will serve them throughout adulthood. Remember: Life-Ready Parenting means your child won't face these challenges for the first time at age 25—with rent due and no safety net. They'll have already practiced the skills they need to handle whatever life brings their way.
+
 <script>
 document.addEventListener('DOMContentLoaded', function() {
   // Chart 1: Self-Direction Dependence Gap

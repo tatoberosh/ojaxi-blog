@@ -249,6 +249,7 @@ By systematically measuring and nurturing creativity through play, storytelling,
 Creativity is like a muscle: it strengthens with use and atrophies without challenge. The Imagination Quotient framework provides the tools to ensure your child's creative muscles are getting the right kind of exercise for optimal development. The goal isn't to make every child a creative genius, but to ensure that every child maintains and grows their natural creative capacity.
 
 In a world of increasing complexity and rapid change, creative thinking skills will be among the most valuable assets your child can possess. The investments you make in nurturing their Imagination Quotient today will pay dividends in their ability to innovate, adapt, and thrive in the future.
+
 <script>
 document.addEventListener('DOMContentLoaded', function() {
   // Chart 1: Creative Pillars

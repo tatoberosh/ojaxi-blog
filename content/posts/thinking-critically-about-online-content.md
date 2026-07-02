@@ -154,6 +154,7 @@ Remember, the goal isn't to eliminate all digital content but to teach children 
 **Life-Ready Parenting means your child won't face independent media evaluation for the first time at age 25—with voting decisions, health information, or financial choices that require competence and critical thinking. They'll have already practiced the skills they need to handle whatever information life brings their way.**
 
 **Life-Ready Parenting Season 2 continues tomorrow!** We're exploring how children can develop basic financial literacy and money management skills. Don't miss it!
+
 <script>
 document.addEventListener('DOMContentLoaded', function() {
   // Chart 1: Digital Literacy Dependence Gap

@@ -151,6 +151,7 @@ Remember, the goal isn't perfect time management but to teach children that they
 **Life-Ready Parenting means your child won't face independent time management for the first time at age 25—with work deadlines, bill payments, or life responsibilities that require competence and self-direction. They'll have already practiced the skills they need to handle whatever life brings their way.**
 
 **Life-Ready Parenting Season 2 continues tomorrow!** We're exploring how children can develop healthy coping mechanisms for stress and anxiety. Don't miss it!
+
 <script>
 document.addEventListener('DOMContentLoaded', function() {
   // Chart 1: Time Management Dependence Gap

@@ -252,6 +252,7 @@ The key is patience, consistency, and understanding that emotional accountabilit
 Remember, the goal isn't to eliminate emotional outbursts but to teach children that they're responsible for cleaning up after their emotional expressions. When we take the time to help our children practice emotional accountability in safe, supportive environments, we build stronger individuals and support their development into emotionally responsible adults who can navigate life's challenges with grace.
 
 Life-Ready Parenting means your child won't face emotional cleanup for the first time at age 25—with workplace conflicts, relationship disagreements, or personal challenges that require accountability. They'll have already practiced the skills they need to handle whatever life brings their way.
+
 <script>
 document.addEventListener('DOMContentLoaded', function() {
   // Chart 1: Emotional Cleanup Gap

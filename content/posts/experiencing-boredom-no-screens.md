@@ -252,6 +252,7 @@ The key is patience, consistency, and understanding that internal entertainment 
 Remember, the goal isn't to eliminate all entertainment but to teach children that they have rich internal resources for generating interest and engagement. When we take the time to help our children practice screen-free time in safe, supportive environments, we build stronger individuals and support their development into creative, self-sufficient adults who can navigate life's inevitable quiet moments with grace.
 
 Life-Ready Parenting means your child won't face unstimulated time for the first time at age 25—with long flights, waiting rooms, or quiet evenings that require internal resources for contentment. They'll have already practiced the skills they need to handle whatever life brings their way.
+
 <script>
 document.addEventListener('DOMContentLoaded', function() {
   // Chart 1: Screen Dependency Gap

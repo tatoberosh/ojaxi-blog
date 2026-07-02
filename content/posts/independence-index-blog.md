@@ -29,6 +29,7 @@ Instead of a simple list, we can visualize how responsibilities should grow and 
 <div style="height: 400px; margin: 2rem 0;">
   <canvas id="responsibilityChart"></canvas>
 </div>
+
 <script>
 document.addEventListener('DOMContentLoaded', function() {
   new Chart(document.getElementById('responsibilityChart'), {

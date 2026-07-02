@@ -252,6 +252,7 @@ The key is patience, consistency, and understanding that culinary independence i
 Remember, the goal isn't to eliminate all cooking risks but to teach children that they can safely prepare complete meals with proper technique and awareness. When we take the time to help our children practice culinary independence in safe, supportive environments, we build stronger individuals and support their development into self-sufficient adults who can navigate life's practical challenges with grace.
 
 Life-Ready Parenting means your child won't face complete meal preparation for the first time at age 25—with independent living, feeding responsibilities, or cooking challenges that require competence and independence. They'll have already practiced the skills they need to handle whatever life brings their way.
+
 <script>
 document.addEventListener('DOMContentLoaded', function() {
   // Chart 1: Culinary Dependence Gap

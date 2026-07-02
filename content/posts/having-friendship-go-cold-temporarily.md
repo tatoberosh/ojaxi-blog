@@ -252,6 +252,7 @@ The key is patience, consistency, and understanding that relationship navigation
 Remember, the goal isn't to eliminate friendship distance but to teach children that relationships can weather temporary challenges and emerge stronger. When we take the time to help our children practice navigating friendship distance in safe, supportive environments, we build stronger individuals and support their development into emotionally intelligent adults who can navigate life's complex social dynamics with grace.
 
 Life-Ready Parenting means your child won't face friendship distance for the first time at age 25—with career relationships, romantic partnerships, and complex social networks that require resilience and flexibility. They'll have already practiced the emotional skills they need to handle whatever life brings their way.
+
 <script>
 document.addEventListener('DOMContentLoaded', function() {
   // Chart 1: Friendship Fragility Gap

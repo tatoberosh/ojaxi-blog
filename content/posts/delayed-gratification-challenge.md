@@ -267,6 +267,7 @@ The Delayed Gratification Challenge isn't about creating perfect children who ne
 By systematically measuring and nurturing self-control through structured experiments and environmental optimizations, you're building the foundation for your child's future success. The insights you gain from these challenges will help you understand your child's unique patterns of self-regulation and implement the most effective strategies for their individual needs.
 
 Remember, the goal isn't perfection—mistakes and slip-ups are part of the learning process. What matters is developing the awareness of self-control, having strategies to employ it, and building the resilience to try again when it fails. These skills will serve your child well in academics, relationships, and all areas of life that require perseverance and goal-directed behavior.
+
 <script>
 document.addEventListener('DOMContentLoaded', function() {
   // Chart 1: Executive Function Components

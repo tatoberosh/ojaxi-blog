@@ -366,6 +366,7 @@ The Boredom Liberation Protocol transformed our family's relationship with free 
 The key insight is that boredom isn't something to be eliminated from childhood, but rather a crucial component of healthy development that needs to be strategically implemented and supported. In our hyper-scheduled, overstimulated world, giving children permission to be bored is actually a gift that keeps giving – fostering creativity, independence, and problem-solving skills that will serve them throughout their lives.
 
 The liberation protocol provides a framework for making these decisions systematically rather than reactively, ensuring that your child's free time supports not just their current development but also their long-term growth and independence. Most importantly, the framework creates a foundation for lifelong learning and creativity that extends far beyond childhood.
+
 <script>
 document.addEventListener('DOMContentLoaded', function() {
   // Chart 1: Boredom-Productivity Paradox

@@ -28,6 +28,7 @@ For example, a child's $10 weekly allowance could be broken down as follows:
 <div style="height:400px; width:100%;">
   <canvas id="allowanceChart"></canvas>
 </div>
+
 <script>
 document.addEventListener('DOMContentLoaded', function() {
   new Chart(document.getElementById('allowanceChart'), {

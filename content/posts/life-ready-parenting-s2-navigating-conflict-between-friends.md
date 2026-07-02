@@ -132,6 +132,7 @@ When Sophie walked into school the next day and told Maya and Chloe exactly what
 Life-Ready Parenting is about equipping children with the skills they will need when they navigate the complex social landscapes of adolescence, college, and professional life. Friendship conflict navigation is not just about playground drama. It is about the emotional intelligence that comes from understanding multiple perspectives, the diplomatic thinking that comes from refusing to take sides, and the relational resilience that comes from maintaining your own center while others are in turmoil.
 
 Next week, we continue Season 2 with an exploration of helping children understand their personal values and live authentically, examining how the ability to identify and act on core values builds moral clarity and purposeful decision-making.
+
 <script>
 document.addEventListener('DOMContentLoaded', function() {
   // Chart 1

@@ -252,6 +252,7 @@ The key is patience, consistency, and understanding that social confidence is a 
 Remember, the goal isn't to eliminate all social risks but to teach children that they can safely initiate conversations with appropriate adults with proper technique and awareness. When we take the time to help our children practice social confidence in safe, supportive environments, we build stronger individuals and support their development into self-sufficient adults who can navigate life's social challenges with grace.
 
 Life-Ready Parenting means your child won't face independent social interactions for the first time at age 25—with workplace networking, professional relationships, or social challenges that require competence and confidence. They'll have already practiced the skills they need to handle whatever life brings their way.
+
 <script>
 document.addEventListener('DOMContentLoaded', function() {
   // Chart 1: Social Dependence Gap

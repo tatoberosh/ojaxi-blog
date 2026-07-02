@@ -49,6 +49,7 @@ Not all screen time is created equal. Let's look at a hypothetical comparison of
 <div style="height:600px; width:100%;">
   <canvas id="contentComparisonChart"></canvas>
 </div>
+
 <script>
 document.addEventListener('DOMContentLoaded', function() {
 
