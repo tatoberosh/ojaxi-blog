@@ -337,7 +337,7 @@ The key insight is that picky eating is often a normal developmental phase that 
 Remember, the goal isn't perfection in your child's diet but rather consistent progress toward better eating habits that support their growth and development. The most successful approaches are those that evolve with your child's needs and ultimately become integrated parts of your family's routine.
 
 The liberation protocol provides a framework for making these decisions systematically rather than reactively, ensuring that your child's eating experience supports not just their current nutrition but also their long-term relationship with food and family meals.
-`n<script>
+<script>
 document.addEventListener('DOMContentLoaded', function() {
   // Chart 1: Coercion Conundrum
   new Chart(document.getElementById('coercionConundrumChart'), {

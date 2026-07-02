@@ -119,7 +119,7 @@ By understanding and applying Cognitive Load Theory, you can transform homework 
 This isn't about lowering expectations—it's about optimizing the conditions for your child's brilliant mind to do what it does best: learn. By managing cognitive load, you free up more of your child's mental resources for the germane load that actually creates lasting learning, leading to better retention, less stress, and more success.
 
 The next time homework feels overwhelming, ask yourself not "How can I make them work harder?" but "How can I make their work smarter?" The answer lies in the elegant simplicity of cognitive load theory.
-`n<script>
+<script>
 document.addEventListener('DOMContentLoaded', function() {
   // Chart 1: Cognitive Load Types
   new Chart(document.getElementById('cognitiveLoadChart'), {

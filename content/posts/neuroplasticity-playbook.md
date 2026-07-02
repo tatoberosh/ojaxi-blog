@@ -152,7 +152,7 @@ Your child's brain isn't a fixed entity waiting to be filled with information—
 The activities in this playbook aren't just hobbies or extra-curriculars—they're brain-building exercises that create lasting physical changes in neural architecture. Track the progress, celebrate the improvements, and remember that every day presents new opportunities to build a stronger, more resilient brain.
 
 The brain is the most remarkable learning machine ever created. Our job as parents is to help it reach its full potential.
-`n<script>
+<script>
 document.addEventListener('DOMContentLoaded', function() {
   // Chart 1: Brain Development
   new Chart(document.getElementById('brainDevelopmentChart'), {

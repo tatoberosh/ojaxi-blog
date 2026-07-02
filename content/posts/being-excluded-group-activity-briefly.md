@@ -252,7 +252,7 @@ The key is patience, consistency, and understanding that group navigation is a s
 Remember, the goal isn't to eliminate group exclusion but to teach children that temporary separation from groups is normal and that their worth isn't dependent on constant inclusion. When we take the time to help our children practice navigating group dynamics in safe, supportive environments, we build stronger individuals and support their development into emotionally intelligent adults who can navigate life's complex social dynamics with grace.
 
 Life-Ready Parenting means your child won't face group exclusion for the first time at age 25—with workplace teams, social circles, or community organizations that require resilience and flexibility. They'll have already practiced the emotional skills they need to handle whatever life brings their way.
-`n<script>
+<script>
 document.addEventListener('DOMContentLoaded', function() {
   // Chart 1: Inclusion Fragility Gap
   new Chart(document.getElementById('inclusionFragilityGapChart'), {

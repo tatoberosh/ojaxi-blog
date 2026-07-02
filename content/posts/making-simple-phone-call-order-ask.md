@@ -117,7 +117,7 @@ The key is patience, consistency, and understanding that communication is a skil
 Remember, the goal isn't to eliminate all phone assistance but to teach children that they can make calls with proper technique and awareness. When we take the time to help our children practice communication in safe, supportive environments, we build stronger individuals and support their development into self-sufficient adults who can navigate life's communication challenges with grace.
 
 **Life-Ready Parenting means your child won't face independent phone communication for the first time at age 25—with job interviews, professional networking, or business calls that require competence and confidence. They'll have already practiced the skills they need to handle whatever life brings their way.**
-`n<script>
+<script>
 document.addEventListener('DOMContentLoaded', function() {
   // Chart 1: Phone Dependence Gap
   new Chart(document.getElementById('phoneDependenceGapChart'), {

@@ -33,7 +33,7 @@ Proponents of homeschooling point to a powerful set of benefits that are difficu
 <div style="height: 400px; margin: 2rem 0;">
   <canvas id="timeAllocationChart"></canvas>
 </div>
-`n<script>
+<script>
 document.addEventListener('DOMContentLoaded', function() {
   new Chart(document.getElementById('timeAllocationChart'), {
     type: 'bar',

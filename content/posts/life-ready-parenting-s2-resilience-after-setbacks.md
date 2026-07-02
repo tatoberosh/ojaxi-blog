@@ -132,7 +132,7 @@ When Sophie unfolded that math test and we looked at it together, she was not ju
 Life-Ready Parenting is about equipping children with the skills they will need when they fail, because they will fail, and the measure of their success will not be whether they fail but whether they get back up. Setback resilience is not just about math tests and soccer games. It is about the perseverance that comes from treating every failure as information, the growth mindset that comes from believing that ability can be developed, and the long-term achievement that comes from never giving up.
 
 Next week, we continue Season 2 with an exploration of helping children understand and manage their personal stress triggers, examining how the ability to identify and regulate stress responses builds emotional health and decision-making quality.
-`n<script>
+<script>
 document.addEventListener('DOMContentLoaded', function() {
   // Chart 1
   new Chart(document.getElementById('setbackChart1'), {

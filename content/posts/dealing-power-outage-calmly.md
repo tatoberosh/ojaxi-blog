@@ -117,7 +117,7 @@ The key is patience, consistency, and understanding that adaptability is a skill
 Remember, the goal isn't to eliminate all disruptions but to teach children that they can handle endings and beginnings with proper technique and awareness. When we take the time to help our children practice adaptability in safe, supportive environments, we build stronger individuals and support their development into self-sufficient adults who can navigate life's transitions with grace.
 
 **Life-Ready Parenting means your child won't face independent disruption handling for the first time at age 25—with career changes, relationship transitions, or major life changes that require competence and adaptability. They'll have already practiced the skills they need to handle whatever life brings their way.**
-`n<script>
+<script>
 document.addEventListener('DOMContentLoaded', function() {
   // Chart 1: Disruption Dependence Gap
   new Chart(document.getElementById('disruptionDependenceGapChart'), {

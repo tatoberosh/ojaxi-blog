@@ -252,7 +252,7 @@ The key is patience, consistency, and understanding that transit navigation lead
 Remember, the goal isn't to eliminate all transit risks but to teach children that they can safely read maps and direct travel with proper preparation and awareness. When we take the time to help our children practice transit leadership in safe, supportive environments, we build stronger individuals and support their development into self-sufficient adults who can navigate life's journeys with grace.
 
 Life-Ready Parenting means your child won't face transit navigation for the first time at age 25—with work commutes, travel responsibilities, or emergency situations that require competence and independence. They'll have already practiced the skills they need to handle whatever life brings their way.
-`n<script>
+<script>
 document.addEventListener('DOMContentLoaded', function() {
   // Chart 1: Transit Navigation Gap
   new Chart(document.getElementById('transitNavigationGapChart'), {

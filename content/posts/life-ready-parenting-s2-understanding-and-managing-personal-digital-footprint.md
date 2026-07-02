@@ -156,7 +156,7 @@ Life-Ready Parenting is not about keeping children offline. It is about equippin
 
 This article is part of the Life-Ready Parenting Season 2 series. Tomorrow, we will explore Learning Basic First Aid and Health Emergency Response, another essential life skill that children can begin developing today. Follow along as we continue building practical frameworks for raising capable, confident, life-ready children.
 
-`n<script>
+<script>
 document.addEventListener('DOMContentLoaded', function() {
   // Chart 1: Digital Footprint Competency by Age Stage
   new Chart(document.getElementById('digitalFootprintCompetencyChart'), {

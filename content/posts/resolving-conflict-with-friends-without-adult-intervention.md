@@ -154,7 +154,7 @@ Remember, the goal isn't to eliminate all conflict but to teach children that th
 **Life-Ready Parenting means your child won't face independent conflict resolution for the first time at age 25—with roommate disputes, workplace disagreements, or relationship conflicts that require competence and problem-solving. They'll have already practiced the skills they need to handle whatever life brings their way.**
 
 **Life-Ready Parenting Season 2 continues tomorrow!** We're exploring how children can develop time management skills that will set them up for lifelong success. Don't miss it!
-`n<script>
+<script>
 document.addEventListener('DOMContentLoaded', function() {
   // Chart 1: Conflict Dependence Gap
   new Chart(document.getElementById('conflictDependenceGapChart'), {

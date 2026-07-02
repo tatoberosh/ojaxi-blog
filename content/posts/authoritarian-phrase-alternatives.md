@@ -405,7 +405,7 @@ Most importantly, the protocol creates a foundation for lifelong relationship sk
 Remember, the goal isn't perfection in your communication approach but rather consistent progress toward more respectful, effective interactions that support your child's development while maintaining family harmony and appropriate boundaries.
 
 The authoritative communication protocol provides a framework for making these decisions systematically rather than reactively, ensuring that your family's communication patterns support not just current compliance but also long-term relationship skills and emotional development.
-`n<script>
+<script>
 document.addEventListener('DOMContentLoaded', function() {
   // Chart 1: Authority-Illusion Connection
   new Chart(document.getElementById('authorityIllusionConnectionChart'), {

@@ -27,7 +27,7 @@ Let's break down the cost of a typical after-school snack for two kids:
 <div style="height: 400px; margin: 2rem 0;">
   <canvas id="costComparisonChart"></canvas>
 </div>
-`n<script>
+<script>
 document.addEventListener('DOMContentLoaded', function() {
   new Chart(document.getElementById('costComparisonChart'), {
     type: 'bar',

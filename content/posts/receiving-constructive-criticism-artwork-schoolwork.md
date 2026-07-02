@@ -252,7 +252,7 @@ The key is patience, consistency, and understanding that feedback reception is a
 Remember, the goal isn't to eliminate the emotional response to feedback but to teach children that suggestions for improvement are valuable tools for growth. When we take the time to help our children practice receiving feedback in safe, supportive environments, we build stronger individuals and support their development into resilient adults who can navigate life's performance evaluations with grace.
 
 Life-Ready Parenting means your child won't face constructive criticism for the first time at age 25—with job performance reviews, creative collaborations, and complex professional relationships that require feedback resilience. They'll have already practiced the emotional skills they need to handle whatever life brings their way.
-`n<script>
+<script>
 document.addEventListener('DOMContentLoaded', function() {
   // Chart 1: Feedback Fragility Gap
   new Chart(document.getElementById('feedbackFragilityGapChart'), {

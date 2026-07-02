@@ -154,7 +154,7 @@ Life-Ready Parenting is not about shielding children from every possible danger.
 
 This article is part of the Life-Ready Parenting Season 2 series. Tomorrow, we will explore Learning to Budget and Track Personal Expenses, another essential life skill that children can begin developing today. Follow along as we continue building practical frameworks for raising capable, confident, life-ready children.
 
-`n<script>
+<script>
 document.addEventListener('DOMContentLoaded', function() {
   // Chart 1: Risk Assessment Competency by Age Stage
   new Chart(document.getElementById('safetyRiskAssessmentCompetencyChart'), {

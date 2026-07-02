@@ -252,7 +252,7 @@ The key is patience, consistency, and understanding that delayed gratification i
 Remember, the goal isn't to eliminate the desire for immediate rewards but to teach children that sometimes the best things come to those who wait. When we take the time to help our children practice patience in safe, supportive environments, we build stronger relationships and support their development into emotionally regulated individuals who can navigate life's inevitable delays with grace.
 
 Life-Ready Parenting means your child won't face delayed gratification for the first time at age 25—with mortgage payments, career advancement, and relationship commitments that require patience and long-term thinking. They'll have already practiced the emotional skills they need to handle whatever life brings their way.
-`n<script>
+<script>
 document.addEventListener('DOMContentLoaded', function() {
   // Chart 1: Immediate Gratification Gap
   new Chart(document.getElementById('immediateGratificationGapChart'), {

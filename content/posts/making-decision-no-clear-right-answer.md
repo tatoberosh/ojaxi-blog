@@ -252,7 +252,7 @@ The key is patience, consistency, and understanding that decision-making is a sk
 Remember, the goal isn't to eliminate all decision assistance but to teach children that they can make decisions with proper technique and awareness. When we take the time to help our children practice decision-making in safe, supportive environments, we build stronger individuals and support their development into self-sufficient adults who can navigate life's choices with grace.
 
 Life-Ready Parenting means your child won't face independent decision-making for the first time at age 25—with career choices, relationship decisions, or life choices that require competence and confidence. They'll have already practiced the skills they need to handle whatever life brings their way.
-`n<script>
+<script>
 document.addEventListener('DOMContentLoaded', function() {
   // Chart 1: Decision Dependence Gap
   new Chart(document.getElementById('decisionDependenceGapChart'), {

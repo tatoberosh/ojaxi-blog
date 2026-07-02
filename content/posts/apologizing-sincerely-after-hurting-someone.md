@@ -257,7 +257,7 @@ The key is patience, consistency, and understanding that sincere apology is a sk
 Remember, the goal isn't to eliminate the possibility of causing harm but to teach children that relationships can survive and even strengthen through honest accountability. When we take the time to help our children practice sincere apologies in safe, supportive environments, we build stronger relationships and support their development into emotionally intelligent individuals who can navigate life's inevitable interpersonal challenges with grace.
 
 Life-Ready Parenting means your child won't face interpersonal harm and repair for the first time at age 25—with career relationships, romantic partnerships, and complex social dynamics that require authentic accountability. They'll have already practiced the emotional skills they need to handle whatever life brings their way.
-`n<script>
+<script>
 document.addEventListener('DOMContentLoaded', function() {
   // Chart 1: Apology Inadequacy Gap
   new Chart(document.getElementById('apologyInadequacyGapChart'), {

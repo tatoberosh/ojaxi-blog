@@ -154,7 +154,7 @@ Life-Ready Parenting is not about protecting children from every possible injury
 
 This article concludes the Life-Ready Parenting Season 2 daily series covering March 31 through April 4, 2026. Thank you for following along as we explored Personal Safety and Risk Assessment, Budgeting and Expense Tracking, Patience and Delayed Gratification, Digital Footprint Management, and First Aid and Health Emergency Response. Follow along for future installments as we continue building practical frameworks for raising capable, confident, life-ready children.
 
-`n<script>
+<script>
 document.addEventListener('DOMContentLoaded', function() {
   // Chart 1: First Aid Competency by Age Stage
   new Chart(document.getElementById('firstAidCompetencyChart'), {

@@ -433,7 +433,7 @@ The key is patience, consistency, and understanding that behavior change is a gr
 Most importantly, the protocol creates a foundation for lifelong emotional intelligence that extends far beyond childhood behavior management. When we take the time to understand what our children are really trying to communicate, we build stronger relationships and support their development into emotionally intelligent, communicative adults.
 
 Remember, the goal isn't to eliminate all challenging behaviors but to understand and respond to them in ways that support your child's development while maintaining family harmony and appropriate boundaries.
-`n<script>
+<script>
 document.addEventListener('DOMContentLoaded', function() {
   // Chart 1: Attitude-Illusion Connection
   new Chart(document.getElementById('attitudeIllusionConnectionChart'), {

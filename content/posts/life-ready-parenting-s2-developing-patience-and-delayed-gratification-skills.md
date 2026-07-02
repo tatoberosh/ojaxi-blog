@@ -151,7 +151,7 @@ Remember, the goal isn't to create children who never feel impatient but to teac
 **Life-Ready Parenting means your child won't face independent patience for the first time at age 25—with career development, relationship building, or financial planning that require competence and emotional regulation. They'll have already practiced the skills they need to wait for whatever matters most to them.**
 
 **Life-Ready Parenting Season 2 continues tomorrow!** We'll explore teaching children how to understand and manage their personal digital footprint—an essential skill for the modern world. Stay tuned!
-`n<script>
+<script>
 document.addEventListener('DOMContentLoaded', function() {
   // Chart 1: Patience Dependence Gap
   new Chart(document.getElementById('patienceDependenceGapChart'), {

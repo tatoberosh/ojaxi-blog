@@ -114,7 +114,7 @@ The key is patience, consistency, and understanding that authentic communication
 Remember, the goal isn't to eliminate all praise but to teach children that they can give and receive meaningful feedback with proper technique and awareness. When we take the time to help our children practice authentic praise in safe, supportive environments, we build stronger individuals and support their development into self-sufficient adults who can navigate life's communication challenges with grace.
 
 **Life-Ready Parenting means your child won't face independent feedback situations for the first time at age 25—with workplace reviews, relationship communication, or social situations that require competence and authenticity. They'll have already practiced the skills they need to handle whatever life brings their way.**
-`n<script>
+<script>
 document.addEventListener('DOMContentLoaded', function() {
   // Chart 1: Generic Praise Paradox
   new Chart(document.getElementById('genericPraiseParadoxChart'), {

@@ -252,7 +252,7 @@ The key is patience, consistency, and understanding that adaptability is a skill
 Remember, the goal isn't to eliminate the emotional response to plan changes but to teach children that they can sit with disappointment and adapt to new circumstances. When we take the time to help our children practice flexibility in safe, supportive environments, we build stronger individuals and support their development into adaptable adults who can navigate life's unexpected changes with grace.
 
 Life-Ready Parenting means your child won't face unexpected plan changes for the first time at age 25—with career disruptions, relationship changes, or major life transitions that require adaptability. They'll have already practiced the skills they need to handle whatever life brings their way.
-`n<script>
+<script>
 document.addEventListener('DOMContentLoaded', function() {
   // Chart 1: Plan Reliability Gap
   new Chart(document.getElementById('planReliabilityGapChart'), {
